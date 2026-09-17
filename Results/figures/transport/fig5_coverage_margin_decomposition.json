@@ -1,0 +1,31 @@
+{
+  "valid_origin_count": 50607,
+  "missing_walk_snap_count": 265,
+  "decomposition_rows": 29,
+  "decomposition_source": "Results/tables/transport_d_event_stratum_summary.csv",
+  "decomposition_scope": "sum of authoritative equal-city additive event contributions by event-year-start coverage state",
+  "coverage_display_unit": "percentage points",
+  "metrics": [
+    {
+      "metric": "total_opportunity",
+      "baseline_uncovered_cumulative_contribution": 37245.3037053605,
+      "baseline_covered_cumulative_contribution": 37636.40078870878,
+      "total": 74881.70449406927,
+      "baseline_uncovered_share_of_total": 0.4973885671674364
+    },
+    {
+      "metric": "cross_city_opportunity",
+      "baseline_uncovered_cumulative_contribution": 10985.606790741469,
+      "baseline_covered_cumulative_contribution": 9589.618792172734,
+      "total": 20575.2255829142,
+      "baseline_uncovered_share_of_total": 0.5339240022653257
+    },
+    {
+      "metric": "coverage",
+      "baseline_uncovered_cumulative_contribution": 5.07883158516622,
+      "baseline_covered_cumulative_contribution": -0.19690004671609998,
+      "total": 4.88193153845012,
+      "baseline_uncovered_share_of_total": 1.04033240637754
+    }
+  ]
+}

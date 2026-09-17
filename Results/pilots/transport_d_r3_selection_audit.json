@@ -1,0 +1,49 @@
+{
+  "audit": "transport_D_R3_selected_connector_rule",
+  "generated_at_utc": "2026-08-26T12:06:30.543658+00:00",
+  "post_outcome_audit": true,
+  "rule": "use second-nearest pedestrian node iff the frozen second_node_qualified flag is true; otherwise use nearest",
+  "tolerance_m": 1e-09,
+  "counts": {
+    "origin_station_pairs": 3094,
+    "station_destination_pairs": 1053,
+    "unique_origins_in_pairs": 2036,
+    "unique_destinations_in_pairs": 686,
+    "unique_station_occurrences_in_origin_pairs": 521,
+    "unique_station_occurrences_in_destination_pairs": 498
+  },
+  "maximum_absolute_connector_error_m": {
+    "origin": 0.0,
+    "station_in_origin_pairs": 0.0,
+    "station_in_destination_pairs": 0.0,
+    "destination": 0.0
+  },
+  "checks": {
+    "origin_pairs_all_join_frozen_origin_snaps": true,
+    "origin_pairs_all_join_frozen_station_snaps": true,
+    "destination_pairs_all_join_frozen_station_snaps": true,
+    "destination_pairs_all_join_frozen_destination_snaps": true,
+    "origin_connector_matches_rule": true,
+    "origin_pair_station_connector_matches_rule": true,
+    "destination_pair_station_connector_matches_rule": true,
+    "destination_connector_matches_rule": true,
+    "origin_replacement_flag_matches_rule": true,
+    "origin_pair_station_replacement_flag_matches_rule": true,
+    "destination_pair_station_replacement_flag_matches_rule": true,
+    "destination_replacement_flag_matches_rule": true
+  },
+  "input_hashes": {
+    "Data/interim/transport/pedestrian_origin_snaps_500m.parquet": "4afdd1988a39b24a3a550801a2af9f23c5c63329ef8bdafbb61c9552637794dd",
+    "Data/interim/transport/pedestrian_destination_snaps_worldpop2023.parquet": "4c1ba6782c6c6dd11246f8889a81a0a4fb8c2606ffb4c77f213746ec9486c140",
+    "Data/interim/transport/pedestrian_station_snaps.parquet": "d325ff5d843dc2833371d669ab2ab96d35e1c8befab3c0c81406fc2cdbc0a99b",
+    "Data/interim/transport/d_pedestrian_origin_station_walk_r3.parquet": "13540f13632070ff538179dbe5e42eeaf885929e3f975dc84736235e3b579379",
+    "Data/interim/transport/d_pedestrian_station_destination_walk_r3.parquet": "f977ed1fc43953f99fff4c5cf4e6af1b704c54ffa9e492836fcd0cfb4bd37706"
+  },
+  "code_and_config_hashes": {
+    "Codes/config/transport_d_r3_sensitivity_run.json": "8da1fb83ce82a8850aae615e585f3abfa2a61d4419e5125e908e9b381ccc29f5",
+    "Codes/preprocess/build_transport_d_walk_pairs_r3.py": "0e35f16cf17409dd74c271c17b1300dee9971944a811347f2a3a0f216fdd3eb2",
+    "Codes/analysis/run_transport_d_r3_sensitivity.py": "9943cc7388a3c6f58cbf0c40522c9582ad94c8a8b52dbd9198d2a09b4ae6945f",
+    "Codes/analysis/analyze_transport_d_r3_sensitivity.py": "fd9dd302aab858b6045c92da0743004b7ed5a9a6751b054036cf17cad6139466"
+  },
+  "passed": true
+}

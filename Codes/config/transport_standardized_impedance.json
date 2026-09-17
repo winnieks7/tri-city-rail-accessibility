@@ -1,0 +1,81 @@
+{
+  "version": "2026-08-26-standardized-impedance-r1",
+  "status": "outcome-blind frozen before any development outcome access",
+  "estimand_role": "common-service potential accessibility; annual topology varies while service standards remain fixed across routes, cities and years",
+  "interpretation_boundary": "parameters are comparison standards, not reconstructed historical timetables or claims about realized passenger journeys",
+  "historical_timetable_values_used": false,
+  "historical_timetable_imputation": false,
+  "reference": {
+    "mode_parameters": {
+      "metro": {"speed_kmh": 35.0, "standard_headway_min": 6.0, "expected_initial_wait_min": 3.0},
+      "tram": {"speed_kmh": 20.0, "standard_headway_min": 10.0, "expected_initial_wait_min": 5.0},
+      "apm": {"speed_kmh": 25.0, "standard_headway_min": 6.0, "expected_initial_wait_min": 3.0},
+      "intercity": {"speed_kmh": 60.0, "standard_headway_min": 30.0, "expected_initial_wait_min": 15.0}
+    },
+    "transfer_walk_min": {
+      "urban_urban": 5.0,
+      "urban_intercity": 8.0
+    },
+    "same_route_pattern_continuity_min": 0.0,
+    "officially_verified_intercity_through_running_junction_min": 0.0,
+    "transfer_rule": "fixed transfer walk plus expected wait of the receiving mode",
+    "boarding_rule": "expected initial wait of the first boarded mode is charged exactly once"
+  },
+  "conservative_r2": {
+    "mode_parameters": {
+      "metro": {"speed_kmh": 28.0, "standard_headway_min": 9.0, "expected_initial_wait_min": 4.5},
+      "tram": {"speed_kmh": 16.0, "standard_headway_min": 15.0, "expected_initial_wait_min": 7.5},
+      "apm": {"speed_kmh": 20.0, "standard_headway_min": 9.0, "expected_initial_wait_min": 4.5},
+      "intercity": {"speed_kmh": 45.0, "standard_headway_min": 45.0, "expected_initial_wait_min": 22.5}
+    },
+    "transfer_walk_min": {
+      "urban_urban": 7.5,
+      "urban_intercity": 12.0
+    },
+    "same_route_pattern_continuity_min": 0.0,
+    "officially_verified_intercity_through_running_junction_min": 0.0
+  },
+  "route_modes": {
+    "DG_M2": "metro",
+    "FS_M2": "metro",
+    "FS_M3": "metro",
+    "GUANGFO_METRO": "metro",
+    "GZ_M1": "metro",
+    "GZ_M2": "metro",
+    "GZ_M3": "metro",
+    "GZ_M4": "metro",
+    "GZ_M5": "metro",
+    "GZ_M6": "metro",
+    "GZ_M7": "metro",
+    "GZ_M8": "metro",
+    "GZ_M9": "metro",
+    "GZ_M11": "metro",
+    "GZ_M13": "metro",
+    "GZ_M14": "metro",
+    "GZ_M18": "metro",
+    "GZ_M21": "metro",
+    "GZ_M22": "metro",
+    "GZ_TRAM_HZ1": "tram",
+    "GZ_TRAM_HP1": "tram",
+    "FS_TRAM_NH1": "tram",
+    "FS_TRAM_GM1": "tram",
+    "GZ_APM": "apm",
+    "GUANGQING_IC": "intercity",
+    "GZ_EAST_RING_IC": "intercity",
+    "GUANGFO_SOUTH_RING_IC": "intercity",
+    "FOGUAN_IC": "intercity",
+    "GUANHUI_IC": "intercity",
+    "GUANGFOZHAO_IC": "intercity"
+  },
+  "connection_class_mapping": {
+    "same_route_pattern_continuity": "zero_penalty_continuity",
+    "intercity_junction_timetable_pending": "officially_verified_intercity_through_running_junction",
+    "passenger_transfer_candidate": "directional_transfer_with_receiving_mode_wait"
+  },
+  "prohibited": [
+    "route-specific or year-specific speed inferred from incomplete timetables",
+    "historical headway interpolation or donor imputation",
+    "post-outcome service-parameter tuning"
+  ],
+  "outcome_data_read": false
+}

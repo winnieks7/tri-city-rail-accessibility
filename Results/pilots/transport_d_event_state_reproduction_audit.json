@@ -1,0 +1,250 @@
+{
+  "audit": "transport_d_event_state_reproduction",
+  "passed": true,
+  "n_checks": 6,
+  "n_passed": 6,
+  "accessibility_outcome_read": false,
+  "hashes": {
+    "event_config": "98fcac05d95f6f5d7af12b72e2db9a7c4c075de2979d040c46d7e9080071f2ae",
+    "state_builder": "38d5da8bf03de08ab7c9f76a8ae9abdc3c43c92595323b356d4b6d30012c3ffb",
+    "annual_edges": "b787da5630db7274fcaa024fac77f391c87a727f8299c470e319b608ccb7829d",
+    "annual_stops": "443f5f857f554b11d6b1f211158c1a8a4b20c9e3fe2c04b5abcb85bf19be17ac",
+    "annual_connections": "48d0655cb48f7484fe507a15418a0441251e6b0dc406eeb77629f2ee32582e08"
+  },
+  "checks": {
+    "all_full_coalitions_reproduce_frozen_year_end_edges_stops_connections": true,
+    "all_empty_coalitions_reproduce_preceding_year_edges_stops_connections": true,
+    "every_package_changes_its_year_empty_state": true,
+    "every_package_changes_its_year_full_state": true,
+    "event_config_snapshot_exact": true,
+    "accessibility_outcomes_remain_sealed": true
+  },
+  "years": [
+    {
+      "year": 2018,
+      "event_count": 5,
+      "full_state_matches_frozen": {
+        "edges": true,
+        "stops": true,
+        "connections": true
+      },
+      "empty_state_matches_prior_year": {
+        "edges": true,
+        "stops": true,
+        "connections": true
+      },
+      "single_event_changes_empty_state": {
+        "D2018_E01_GZ_M3_AIRPORT_NORTH": true,
+        "D2018_E02_GZ_M9_QINGTANG": true,
+        "D2018_E03_GF_LIJIAO": true,
+        "D2018_E04_GZ_M14_MAIN": true,
+        "D2018_E05_GZ_M21_EAST": true
+      },
+      "leave_one_out_changes_full_state": {
+        "D2018_E01_GZ_M3_AIRPORT_NORTH": true,
+        "D2018_E02_GZ_M9_QINGTANG": true,
+        "D2018_E03_GF_LIJIAO": true,
+        "D2018_E04_GZ_M14_MAIN": true,
+        "D2018_E05_GZ_M21_EAST": true
+      },
+      "full_counts": {
+        "edges": 278,
+        "stop_occurrences": 296,
+        "active_stop_occurrences": 295,
+        "connections": 56
+      }
+    },
+    {
+      "year": 2019,
+      "event_count": 3,
+      "full_state_matches_frozen": {
+        "edges": true,
+        "stops": true,
+        "connections": true
+      },
+      "empty_state_matches_prior_year": {
+        "edges": true,
+        "stops": true,
+        "connections": true
+      },
+      "single_event_changes_empty_state": {
+        "D2019_E01_GZ_M21_WEST": true,
+        "D2019_E02_GZ_M8_CULTURAL_PARK": true,
+        "D2019_E03_FS_TRAM_GM1": true
+      },
+      "leave_one_out_changes_full_state": {
+        "D2019_E01_GZ_M21_WEST": true,
+        "D2019_E02_GZ_M8_CULTURAL_PARK": true,
+        "D2019_E03_FS_TRAM_GM1": true
+      },
+      "full_counts": {
+        "edges": 301,
+        "stop_occurrences": 321,
+        "active_stop_occurrences": 320,
+        "connections": 61
+      }
+    },
+    {
+      "year": 2020,
+      "event_count": 4,
+      "full_state_matches_frozen": {
+        "edges": true,
+        "stops": true,
+        "connections": true
+      },
+      "empty_state_matches_prior_year": {
+        "edges": true,
+        "stops": true,
+        "connections": true
+      },
+      "single_event_changes_empty_state": {
+        "D2020_E01_GZ_TRAM_HP1_FIRST": true,
+        "D2020_E02_GZ_M8_NORTH": true,
+        "D2020_E03_LOCAL_INTERCITY": true,
+        "D2020_E04_GZ_TRAM_HP1_FULL": true
+      },
+      "leave_one_out_changes_full_state": {
+        "D2020_E01_GZ_TRAM_HP1_FIRST": true,
+        "D2020_E02_GZ_M8_NORTH": true,
+        "D2020_E03_LOCAL_INTERCITY": true,
+        "D2020_E04_GZ_TRAM_HP1_FULL": true
+      },
+      "full_counts": {
+        "edges": 340,
+        "stop_occurrences": 363,
+        "active_stop_occurrences": 360,
+        "connections": 69
+      }
+    },
+    {
+      "year": 2021,
+      "event_count": 3,
+      "full_state_matches_frozen": {
+        "edges": true,
+        "stops": true,
+        "connections": true
+      },
+      "empty_state_matches_prior_year": {
+        "edges": true,
+        "stops": true,
+        "connections": true
+      },
+      "single_event_changes_empty_state": {
+        "D2021_E01_FS_TRAM_NH1_FIRST": true,
+        "D2021_E02_GZ_M18_FIRST": true,
+        "D2021_E03_FS_M2_PHASE1": true
+      },
+      "leave_one_out_changes_full_state": {
+        "D2021_E01_FS_TRAM_NH1_FIRST": true,
+        "D2021_E02_GZ_M18_FIRST": true,
+        "D2021_E03_FS_M2_PHASE1": true
+      },
+      "full_counts": {
+        "edges": 372,
+        "stop_occurrences": 398,
+        "active_stop_occurrences": 395,
+        "connections": 77
+      }
+    },
+    {
+      "year": 2022,
+      "event_count": 6,
+      "full_state_matches_frozen": {
+        "edges": true,
+        "stops": true,
+        "connections": true
+      },
+      "empty_state_matches_prior_year": {
+        "edges": true,
+        "stops": true,
+        "connections": true
+      },
+      "single_event_changes_empty_state": {
+        "D2022_E01_GZ_M22_FIRST": true,
+        "D2022_E02_GZ_M7_WEST": true,
+        "D2022_E03_GZ_M8_RAINBOW": true,
+        "D2022_E04_FS_TRAM_NH1_FULL": true,
+        "D2022_E05_FS_M3_FIRST": true,
+        "D2022_E06_GZ_M8_XICUN": true
+      },
+      "leave_one_out_changes_full_state": {
+        "D2022_E01_GZ_M22_FIRST": true,
+        "D2022_E02_GZ_M7_WEST": true,
+        "D2022_E03_GZ_M8_RAINBOW": true,
+        "D2022_E04_FS_TRAM_NH1_FULL": true,
+        "D2022_E05_FS_M3_FIRST": true,
+        "D2022_E06_GZ_M8_XICUN": true
+      },
+      "full_counts": {
+        "edges": 409,
+        "stop_occurrences": 437,
+        "active_stop_occurrences": 436,
+        "connections": 89
+      }
+    },
+    {
+      "year": 2023,
+      "event_count": 2,
+      "full_state_matches_frozen": {
+        "edges": true,
+        "stops": true,
+        "connections": true
+      },
+      "empty_state_matches_prior_year": {
+        "edges": true,
+        "stops": true,
+        "connections": true
+      },
+      "single_event_changes_empty_state": {
+        "D2023_E01_GZ_M5_EAST": true,
+        "D2023_E02_GZ_M7_PHASE2": true
+      },
+      "leave_one_out_changes_full_state": {
+        "D2023_E01_GZ_M5_EAST": true,
+        "D2023_E02_GZ_M7_PHASE2": true
+      },
+      "full_counts": {
+        "edges": 425,
+        "stop_occurrences": 453,
+        "active_stop_occurrences": 452,
+        "connections": 95
+      }
+    },
+    {
+      "year": 2024,
+      "event_count": 6,
+      "full_state_matches_frozen": {
+        "edges": true,
+        "stops": true,
+        "connections": true
+      },
+      "empty_state_matches_prior_year": {
+        "edges": true,
+        "stops": true,
+        "connections": true
+      },
+      "single_event_changes_empty_state": {
+        "D2024_E01_FOUR_LINE_INTERCITY": true,
+        "D2024_E02_GAOMING_SUSPENSION": true,
+        "D2024_E03_FS_M3_TWO_SECTIONS": true,
+        "D2024_E04_GZ_M3_EAST": true,
+        "D2024_E05_HZ1_TOWER_CLOSURE": true,
+        "D2024_E06_GZ_M11_SHAHE": true
+      },
+      "leave_one_out_changes_full_state": {
+        "D2024_E01_FOUR_LINE_INTERCITY": true,
+        "D2024_E02_GAOMING_SUSPENSION": true,
+        "D2024_E03_FS_M3_TWO_SECTIONS": true,
+        "D2024_E04_GZ_M3_EAST": true,
+        "D2024_E05_HZ1_TOWER_CLOSURE": true,
+        "D2024_E06_GZ_M11_SHAHE": true
+      },
+      "full_counts": {
+        "edges": 496,
+        "stop_occurrences": 528,
+        "active_stop_occurrences": 528,
+        "connections": 122
+      }
+    }
+  ]
+}

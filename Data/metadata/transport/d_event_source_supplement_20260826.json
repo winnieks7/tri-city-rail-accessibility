@@ -1,0 +1,160 @@
+{
+  "archive": "D event primary-source supplement",
+  "created_after_D_outcome_opening": true,
+  "role": "provenance persistence only; does not change event dates, packages, topology or numerical outcomes",
+  "downloaded_at_utc": "2026-08-26T11:53:23.323291+00:00",
+  "sources": [
+    {
+      "id": "FS_TRAM_GM1_OPENING_CRRC",
+      "url": "https://crrcgc.cc/crrcgc/2020-01/07/article_D42124F3812546CDB836432DA7692DA3.html",
+      "file": "fs_tram_gm1_opening_crrc.html",
+      "events": [
+        "D2019_E03_FS_TRAM_GM1"
+      ],
+      "local_file": "Data/raw/transport/official_sources/d_event_source_supplement/fs_tram_gm1_opening_crrc.html",
+      "status": "failed",
+      "error": "SSLError: HTTPSConnectionPool(host='crrcgc.cc', port=443): Max retries exceeded with url: /crrcgc/2020-01/07/article_D42124F3812546CDB836432DA7692DA3.html (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+    },
+    {
+      "id": "GZ_TRAM_HP1_FIRST_GZGOV",
+      "url": "https://www.gz.gov.cn/zwfw/zxfw/content/post_6804331.html",
+      "file": "gz_tram_hp1_first_gzgov.html",
+      "events": [
+        "D2020_E01_GZ_TRAM_HP1_FIRST"
+      ],
+      "local_file": "Data/raw/transport/official_sources/d_event_source_supplement/gz_tram_hp1_first_gzgov.html",
+      "status": "downloaded",
+      "http_status": 200,
+      "final_url": "https://www.gz.gov.cn/zwfw/zxfw/content/post_6804331.html",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 75436,
+      "sha256": "b88e8136eb23dcf805707b4dd295e92d12e5873bc2be785e37bb14198eadb189"
+    },
+    {
+      "id": "GZ_TRAM_HP1_FULL_ANNUAL_REPORT",
+      "url": "https://ghzyj.gz.gov.cn/attachment/7/7387/7387273/7756059.pdf",
+      "file": "gz_tram_hp1_full_annual_report.pdf",
+      "events": [
+        "D2020_E04_GZ_TRAM_HP1_FULL"
+      ],
+      "local_file": "Data/raw/transport/official_sources/d_event_source_supplement/gz_tram_hp1_full_annual_report.pdf",
+      "status": "downloaded",
+      "http_status": 200,
+      "final_url": "https://ghzyj.gz.gov.cn/attachment/7/7387/7387273/7756059.pdf",
+      "content_type": "application/pdf",
+      "bytes": 6573425,
+      "sha256": "1ed4b8f69451ffc39000409fde54d698dcaeb987ceb0ea03d638560e13cb9499"
+    },
+    {
+      "id": "FS_TRAM_NH1_GD_TRANSPORT",
+      "url": "https://td.gd.gov.cn/gkmlpt/content/4/4055/post_4055183.html",
+      "file": "fs_tram_nh1_openings_gd_transport.html",
+      "events": [
+        "D2021_E01_FS_TRAM_NH1_FIRST",
+        "D2022_E04_FS_TRAM_NH1_FULL"
+      ],
+      "local_file": "Data/raw/transport/official_sources/d_event_source_supplement/fs_tram_nh1_openings_gd_transport.html",
+      "status": "failed",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://td.gd.gov.cn/gkmlpt/content/4/4055/post_4055183.html"
+    },
+    {
+      "id": "FS_M2_PHASE1_NDRC",
+      "url": "https://www.ndrc.gov.cn/fggz/zcssfz/dffz/202202/t20220228_1317858_ext.html",
+      "file": "fs_m2_phase1_ndrc.html",
+      "events": [
+        "D2021_E03_FS_M2_PHASE1"
+      ],
+      "local_file": "Data/raw/transport/official_sources/d_event_source_supplement/fs_m2_phase1_ndrc.html",
+      "status": "downloaded",
+      "http_status": 200,
+      "final_url": "https://www.ndrc.gov.cn/fggz/zcssfz/dffz/202202/t20220228_1317858_ext.html",
+      "content_type": "text/html",
+      "bytes": 3494,
+      "sha256": "76ed2cbdf8e2aa0cb4dc2e017dc6a0b43636e852abe5c45af422a16294689c47"
+    },
+    {
+      "id": "GZ_M7_WEST_NDRC",
+      "url": "https://www.ndrc.gov.cn/fggz/zcssfz/dffz/202207/t20220729_1332236.html",
+      "file": "gz_m7_west_ndrc.html",
+      "events": [
+        "D2022_E02_GZ_M7_WEST"
+      ],
+      "local_file": "Data/raw/transport/official_sources/d_event_source_supplement/gz_m7_west_ndrc.html",
+      "status": "downloaded",
+      "http_status": 200,
+      "final_url": "https://www.ndrc.gov.cn/fggz/zcssfz/dffz/202207/t20220729_1332236.html",
+      "content_type": "text/html",
+      "bytes": 5785,
+      "sha256": "ee097248367cdada0426d6c4285825d1c820b07a1c8a512cb49e292eded1e85c"
+    },
+    {
+      "id": "FS_M3_FIRST_NDRC",
+      "url": "https://www.ndrc.gov.cn/fggz/zcssfz/dffz/202302/t20230228_1350080.html",
+      "file": "fs_m3_first_ndrc.html",
+      "events": [
+        "D2022_E05_FS_M3_FIRST"
+      ],
+      "local_file": "Data/raw/transport/official_sources/d_event_source_supplement/fs_m3_first_ndrc.html",
+      "status": "downloaded",
+      "http_status": 200,
+      "final_url": "https://www.ndrc.gov.cn/fggz/zcssfz/dffz/202302/t20230228_1350080.html",
+      "content_type": "text/html",
+      "bytes": 6472,
+      "sha256": "1fde2497abe87966568b762caa1fc12141e687f3e8e0dbc4098314f8e664e857"
+    },
+    {
+      "id": "GZ_M5_M7_2023_GZGOV",
+      "url": "https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_9409437.html",
+      "file": "gz_m5_m7_2023_gzgov.html",
+      "events": [
+        "D2023_E01_GZ_M5_EAST",
+        "D2023_E02_GZ_M7_PHASE2"
+      ],
+      "local_file": "Data/raw/transport/official_sources/d_event_source_supplement/gz_m5_m7_2023_gzgov.html",
+      "status": "downloaded",
+      "http_status": 200,
+      "final_url": "https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_9409437.html",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 87961,
+      "sha256": "f40905c66a1f89a46dcc7c5ee59a28baa107614ac7b6a0ac10c61bc0f5d8daa8"
+    },
+    {
+      "id": "FS_M3_2024_PRESS_CONFERENCE",
+      "url": "https://www.foshannews.net/fsxwfb/2017/lcfbh/fbh1102_40754/",
+      "file": "fs_m3_2024_press_conference.html",
+      "events": [
+        "D2024_E03_FS_M3_TWO_SECTIONS"
+      ],
+      "local_file": "Data/raw/transport/official_sources/d_event_source_supplement/fs_m3_2024_press_conference.html",
+      "status": "downloaded",
+      "http_status": 200,
+      "final_url": "https://www.foshannews.net/fsxwfb/2017/lcfbh/fbh1102_40754/",
+      "content_type": "text/html",
+      "bytes": 32756,
+      "sha256": "af7ff6e62c6f45727c7959dae697c0f067622bf750edde1601cc7f9f786387ca"
+    },
+    {
+      "id": "GZ_2024_RAIL_ANNUAL_REPORT",
+      "url": "https://ghzyj.gz.gov.cn/attachment/7/7806/7806901/10233239.pdf",
+      "file": "gz_2024_rail_annual_report.pdf",
+      "events": [
+        "D2024_E04_GZ_M3_EAST",
+        "D2024_E05_HZ1_TOWER_CLOSURE",
+        "D2024_E06_GZ_M11_SHAHE"
+      ],
+      "local_file": "Data/raw/transport/official_sources/d_event_source_supplement/gz_2024_rail_annual_report.pdf",
+      "status": "downloaded",
+      "http_status": 200,
+      "final_url": "https://ghzyj.gz.gov.cn/attachment/7/7806/7806901/10233239.pdf",
+      "content_type": "application/pdf",
+      "bytes": 5531481,
+      "sha256": "6dc605e18873f523227a1bcb9c35e7340c1bab58d8fb1ef5abc9c02cd437eb71"
+    }
+  ],
+  "counts": {
+    "requested": 10,
+    "archived": 8,
+    "failed": 2,
+    "covered_event_ids": 11
+  }
+}

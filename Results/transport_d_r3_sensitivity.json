@@ -1,0 +1,78 @@
+{
+  "status": "complete",
+  "variant": "r3_second_nearest_pedestrian_node",
+  "started_at_utc": "2026-08-26T11:45:02.363823+00:00",
+  "completed_at_utc": "2026-08-26T11:46:55.441162+00:00",
+  "rerun_prohibited": true,
+  "post_outcome_diagnostic": true,
+  "method_rules_changed_after_R0": false,
+  "preopen_frozen_hashes_verified": 29,
+  "R0_opening_sha256": "79d777a8f49cd24ac8f4bfb833739db716e55c7ed782b8ebd88a5de1fa4bf5f0",
+  "config_sha256": "8da1fb83ce82a8850aae615e585f3abfa2a61d4419e5125e908e9b381ccc29f5",
+  "walk_metadata_sha256": "72e0cf788e18575860eae43c587a7fb0a374aa863a808217eb093794b1ef8efb",
+  "replacement_counts": {
+    "origins": 4152,
+    "destinations": 1536,
+    "station_occurrences": 518
+  },
+  "coalition_states": 196,
+  "closure": [
+    {
+      "year": 2018,
+      "passed": true,
+      "maximum_absolute_error": 2.3283064365386963e-10,
+      "maximum_relative_error": 4.219044969313638e-16
+    },
+    {
+      "year": 2019,
+      "passed": true,
+      "maximum_absolute_error": 2.3283064365386963e-10,
+      "maximum_relative_error": 2.690026784699833e-16
+    },
+    {
+      "year": 2020,
+      "passed": true,
+      "maximum_absolute_error": 2.3283064365386963e-10,
+      "maximum_relative_error": 4.0874864101954536e-16
+    },
+    {
+      "year": 2021,
+      "passed": true,
+      "maximum_absolute_error": 2.3283064365386963e-10,
+      "maximum_relative_error": 4.017924359864431e-16
+    },
+    {
+      "year": 2022,
+      "passed": true,
+      "maximum_absolute_error": 4.656612873077393e-10,
+      "maximum_relative_error": 8.93840632706365e-16
+    },
+    {
+      "year": 2023,
+      "passed": true,
+      "maximum_absolute_error": 2.3283064365386963e-10,
+      "maximum_relative_error": 2.0939311829293655e-16
+    },
+    {
+      "year": 2024,
+      "passed": true,
+      "maximum_absolute_error": 6.984919309616089e-10,
+      "maximum_relative_error": 8.860448189283161e-15
+    }
+  ],
+  "all_years_close": true,
+  "outputs": {
+    "Data/processed/transport/d_project_attribution_cell_r3.parquet": {
+      "rows": 1475288,
+      "sha256": "c50c0a93d9058bbf78f1f7255221ed0a286b437987bcc6d2594de136eeda973e"
+    },
+    "Results/tables/transport_d_project_city_summary_r3.parquet": {
+      "rows": 87,
+      "sha256": "d6989c83b9b755df1795db47c396c11ce96b2eae0f6766d14b8e11fba85d43ba"
+    },
+    "Results/tables/transport_d_project_summary_r3.csv": {
+      "rows": 29,
+      "sha256": "7d89480b4a73e8fc61d6f68af5b12a723850e3cb17c1c1b53a96718ffe6a176b"
+    }
+  }
+}

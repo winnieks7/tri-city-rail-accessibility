@@ -1,0 +1,13 @@
+{
+  "dataset": "OpenStreetMap GBA-area rail track snapshot",
+  "acquired_at": "2026-08-26T11:09:00+08:00",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query_file": "Codes/download/overpass_gba_passenger_rail_tracks.query",
+  "raw_file": "Data/raw/transport/osm/gba_passenger_rail_tracks_overpass_20260826.json",
+  "sha256": "3f3a3541102c483c930c262787538c8c9caa6df2817951dcaebe5e7981f01e0e",
+  "bbox_wgs84": [111.35, 21.45, 115.60, 24.55],
+  "element_count": 12825,
+  "license": "ODbL 1.0; OpenStreetMap contributors",
+  "analytical_role": "candidate present-day track geometry only",
+  "prohibition": "railway tags do not by themselves establish passenger service, operating status, line opening date or historical topology"
+}

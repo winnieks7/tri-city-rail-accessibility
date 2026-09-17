@@ -1,0 +1,10 @@
+check,evidence,status
+Frozen package ledger,29 packages; source URL and topology action for every package,Disclosure check passed
+Local source persistence,0 packages without persisted evidence; the original CRRC TLS failure and two Nanhai HTTP-404 bindings remain disclosed beside hashed institutional replacements,29/29 packages have persisted evidence
+Coalition enumeration,196 exact states across seven event years; maximum six events in a year,Pass
+Event-state reproduction,Full coalitions reproduce each frozen year end; empty coalitions reproduce the preceding year,Pass
+Shapley closure,Errors: total -2.91e-11; outside -3.64e-12; coverage -9.58e-16,Pass
+Independent path implementation,1024 station pairs and 512 OD pairs; maximum difference 0 min,Pass
+Complete-parent support,93.516% of valid population retained; aggregation error 3.64e-12,Rank pass; one coverage-sign exception
+Derived-result replay,"Clean isolated replay rebuilt annual, package, and additive-stratum summaries from frozen cell outputs; maximum reference difference 1.82e-12",Pass
+Claim boundary,"Potential accessibility under fixed population, pedestrian topology, and service standards",No causal or observed-travel claim

@@ -1,0 +1,52 @@
+{
+  "archive": "development-city rail denominator aggregate sources",
+  "cities": [
+    "Guangzhou",
+    "Foshan",
+    "Dongguan"
+  ],
+  "outcome_data_read": false,
+  "downloaded_at_utc": "2026-08-26T04:17:34.530863+00:00",
+  "sources": [
+    {
+      "id": "GZ_TRANSPORT_2023",
+      "authority": "Guangzhou municipal transport/planning authorities",
+      "url": "https://www.gz.gov.cn/attachment/7/7643/7643687/9792745.pdf",
+      "file": "guangzhou_transport_development_report_2023.pdf",
+      "role": "official 2023 urban rail line, tram and network denominator",
+      "local_file": "Data/raw/transport/official_sources/denominator/guangzhou_transport_development_report_2023.pdf",
+      "bytes": 4584534,
+      "sha256": "9a4ac3ec1861bf78360467bbee536013f31cd787b0193d8feb73462f73b1cdb5"
+    },
+    {
+      "id": "GZ_TRANSPORT_2024",
+      "authority": "Guangzhou municipal transport/planning authorities",
+      "url": "https://ghzyj.gz.gov.cn/attachment/7/7806/7806901/10233239.pdf",
+      "file": "guangzhou_transport_development_report_2024.pdf",
+      "role": "official 2024 openings, active lines, station suspensions and network denominator",
+      "local_file": "Data/raw/transport/official_sources/denominator/guangzhou_transport_development_report_2024.pdf",
+      "bytes": 5531481,
+      "sha256": "6dc605e18873f523227a1bcb9c35e7340c1bab58d8fb1ef5abc9c02cd437eb71"
+    },
+    {
+      "id": "FS_METRO_2023_SOCIAL",
+      "authority": "Foshan Metro Group",
+      "url": "https://www.fmetro.net/upload/main/contentmanage/article/file/2024/08/19/202408191534278940.pdf",
+      "file": "foshan_metro_social_value_report_2023.pdf",
+      "role": "operator report for active metro denominator and construction status",
+      "local_file": "Data/raw/transport/official_sources/denominator/foshan_metro_social_value_report_2023.pdf",
+      "bytes": 10072748,
+      "sha256": "5f38b79f9a547d5f7b5a03b49a98e292a0efe5b5dc6173426d945aa39ce7c08f"
+    },
+    {
+      "id": "DG_URBAN_RAIL_TRACKING",
+      "authority": "Dongguan Municipal Transportation Bureau",
+      "url": "https://gdjt.dg.gov.cn/attachment/0/337/337848/4374733.pdf",
+      "file": "dongguan_urban_rail_plan_tracking_evaluation.pdf",
+      "role": "official active urban metro denominator and Line 2 specification",
+      "local_file": "Data/raw/transport/official_sources/denominator/dongguan_urban_rail_plan_tracking_evaluation.pdf",
+      "bytes": 4113130,
+      "sha256": "b3a23ac738fdac0083efaf26163d8e320d5901334a96ab22ef50ecff3c3d711b"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Installed/used on 2026-08-24
+Python 3.12.13 (project `.venv` runtime)
+aria2 1.37.0
+
+# Python packages are pinned separately in requirements-lock.txt.
+# aria2 is optional; the Python downloader remains fully functional without it.

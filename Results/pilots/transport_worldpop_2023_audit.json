@@ -1,0 +1,48 @@
+{
+  "audit": "transport_worldpop_2023",
+  "passed": true,
+  "n_checks": 23,
+  "n_passed": 23,
+  "accessibility_outcome_read": false,
+  "counts": {
+    "destination_pixels": 50752,
+    "origin_cells": 209050,
+    "zero_population_origin_cells": 41432
+  },
+  "mass": {
+    "destination_population": 80003291.42940617,
+    "origin_allocated_population": 77325159.21902265,
+    "origin_to_destination_ratio": 0.9665247246390273
+  },
+  "hashes": {
+    "config": "101da28cf5ab98f43afee1d467f45b64bdeeced5109afec82391dc54c3fabcf6",
+    "source": "32c9aafa6eaad581902fcef3dbd07911c5635b5fcb36aad8f6a55c43655a1e6b",
+    "destination": "df6e4cb067076185d97cc2fa70289b44e1608fdc765e4d2914ed0c3c3eb7af21",
+    "origin": "79b94c2cd9e1910dd37409bce74ba1455171a81af04048d6437ab876eb17496e"
+  },
+  "checks": {
+    "config_snapshot_exact": true,
+    "config_source_path_exact": true,
+    "source_hash_matches_config": true,
+    "config_hash_matches_metadata": true,
+    "source_hash_matches_metadata": true,
+    "accessibility_outcome_remains_unread": true,
+    "destination_expected_rows": true,
+    "destination_pixel_id_unique": true,
+    "destination_raster_index_unique": true,
+    "destination_positive_finite_mass": true,
+    "destination_all_nine_cities": true,
+    "destination_no_missing_city": true,
+    "destination_geometry_is_point": true,
+    "destination_projected_metric_crs": true,
+    "destination_centroids_finite": true,
+    "origin_matches_every_eligible_grid_once": true,
+    "origin_grid_id_unique": true,
+    "origin_nonnegative_finite_weight": true,
+    "origin_not_reassigned_beyond_destination_mass": true,
+    "origin_retains_at_least_90pct_of_destination_mass": true,
+    "destination_hash_matches_metadata": true,
+    "origin_hash_matches_metadata": true,
+    "metadata_row_counts_match": true
+  }
+}

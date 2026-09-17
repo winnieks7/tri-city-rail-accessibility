@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+Data/raw/
+Data/**/*.parquet
+Data/interim/aoi/*.geojson
+Reproduced/
+Results/figure_checks/
+Manuscript/
+review-stage/

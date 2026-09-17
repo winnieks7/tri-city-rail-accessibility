@@ -1,0 +1,97 @@
+{
+  "retrieved_at_utc": "2026-08-26T10:37:24.293470+00:00",
+  "source": "Geofabrik Guangdong (with Hong Kong and Macao) OpenStreetMap extract",
+  "url": "https://download.geofabrik.de/asia/china/guangdong-260824.osm.pbf",
+  "md5_url": "https://download.geofabrik.de/asia/china/guangdong-260824.osm.pbf.md5",
+  "license": "OpenStreetMap data under ODbL 1.0; Geofabrik extract",
+  "local_file": "Data/raw/transport/osm/guangdong_geofabrik_20260826.osm.pbf",
+  "bytes": 171246363,
+  "md5": "4561bd7aa6f5d5c208f47133d5002e4c",
+  "sha256": "920bfa39d119d958953a232b25901c9df9761be0b051ffe1304bb77fe0497f65",
+  "osmium_version": "osmium version 1.19.1",
+  "pbf_header_and_extended_info": {
+    "file": {
+      "name": "${PROJECT_ROOT}/Data/raw/transport/osm/guangdong_geofabrik_20260826.osm.pbf",
+      "format": "PBF",
+      "compression": "none",
+      "size": 171246363
+    },
+    "header": {
+      "boxes": [
+        [
+          109.356535,
+          20.058514,
+          118.792417,
+          25.524319
+        ]
+      ],
+      "with_history": false,
+      "option": {
+        "generator": "osmium/1.16.0",
+        "osmosis_replication_base_url": "https://download.geofabrik.de/asia/china/guangdong-updates",
+        "osmosis_replication_sequence_number": "764",
+        "osmosis_replication_timestamp": "2026-08-24T20:20:50Z",
+        "pbf_dense_nodes": "true",
+        "pbf_optional_feature_0": "Sort.Type_then_ID",
+        "sorting": "Type_then_ID",
+        "timestamp": "2026-08-24T20:20:50Z"
+      }
+    },
+    "data": {
+      "bbox": [
+        100.6067931,
+        7.1975938,
+        129.2178728,
+        37.4
+      ],
+      "timestamp": {
+        "first": "2007-07-24T21:34:46Z",
+        "last": "2026-08-24T20:06:41Z"
+      },
+      "objects_ordered": true,
+      "multiple_versions": false,
+      "crc32": "87afc4a1",
+      "count": {
+        "changesets": 0,
+        "nodes": 21434339,
+        "ways": 2031760,
+        "relations": 42996
+      },
+      "minid": {
+        "changesets": 0,
+        "nodes": 274901,
+        "ways": 4181592,
+        "relations": 30978
+      },
+      "maxid": {
+        "changesets": 0,
+        "nodes": 14120689256,
+        "ways": 1552119633,
+        "relations": 21277003
+      },
+      "buffers": {
+        "count": 30469,
+        "size": 1923277968,
+        "capacity": 2017460224
+      },
+      "metadata": {
+        "all_objects": {
+          "version": true,
+          "timestamp": true,
+          "changeset": false,
+          "user": false,
+          "uid": false
+        },
+        "some_objects": {
+          "version": true,
+          "timestamp": true,
+          "changeset": false,
+          "user": false,
+          "uid": false
+        }
+      }
+    }
+  },
+  "raw_immutable": true,
+  "accessibility_outcome_read": false
+}

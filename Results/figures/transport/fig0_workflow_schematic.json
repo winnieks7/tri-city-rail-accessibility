@@ -1,0 +1,13 @@
+{
+  "event_count": 29,
+  "coalition_state_count": 196,
+  "origin_count": 50872,
+  "valid_origin_count": 50607,
+  "destination_count": 1638,
+  "destination_positive_pixel_count": 50752,
+  "destination_routing_relevant_count": 1667,
+  "event_source_provenance_passed": true,
+  "event_stratum_chain_passed": true,
+  "clean_derived_replay_status": "PASS",
+  "figure_role": "conceptual workflow; no outcome values beyond audited counts"
+}

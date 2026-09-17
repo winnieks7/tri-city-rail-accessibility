@@ -1,0 +1,71 @@
+{
+  "status": "complete",
+  "variant": "r2",
+  "started_at_utc": "2026-08-26T11:01:19.882985+00:00",
+  "completed_at_utc": "2026-08-26T11:03:12.186100+00:00",
+  "rerun_prohibited": true,
+  "method_rules_changed_after_R0": false,
+  "preopen_frozen_hashes_verified": 29,
+  "R0_opening_sha256": "79d777a8f49cd24ac8f4bfb833739db716e55c7ed782b8ebd88a5de1fa4bf5f0",
+  "config_sha256": "6203578cb4b1a82e0719ceb9a9081a854274e0cc7a4611537f71acfdb81b4721",
+  "coalition_states": 196,
+  "closure": [
+    {
+      "year": 2018,
+      "passed": true,
+      "maximum_absolute_error": 2.3283064365386963e-10,
+      "maximum_relative_error": 4.3519956603918805e-16
+    },
+    {
+      "year": 2019,
+      "passed": true,
+      "maximum_absolute_error": 2.3283064365386963e-10,
+      "maximum_relative_error": 2.664568668292232e-16
+    },
+    {
+      "year": 2020,
+      "passed": true,
+      "maximum_absolute_error": 2.3283064365386963e-10,
+      "maximum_relative_error": 3.763555791503437e-16
+    },
+    {
+      "year": 2021,
+      "passed": true,
+      "maximum_absolute_error": 1.1641532182693481e-10,
+      "maximum_relative_error": 3.942658741287174e-16
+    },
+    {
+      "year": 2022,
+      "passed": true,
+      "maximum_absolute_error": 2.3283064365386963e-10,
+      "maximum_relative_error": 9.465249786801386e-16
+    },
+    {
+      "year": 2023,
+      "passed": true,
+      "maximum_absolute_error": 1.1641532182693481e-10,
+      "maximum_relative_error": 2.111848817758704e-16
+    },
+    {
+      "year": 2024,
+      "passed": true,
+      "maximum_absolute_error": 6.984919309616089e-10,
+      "maximum_relative_error": 3.8688160438610524e-15
+    }
+  ],
+  "all_years_close": true,
+  "outputs": {
+    "Data/processed/transport/d_project_attribution_cell_r2.parquet": {
+      "rows": 1475288,
+      "sha256": "1a16581316a8f998d1fa127c50589b88f2f25b94f7e822bc1eb4de56860bf322"
+    },
+    "Results/tables/transport_d_project_city_summary_r2.parquet": {
+      "rows": 87,
+      "sha256": "443f9da90709173b7496a40b73e0d88a514a487310647f888c262ab0870ceae2"
+    },
+    "Results/tables/transport_d_project_summary_r2.csv": {
+      "rows": 29,
+      "sha256": "b13c38aaed3d40dcb0a4666b2c103d3cd1340d29f80c3394dd35b0caff8e147f"
+    }
+  }
+}

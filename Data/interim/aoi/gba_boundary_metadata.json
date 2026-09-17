@@ -1,0 +1,26 @@
+{
+  "source": "GADM 4.1 China ADM2",
+  "source_file": "Data/raw/boundaries/gadm41_CHN_2.json",
+  "selected_source_features": 29,
+  "city_units": [
+    "Dongguan",
+    "Foshan",
+    "Guangzhou",
+    "Hong Kong",
+    "Huizhou",
+    "Jiangmen",
+    "Macao",
+    "Shenzhen",
+    "Zhaoqing",
+    "Zhongshan",
+    "Zhuhai"
+  ],
+  "bounds_wgs84": [
+    111.3552,
+    21.5665,
+    115.4116,
+    24.4005
+  ],
+  "crs": "EPSG:4326",
+  "license_note": "GADM data are permitted for academic and non-commercial use; verify terms before redistribution."
+}

@@ -1,0 +1,109 @@
+{
+  "archive": "D event post-review institutional-source replacement",
+  "created_after_D_outcome_opening": true,
+  "role": "provenance persistence only; does not change event dates, packages, topology, eligibility, or numerical outcomes",
+  "original_broken_endpoint": "https://td.gd.gov.cn/gkmlpt/content/4/4055/post_4055183.html",
+  "original_endpoint_status_at_postreview": "HTTP 404",
+  "records": [
+    {
+      "id": "FS_TRAM_NH1_FIRST_HUACHENG",
+      "url": "https://huacheng.gz-cmc.com/pages/2021/08/18/d0f170b07d6d47158e05ffd4bd2c96ab.html",
+      "file": "fs_tram_nh1_first_huacheng.html",
+      "publisher": "Guangzhou Daily Huacheng",
+      "source_class": "municipal state-media institutional record",
+      "events": [
+        "D2021_E01_FS_TRAM_NH1_FIRST"
+      ],
+      "required_phrases": [
+        "2021",
+        "08",
+        "18",
+        "首通段",
+        "开通"
+      ],
+      "verification_claim": "first section opened to the public at noon on 2021-08-18",
+      "download_status": "downloaded",
+      "download_transport": "curl --location --fail",
+      "final_url": "https://huacheng.gz-cmc.com/pages/2021/08/18/d0f170b07d6d47158e05ffd4bd2c96ab.html",
+      "retrieved_at_utc": "2026-08-27T06:57:58.751013+00:00",
+      "local_file": "Data/raw/transport/official_sources/d_event_source_postreview_20260827/fs_tram_nh1_first_huacheng.html",
+      "bytes": 12594,
+      "sha256": "8ee5a2090b50b9131e80b0ec280b30b266147cb8a1a6734c28b09ec4c95381dd",
+      "phrase_checks": {
+        "2021": true,
+        "08": true,
+        "18": true,
+        "首通段": true,
+        "开通": true
+      },
+      "verification_passed": true
+    },
+    {
+      "id": "FS_TRAM_NH1_FIRST_CSCEC",
+      "url": "https://www.cscec.com/zgjz_new/xwzx_new/zqydt_new/202108/3386101.html",
+      "file": "fs_tram_nh1_first_cscec.html",
+      "publisher": "China State Construction Engineering Corporation",
+      "source_class": "state-owned project participant institutional record",
+      "events": [
+        "D2021_E01_FS_TRAM_NH1_FIRST"
+      ],
+      "required_phrases": [
+        "8月18日",
+        "南海有轨电车",
+        "首通段",
+        "正式通车"
+      ],
+      "verification_claim": "first section formally opened on 2021-08-18",
+      "download_status": "downloaded",
+      "download_transport": "curl --location --fail",
+      "final_url": "https://www.cscec.com/zgjz_new/xwzx_new/zqydt_new/202108/3386101.html",
+      "retrieved_at_utc": "2026-08-27T06:58:00.501966+00:00",
+      "local_file": "Data/raw/transport/official_sources/d_event_source_postreview_20260827/fs_tram_nh1_first_cscec.html",
+      "bytes": 79424,
+      "sha256": "adebe4d9165f9f2ee4893d8e9ff535f8f04df1efaef5bba325a4e8ef6a2c250e",
+      "phrase_checks": {
+        "8月18日": true,
+        "南海有轨电车": true,
+        "首通段": true,
+        "正式通车": true
+      },
+      "verification_passed": true
+    },
+    {
+      "id": "FS_TRAM_NH1_FULL_CSCEC",
+      "url": "https://www.cscec.com/xwzx_new/zqydt_new/202212/3604924.html",
+      "file": "fs_tram_nh1_full_cscec.html",
+      "publisher": "China State Construction Engineering Corporation",
+      "source_class": "state-owned project participant institutional record",
+      "events": [
+        "D2022_E04_FS_TRAM_NH1_FULL"
+      ],
+      "required_phrases": [
+        "11月29日",
+        "南海有轨电车1号线",
+        "全线贯通"
+      ],
+      "verification_claim": "remaining section entered service and the line became complete on 2022-11-29",
+      "download_status": "downloaded",
+      "download_transport": "curl --location --fail",
+      "final_url": "https://www.cscec.com/xwzx_new/zqydt_new/202212/3604924.html",
+      "retrieved_at_utc": "2026-08-27T06:58:01.529480+00:00",
+      "local_file": "Data/raw/transport/official_sources/d_event_source_postreview_20260827/fs_tram_nh1_full_cscec.html",
+      "bytes": 79090,
+      "sha256": "a3222a116a40ae7be9eef0ad93b71ae187d290f7dba03a2305cbff23f989646b",
+      "phrase_checks": {
+        "11月29日": true,
+        "南海有轨电车1号线": true,
+        "全线贯通": true
+      },
+      "verification_passed": true
+    }
+  ],
+  "checks": {
+    "three_replacement_records_archived": true,
+    "all_payloads_nonempty": true,
+    "all_required_phrases_present": true,
+    "both_nanhai_events_have_persistent_replacement": true
+  },
+  "passed": true
+}

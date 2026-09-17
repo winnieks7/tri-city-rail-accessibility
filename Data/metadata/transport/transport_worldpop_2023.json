@@ -1,0 +1,43 @@
+{
+  "version": "2026-08-26-transport-worldpop-r1",
+  "accessibility_outcome_read": false,
+  "config_sha256": "101da28cf5ab98f43afee1d467f45b64bdeeced5109afec82391dc54c3fabcf6",
+  "source_sha256": "32c9aafa6eaad581902fcef3dbd07911c5635b5fcb36aad8f6a55c43655a1e6b",
+  "counts": {
+    "positive_intersecting_destination_pixels": 50752,
+    "eligible_origin_cells": 209050,
+    "zero_population_origin_cells": 41432
+  },
+  "destination_population_by_city": {
+    "Dongguan": 10824599.55885293,
+    "Foshan": 10010260.438254256,
+    "Guangzhou": 19011881.53628955,
+    "Huizhou": 6154939.060459097,
+    "Jiangmen": 4875553.613888313,
+    "Shenzhen": 17968638.09191181,
+    "Zhaoqing": 4146158.003120238,
+    "Zhongshan": 4503864.359991179,
+    "Zhuhai": 2507396.7666387963
+  },
+  "origin_population_by_city": {
+    "Dongguan": 10542898.14146527,
+    "Foshan": 9695236.664743433,
+    "Guangzhou": 18238685.981327016,
+    "Huizhou": 5938524.814581745,
+    "Jiangmen": 4691021.882336854,
+    "Shenzhen": 17572318.155230578,
+    "Zhaoqing": 3940866.1467176992,
+    "Zhongshan": 4412733.464996024,
+    "Zhuhai": 2292873.9676240203
+  },
+  "outputs": {
+    "Data/processed/transport/worldpop_2023_destination_pixels.parquet": {
+      "sha256": "df6e4cb067076185d97cc2fa70289b44e1608fdc765e4d2914ed0c3c3eb7af21",
+      "rows": 50752
+    },
+    "Data/processed/transport/worldpop_2023_origin_weights_500m.parquet": {
+      "sha256": "79b94c2cd9e1910dd37409bce74ba1455171a81af04048d6437ab876eb17496e",
+      "rows": 209050
+    }
+  }
+}

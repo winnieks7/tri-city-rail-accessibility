@@ -1,0 +1,26 @@
+digraph Figure1Revised {
+  graph [rankdir=TB, bgcolor="white", pad=0.16, nodesep=0.28,
+         ranksep=0.38, splines=ortho, outputorder=edgesfirst, newrank=true];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12,
+        color="#80939B", fillcolor="#F7FAFB", fontcolor="#263840",
+        penwidth=1.0, margin="0.16,0.12"];
+  edge [color="#718991", penwidth=1.1, arrowsize=0.65];
+  events [label=<<B>Dated rail events</B><BR/><FONT POINT-SIZE="11">29 predefined packages · 2018–2024</FONT>>];
+  fixed [label=<<B>Fixed spatial and service inputs</B><BR/><FONT POINT-SIZE="11">500-m origins · 2023 WorldPop</FONT><BR/><FONT POINT-SIZE="11">Walking links · speeds · waits · transfers</FONT>>];
+  {rank=same; events; fixed}
+  networks [fillcolor="#E8F1F4", label=<<B>Annual coalition networks</B><BR/><FONT POINT-SIZE="11">2017 baseline → 7 annual games</FONT><BR/><FONT POINT-SIZE="11">196 states</FONT>>];
+  values [fillcolor="#E5F0EC", label=<<B>Cell-level accessibility</B><BR/><FONT POINT-SIZE="11">Station-access coverage</FONT><BR/><FONT POINT-SIZE="11">Total population opportunity</FONT><BR/><FONT POINT-SIZE="11">Outside-origin-city opportunity</FONT>>];
+  {rank=same; networks; values}
+  shapley [fillcolor="#F4EBD8", color="#AB9160", label=<<B>Exact within-year spatial Shapley allocation</B><BR/><FONT POINT-SIZE="11">Cell-level contributions sum to each annual change</FONT>>];
+  maps [label=<<B>Event contribution maps</B><BR/><FONT POINT-SIZE="11">Geographic gains and losses</FONT>>];
+  profiles [label=<<B>Three-metric event profiles</B><BR/><FONT POINT-SIZE="11">Population-weighted city means</FONT><BR/><FONT POINT-SIZE="11">Equal-city summary</FONT>>];
+  strata [label=<<B>Coverage-stratum decomposition</B><BR/><FONT POINT-SIZE="11">Uncovered / covered at event-year start</FONT>>];
+  {rank=same; maps; profiles; strata}
+  events -> networks;
+  networks -> values;
+  fixed -> values;
+  values -> shapley;
+  shapley -> maps;
+  shapley -> profiles;
+  shapley -> strata;
+}

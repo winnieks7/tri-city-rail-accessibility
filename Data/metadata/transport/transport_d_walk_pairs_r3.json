@@ -1,0 +1,31 @@
+{
+  "version": "2026-08-26-d-walk-pairs-r3-r1",
+  "post_outcome_diagnostic": true,
+  "predeclared_rule": true,
+  "config_sha256": "8da1fb83ce82a8850aae615e585f3abfa2a61d4419e5125e908e9b381ccc29f5",
+  "inputs": {
+    "Codes/config/transport_pedestrian_graph_20260826_r2.json": "6be2609a1fac954ae6a85852c016f49a08c9277a3dcdcadb01aa1099202761cc",
+    "Codes/config/transport_pedestrian_snap_gate_20260826_r1.json": "3277fc3d81387d2018162dc85dbea9f96d547a5523551f70ff2bfbfa9144e5b3",
+    "Data/interim/transport/pedestrian_nodes.parquet": "7fde6fb3a10de24c59f372cad42a82548e0761a97f6f066ddc6b037258cf1cd4",
+    "Data/interim/transport/pedestrian_edges.parquet": "1cb78a4d593247c4d37167c0ba0dbe139607f537c9e4ef2baba19f74a913cab6",
+    "Data/interim/transport/pedestrian_origin_snaps_500m.parquet": "4afdd1988a39b24a3a550801a2af9f23c5c63329ef8bdafbb61c9552637794dd",
+    "Data/interim/transport/pedestrian_destination_snaps_worldpop2023.parquet": "4c1ba6782c6c6dd11246f8889a81a0a4fb8c2606ffb4c77f213746ec9486c140",
+    "Data/interim/transport/pedestrian_station_snaps.parquet": "d325ff5d843dc2833371d669ab2ab96d35e1c8befab3c0c81406fc2cdbc0a99b",
+    "Data/interim/transport/d_annual_active_passenger_stops.parquet": "443f5f857f554b11d6b1f211158c1a8a4b20c9e3fe2c04b5abcb85bf19be17ac"
+  },
+  "replacement_counts": {
+    "origins": 4152,
+    "destinations": 1536,
+    "station_occurrences": 518
+  },
+  "outputs": {
+    "Data/interim/transport/d_pedestrian_origin_station_walk_r3.parquet": {
+      "rows": 3094,
+      "sha256": "13540f13632070ff538179dbe5e42eeaf885929e3f975dc84736235e3b579379"
+    },
+    "Data/interim/transport/d_pedestrian_station_destination_walk_r3.parquet": {
+      "rows": 1053,
+      "sha256": "f977ed1fc43953f99fff4c5cf4e6af1b704c54ffa9e492836fcd0cfb4bd37706"
+    }
+  }
+}

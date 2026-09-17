@@ -1,0 +1,22 @@
+{
+  "valid_origin_cells": 50607,
+  "target_cities": [
+    "Guangzhou",
+    "Foshan",
+    "Dongguan"
+  ],
+  "active_route_sequence_arcs_2017": 254,
+  "active_route_sequence_arcs_2024": 496,
+  "route_sequence_arcs_first_activated_2018_2024": 254,
+  "first_activation_route_sequence_arc_counts": {
+    "2018": 24,
+    "2019": 23,
+    "2020": 39,
+    "2021": 32,
+    "2022": 37,
+    "2023": 16,
+    "2024": 83
+  },
+  "counting_unit": "route-sequence adjacent-station arc keyed by sequence_id, route_identity, from_order and to_order; not a physically unique track segment",
+  "note": "First modeled activation is shown even if an arc was later suspended; topology derives from archived OSM track relations and frozen event rules."
+}

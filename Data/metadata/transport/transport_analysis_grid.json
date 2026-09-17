@@ -1,0 +1,61 @@
+{
+  "builder": "build_transport_analysis_grid.py",
+  "contract_version": "2026-08-26-r6",
+  "contract_sha256": "63a0ea58962278ca808a683bba73b21ccba2b8da07ec972aa3ffdb28e2d2ba83",
+  "crs": "+proj=laea +lat_0=22.8 +lon_0=113.5 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+  "grid_anchor": "integer multiples of cell size from LAEA false easting/northing zero",
+  "outcome_data_read": false,
+  "water_rule": {
+    "source": "JRC GSW v1.4 (1984-2021) occurrence>=90%",
+    "max_fraction_within_aoi": 0.2,
+    "min_valid_fraction_within_aoi": 0.99
+  },
+  "grid_500m": {
+    "rows_with_any_aoi_overlap": 226868,
+    "analysis_eligible": 209050,
+    "eligible_by_city": {
+      "Dongguan": 9094,
+      "Foshan": 14482,
+      "Guangzhou": 27296,
+      "Huizhou": 44355,
+      "Jiangmen": 36010,
+      "Shenzhen": 7454,
+      "Zhaoqing": 58460,
+      "Zhongshan": 6408,
+      "Zhuhai": 5491
+    },
+    "eligible_by_split": {
+      "D": 50872,
+      "H1": 51809,
+      "H2": 106369
+    }
+  },
+  "grid_1000m": {
+    "rows_with_any_aoi_overlap": 57877,
+    "analysis_eligible": 51757,
+    "eligible_by_city": {
+      "Dongguan": 2261,
+      "Foshan": 3589,
+      "Guangzhou": 6760,
+      "Huizhou": 10993,
+      "Jiangmen": 8888,
+      "Shenzhen": 1829,
+      "Zhaoqing": 14525,
+      "Zhongshan": 1596,
+      "Zhuhai": 1316
+    },
+    "eligible_by_split": {
+      "D": 12610,
+      "H1": 12822,
+      "H2": 26325
+    }
+  },
+  "outputs": {
+    "grid_500m": "Data/processed/transport/transport_grid_500m.parquet",
+    "grid_500m_sha256": "6100c85e26241922547c01c0cdb55c56279dbda2454c4b889fe800d0476daf89",
+    "grid_1000m": "Data/processed/transport/transport_grid_1000m.parquet",
+    "grid_1000m_sha256": "37f40b2d006c7788a5fd234b1e2d250e28f5eddc5116fcc7ccb9774a99ae4fd3",
+    "water_raster": "Data/interim/transport/jrc_gsw_water_aoi_fraction_500m.tif",
+    "water_raster_sha256": "b5af82b6e9a74f93b2e6c46123e021363485f045fc825a2f796ffbe4ba007a9a"
+  }
+}

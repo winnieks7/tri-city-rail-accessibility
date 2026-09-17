@@ -1,0 +1,59 @@
+{
+  "analysis": "transport_D_project_attribution",
+  "deterministic_model_outputs": true,
+  "uncertainty_status": "R2, R3 and nested 1-km aggregation completed; R1 is not distinct from executed OSM-based R0 and was not run; H1/H2 not run",
+  "input_hashes": {
+    "Data/processed/transport/d_annual_accessibility_cell.parquet": "df0da3738567879256b6314089c6131dc39b2531e484542d20babff7c5c0dc3e",
+    "Data/processed/transport/d_project_attribution_cell.parquet": "01dbc2b57087bcd9079ed5952a4a7e2446eab7404b59e67313f65c4665c669c3",
+    "Results/tables/transport_d_project_summary.csv": "7d7faacecef63f6619715e0ed6685819233a53d9ebd57e8b8a68e5472899ef8a"
+  },
+  "2017_2024_changes": {
+    "total_opportunity": {
+      "2017": 114722.41164471395,
+      "2024": 189604.11613878325,
+      "absolute_change": 74881.7044940693,
+      "relative_change_percent": 65.27208016335283
+    },
+    "cross_city_opportunity": {
+      "2017": 13150.83355983476,
+      "2024": 33726.05914274896,
+      "absolute_change": 20575.2255829142,
+      "relative_change_percent": 156.45567628317494
+    },
+    "coverage": {
+      "2017": 0.10168283221613857,
+      "2024": 0.15050214760064073,
+      "absolute_change": 0.04881931538450217,
+      "relative_change_percent": 48.01136467238747
+    }
+  },
+  "project_sum_to_annual_change_error": {
+    "total_opportunity": -2.9103830456733704e-11,
+    "cross_city_opportunity": -3.637978807091713e-12,
+    "coverage": -9.575673587391975e-16
+  },
+  "concentration": {
+    "top1_share_of_positive_total": 0.2217078949992322,
+    "top3_share_of_positive_total": 0.4390056325166942,
+    "top5_share_of_positive_total": 0.5682737794782357,
+    "negative_project_count": 2,
+    "zero_project_count": 1
+  },
+  "top_projects": {
+    "total": {
+      "event_id": "D2024_E06_GZ_M11_SHAHE",
+      "label": "Guangzhou Line 11 loop, Shahe activation and Line 21 topology reassignment",
+      "value": 16642.008580109432
+    },
+    "cross_city": {
+      "event_id": "D2021_E03_FS_M2_PHASE1",
+      "label": "Foshan Metro Line 2 phase 1",
+      "value": 4396.463676205692
+    },
+    "coverage": {
+      "event_id": "D2022_E05_FS_M3_FIRST",
+      "label": "Foshan Metro Line 3 first section",
+      "value": 0.0088607284172804
+    }
+  }
+}

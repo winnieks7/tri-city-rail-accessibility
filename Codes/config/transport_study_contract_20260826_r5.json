@@ -1,0 +1,240 @@
+{
+  "contract_version": "2026-08-26-r5",
+  "title": "Did rail networks catch up with urban expansion? Cohort-based standardized accessibility gaps across the mainland Greater Bay Area, 2018-2024",
+  "venue": "ISPRS International Journal of Geo-Information",
+  "claim_type": "associational_network_measurement",
+  "inference": {
+    "development": [
+      "Guangzhou",
+      "Foshan",
+      "Dongguan"
+    ],
+    "holdout_east": [
+      "Shenzhen",
+      "Huizhou"
+    ],
+    "holdout_west": [
+      "Zhuhai",
+      "Zhongshan",
+      "Jiangmen",
+      "Zhaoqing"
+    ],
+    "contextual_only": [
+      "Hong Kong",
+      "Macao"
+    ],
+    "inferential_cities": 9,
+    "group_weighting": "mean eligible cells within city, then equal city weights"
+  },
+  "outcome_access": "sealed",
+  "time": {
+    "baseline": 2017,
+    "cohorts": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "network_snapshot": "31 December 23:59 CST",
+    "followup": "cohort+1 through 2024"
+  },
+  "grid": {
+    "crs": "+proj=laea +lat_0=22.8 +lon_0=113.5 +datum=WGS84 +units=m +no_defs",
+    "primary_m": 500,
+    "sensitivity_m": 1000,
+    "min_aoi_overlap": 0.8
+  },
+  "land": {
+    "min_stable_area_ha": 1,
+    "min_patch_ha": 0.25,
+    "connectivity": 8,
+    "permanent_water": "JRC GSW v1.4 (1984-2021) occurrence>=90%",
+    "max_permanent_water_fraction_within_aoi": 0.2,
+    "min_gsw_valid_fraction_within_aoi": 0.99,
+    "native_precision_gate": 0.8,
+    "gaia_pm1_year_gate": 0.7
+  },
+  "network": {
+    "denominator": "exhaustive official nine-city mother table independent of OSM availability",
+    "eligible": "officially operational public urban metro, light rail and monorail; Guangdong intercity only from the first instant all frozen urban-style criteria are jointly met",
+    "excluded": "national-rail passenger services that do not jointly meet the frozen urban-style criteria, high-speed/conventional long-distance, freight, private/internal systems, depots, construction and planned lines",
+    "urban_style_intercity_rule": {
+      "eligible_if_all": [
+        "regular public passenger service",
+        "service is operated by a provincial or municipal government-controlled urban-rail operator rather than the national-rail passenger operator",
+        "at least one non-reserved local AFC card or QR gate channel is available independently of train-specific advance reservation"
+      ],
+      "activation_time": "first official service instant when all three criteria are jointly satisfied; an earlier infrastructure opening or national-rail service date is not reused",
+      "study_window_adjudication": {
+        "eligible_from_2020-11-30": [
+          "GUANGQING_IC",
+          "GZ_EAST_RING_IC"
+        ],
+        "eligible_from_2024-05-26T12:00:00+08:00": [
+          "GUANGFO_SOUTH_RING_IC",
+          "FOGUAN_IC",
+          "GUANHUI_IC",
+          "GUANGFOZHAO_IC"
+        ],
+        "excluded_through_2024": [
+          "SUISHEN_IC",
+          "GUANGZHU_IC",
+          "GUANGSHEN_IC"
+        ]
+      },
+      "adjudication_timing": "frozen outcome-blind before any D outcome access"
+    },
+    "included_date_verification": 1,
+    "missing_eligible_component_triggers": [
+      "required official opening or closure date missing",
+      "officially locatable geometry missing",
+      "connected passenger-service topology cannot be reconstructed"
+    ],
+    "missing_eligible_component_rule": {
+      "development": "failure in any D city stops all confirmatory outcome access",
+      "holdout_east": "failure in any H1 city prevents the six-city holdout and nine-city conclusions",
+      "holdout_west": "failure in any H2 city prevents the six-city holdout and nine-city conclusions",
+      "rescue_prohibited": "H1 or H2 results cannot rehabilitate a mutated or gate-failed D analysis",
+      "bounds_rescue": false,
+      "component_deletion": false,
+      "absence_imputation": false
+    },
+    "timetable_window": "Tuesday-Thursday 10:00-16:00 local excluding public holidays",
+    "direct_headway_and_vehicle_edge_km_gate": 0.9,
+    "direct_transfer_walk_pair_gate": 0.8,
+    "imputation": {
+      "headway_and_speed": [
+        "leave-one-line-out same city/mode/year median",
+        "leave-one-line-out nine-city same mode/year median"
+      ],
+      "transfer_walk": "median direct verified pair in predeclared urban-urban or urban-intercity stratum; receiving half-headway added separately",
+      "no_donor": "geography-level gate failure"
+    }
+  },
+  "accessibility": {
+    "confirmatory_proxy": "WorldPop 2023 native approximately 1 km population mass",
+    "supporting_proxy": "GHSL R2023A built volume, epoch 2020",
+    "decay_half_life_min": 30,
+    "max_time_min": 120,
+    "pedestrian": "fixed OSM 2026-08-26; 4.8 km/h; access/egress <=15 min",
+    "origin": "accepted patch area-weighted centroid, snap <=250 m; exclude cell if unsupported converted area >20%",
+    "destination": {
+      "unit": "native WorldPop pixel, mass unsplit",
+      "snap_m": 500,
+      "unsnapped_city_mass_failure": 0.05,
+      "city_assignment": [
+        "centroid-containing city",
+        "largest pixel-area intersection",
+        "ascending frozen city code"
+      ]
+    },
+    "cell_accessibility": "converted-area-weighted mean of patch accessibility",
+    "path": "minimum generalized time; ties within one second not double-counted"
+  },
+  "primary": {
+    "cell": "signed mean annual standardized matched-control gap D_i^s",
+    "group": "theta(S)=mean over cities of mean D_i^s over eligible cells",
+    "supporting": [
+      "D_i^+",
+      "C_i^+",
+      "catch-up time",
+      "800 m buffer mismatch",
+      "GHSL 2020 result"
+    ],
+    "bootstrap": {
+      "blocks_m": 10000,
+      "stratify": "within city",
+      "replicates": 10000,
+      "seed": 20260826,
+      "interval": "percentile"
+    }
+  },
+  "threshold_calibration": {
+    "labels_used": false,
+    "sample_size": 200,
+    "strata": "development city x quintile distance to frozen 2017 built centroid",
+    "strata_count": 15,
+    "allocation": {
+      "base_per_stratum": 13,
+      "base_total": 195,
+      "extra_cells": 5,
+      "extra_rule": "one extra cell to each of the five strata with the smallest sha256(city|quintile|20260826)",
+      "short_stratum": "calibration gate failure; no cross-stratum reallocation"
+    },
+    "selection": "ascending sha256(cell_id|20260826)",
+    "admission_conditions": [
+      "AOI overlap is at least 0.80",
+      "JRC GSW valid coverage is at least 99% and permanent-water pixels occupy no more than 20% of cell area inside the AOI",
+      "pseudo-origin passes the frozen pedestrian-node snap rule"
+    ],
+    "pseudo_controls": "same frozen mature-control matcher, exclude pseudo-origin",
+    "years": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "reference": "official-map geometry + official dates + primary timetable + nearest pedestrian snap",
+    "variants": [
+      {
+        "id": "R1",
+        "definition": "OSM geometry with the same official dates and primary timetable"
+      },
+      {
+        "id": "R2",
+        "definition": "reference geometry with qualifying secondary timetable values",
+        "station_sequence": "must be identical to the primary timetable",
+        "value_agreement": "secondary headway and runtime must each differ by no more than 10% from primary values",
+        "nonqualifying_value": "retain the primary value",
+        "minimum_replaced_passenger_edge_km": 0.8,
+        "coverage_failure": "calibration gate failure"
+      },
+      {
+        "id": "R3",
+        "definition": "reference geometry with the second-nearest pedestrian node only when extra network distance is no more than 50 m"
+      }
+    ],
+    "required_variants": 3,
+    "error": "e_pr=abs(mean_t G_ptr under Rr - mean_t G_ptr under R0)",
+    "q95_denominator_rows": 600,
+    "required_complete_error_rows": 600,
+    "percentile": "linear interpolation",
+    "delta_eq": "max(0.10,q95(e_pr))",
+    "delta_sub": "2*delta_eq",
+    "missing_variant": "calibration gate failure",
+    "frozen_artifacts": [
+      "200 calibration cell identifiers and their 15 strata",
+      "pseudo-origin to mature-control pairs",
+      "R0, R1, R2 and R3 configuration files",
+      "input and configuration hashes",
+      "complete 600-row perturbation-error table"
+    ],
+    "perturbation_policy": "only the three predeclared deterministic variants are allowed; random or post-result perturbations are prohibited"
+  },
+  "decision": {
+    "positive": "theta nine>=delta_sub; nine 95% lower>0; D/H1/H2 positive; six-city holdout 95% lower>0",
+    "equivalent_zero": "D,H1,H2 90% intervals each within +/-delta_eq",
+    "otherwise": "inconclusive or geographically non-generalizing"
+  },
+  "opening_order": [
+    "synthetic fixtures only",
+    "freeze nine-city mother table, imputation tables, calibration files, land rules, thresholds, code/config and hashes",
+    "pass D gates",
+    "open D once and archive all results",
+    "pass/open H1 once and archive",
+    "pass/open H2 once and archive",
+    "compute six-city and nine-city estimands mechanically"
+  ],
+  "mutation_rule": "any post-D rule change demotes D and combined estimands to exploratory; H1 or H2 cannot rehabilitate the mutated D analysis",
+  "output": {
+    "raw_immutable": true,
+    "machine_readable": true,
+    "cell_one_split": true,
+    "claims_associational": true
+  }
+}

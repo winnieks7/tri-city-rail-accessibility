@@ -1,0 +1,51 @@
+{
+  "analysis": "transport_D_R0_R3_stability",
+  "input_hashes": {
+    "R0": "7d7faacecef63f6619715e0ed6685819233a53d9ebd57e8b8a68e5472899ef8a",
+    "R3": "7d89480b4a73e8fc61d6f68af5b12a723850e3cb17c1c1b53a96718ffe6a176b"
+  },
+  "thresholds": {
+    "minimum_spearman": 0.8,
+    "minimum_top_quartile_overlap": 0.75,
+    "sign_zero_tolerance": 1e-10
+  },
+  "metrics": {
+    "total_opportunity": {
+      "spearman": 0.9926108374384234,
+      "top_quartile_n": 8,
+      "top_quartile_overlap": 1.0,
+      "sign_agreement_fraction": 1.0,
+      "sign_disagreement_event_ids": [],
+      "R3_to_R0_sum_ratio": 1.0386493836780772,
+      "sign_gate_pass": true,
+      "rank_threshold_pass": true
+    },
+    "cross_city_opportunity": {
+      "spearman": 0.9900990099009901,
+      "top_quartile_n": 8,
+      "top_quartile_overlap": 1.0,
+      "sign_agreement_fraction": 1.0,
+      "sign_disagreement_event_ids": [],
+      "R3_to_R0_sum_ratio": 1.0425328948421,
+      "sign_gate_pass": true,
+      "rank_threshold_pass": true
+    },
+    "coverage": {
+      "spearman": 0.9927160493827158,
+      "top_quartile_n": 8,
+      "top_quartile_overlap": 1.0,
+      "sign_agreement_fraction": 0.9310344827586207,
+      "sign_disagreement_event_ids": [
+        "D2019_E02_GZ_M8_CULTURAL_PARK",
+        "D2022_E06_GZ_M8_XICUN"
+      ],
+      "R3_to_R0_sum_ratio": 1.0171844085488742,
+      "sign_gate_pass": false,
+      "rank_threshold_pass": true
+    }
+  },
+  "all_rank_thresholds_pass": true,
+  "all_sign_gates_pass": false,
+  "all_rank_and_sign_requirements_pass": false,
+  "interpretation": "R3 is a predeclared but post-outcome-constructed deterministic pedestrian-snap sensitivity; it is not an independent replication"
+}

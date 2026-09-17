@@ -1,0 +1,54 @@
+{
+  "analysis": "transport_D_R0_R2_stability",
+  "input_hashes": {
+    "R0": "7d7faacecef63f6619715e0ed6685819233a53d9ebd57e8b8a68e5472899ef8a",
+    "R2": "b13c38aaed3d40dcb0a4666b2c103d3cd1340d29f80c3394dd35b0caff8e147f"
+  },
+  "thresholds": {
+    "minimum_spearman": 0.8,
+    "minimum_top_quartile_overlap": 0.75,
+    "sign_zero_tolerance": 1e-10
+  },
+  "metrics": {
+    "total_opportunity": {
+      "spearman": 0.9822660098522165,
+      "top_quartile_n": 8,
+      "top_quartile_overlap": 0.875,
+      "sign_agreement_fraction": 1.0,
+      "sign_disagreement_event_ids": [],
+      "R2_to_R0_sum_ratio": 0.6661516365175475,
+      "sign_gate_pass": true,
+      "rank_threshold_pass": true
+    },
+    "cross_city_opportunity": {
+      "spearman": 0.971168353398739,
+      "top_quartile_n": 8,
+      "top_quartile_overlap": 1.0,
+      "sign_agreement_fraction": 0.9310344827586207,
+      "sign_disagreement_event_ids": [
+        "D2018_E02_GZ_M9_QINGTANG",
+        "D2020_E01_GZ_TRAM_HP1_FIRST"
+      ],
+      "R2_to_R0_sum_ratio": 0.4517523859375748,
+      "sign_gate_pass": false,
+      "rank_threshold_pass": true
+    },
+    "coverage": {
+      "spearman": 1.0,
+      "top_quartile_n": 8,
+      "top_quartile_overlap": 1.0,
+      "sign_agreement_fraction": 1.0,
+      "sign_disagreement_event_ids": [],
+      "R2_to_R0_sum_ratio": 1.0,
+      "sign_gate_pass": true,
+      "rank_threshold_pass": true
+    }
+  },
+  "overall": {
+    "all_three_rank_thresholds_pass": true,
+    "total_and_coverage_signs_all_stable": true,
+    "universal_cross_city_sign_claim_allowed": false,
+    "all_declared_sign_gates_pass": false,
+    "all_declared_rank_and_sign_requirements_pass": false
+  }
+}

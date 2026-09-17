@@ -1,0 +1,27 @@
+{
+  "archive": "Gaoming Tram post-review institutional-source replacement",
+  "created_after_D_outcome_opening": true,
+  "role": "provenance persistence only; does not change the event date, topology, eligibility, package, or numerical result",
+  "original_crrc_endpoint_status": "TLS retrieval failure",
+  "record": {
+    "id": "FS_TRAM_GM1_OPENING_NANFANGPLUS",
+    "url": "https://pc.nfnews.com/9249/2981690.html",
+    "publisher": "Nanfang Plus",
+    "source_class": "provincial state-media institutional record",
+    "events": [
+      "D2019_E03_FS_TRAM_GM1"
+    ],
+    "verification_claim": "line was in initial passenger operation from 2019-12-30",
+    "retrieved_at_utc": "2026-08-27T07:01:27.023595+00:00",
+    "local_file": "Data/raw/transport/official_sources/d_event_source_gaoming_postreview_20260827/fs_tram_gm1_opening_nanfangplus.html",
+    "bytes": 30843,
+    "sha256": "4a966215ea641ffb08cf07d04da3492cb25fc87d2d17fa6d286a70b745aea4d5",
+    "phrase_checks": {
+      "高明有轨电车": true,
+      "2019年12月30日": true,
+      "初期运营": true
+    },
+    "verification_passed": true
+  },
+  "passed": true
+}

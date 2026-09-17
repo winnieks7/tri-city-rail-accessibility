@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "run_type": "clean_derived_result_replay_without_network_recomputation",
+  "started_at_utc": "2026-09-17T06:28:03.238012+00:00",
+  "completed_at_utc": "2026-09-17T06:28:05.043281+00:00",
+  "inputs": {
+    "Data/processed/transport/d_annual_accessibility_cell.parquet": "df0da3738567879256b6314089c6131dc39b2531e484542d20babff7c5c0dc3e",
+    "Data/processed/transport/d_project_attribution_cell.parquet": "01dbc2b57087bcd9079ed5952a4a7e2446eab7404b59e67313f65c4665c669c3"
+  },
+  "maximum_absolute_event_reference_difference": 1.8189894035458565e-12,
+  "maximum_absolute_stratum_reference_difference": 1.8189894035458565e-12,
+  "maximum_absolute_stratum_closure_error": 3.637978807091713e-12,
+  "checks": {
+    "expected_annual_rows": true,
+    "expected_event_rows": true,
+    "expected_stratum_rows": true,
+    "event_summary_matches_frozen_reference": true,
+    "stratum_summary_matches_authoritative_reference": true,
+    "stratum_additivity_closes": true,
+    "source_cell_counts_match_frozen_opening": true
+  },
+  "outputs": {
+    "replay_annual_city_summary.csv": {
+      "bytes": 2299,
+      "sha256": "4dbdbca289bd0464fd7398c4b4c9f131c0e412d8478d838ebf5967c69ff4b8d8"
+    },
+    "replay_event_equal_city_summary.csv": {
+      "bytes": 6927,
+      "sha256": "7d7faacecef63f6619715e0ed6685819233a53d9ebd57e8b8a68e5472899ef8a"
+    },
+    "replay_event_stratum_summary.csv": {
+      "bytes": 7591,
+      "sha256": "2556adeebedf3ae1f23cd9d29177b9e3a683eef0d5bf33032a5f0bd7941b4078"
+    }
+  }
+}

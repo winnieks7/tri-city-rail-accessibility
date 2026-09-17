@@ -1,0 +1,42 @@
+{
+  "analysis": "transport_D_independent_path_and_time_validation",
+  "validation_role": "post-outcome numerical implementation diagnostic",
+  "interpretation_boundary": "numerical implementation validation only; does not validate historical service assumptions or observed travel times",
+  "config": "Codes/config/transport_d_independent_path_validation.json",
+  "config_sha256": "15ad6ef56d0a6396eb792416f718ff743bc16ce4f51a47e6247117e2fdde6007",
+  "inputs": {
+    "Data/interim/transport/d_pedestrian_origin_station_walk.parquet": "e879a0401598b3b6d36a768cfa825dc9038dfeacf535de7cedcec410bb28249f",
+    "Data/interim/transport/d_pedestrian_station_destination_walk.parquet": "b1ec48cd23ed6620403b8e74ceda7c722c8d5fb60752a3a761ab5bcb521bdf43"
+  },
+  "counts": {
+    "states": 8,
+    "station_pairs": 1024,
+    "od_pairs": 512,
+    "finite_station_pairs": 893,
+    "finite_od_pairs": 428
+  },
+  "maximum_absolute_difference_minutes": {
+    "station_path": 0.0,
+    "origin_destination_generalized_time": 0.0
+  },
+  "checks": {
+    "expected_state_count": true,
+    "expected_station_pair_count": true,
+    "expected_od_pair_count": true,
+    "station_finite_status_all_agree": true,
+    "od_finite_status_all_agree": true,
+    "station_values_within_tolerance": true,
+    "od_values_within_tolerance": true
+  },
+  "passed": true,
+  "outputs": {
+    "Results/tables/transport_d_independent_station_path_validation.csv": {
+      "rows": 1024,
+      "sha256": "25dc6e43145a5833d2687904ec6c040d897c42983452e3894791be54eb75bc1b"
+    },
+    "Results/tables/transport_d_independent_od_time_validation.csv": {
+      "rows": 512,
+      "sha256": "7ce250e9887e6b37a000d7bf8b295adf4a15410c7433ef6c4cd83c4b77f5fb5e"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "dataset": "OpenStreetMap GBA rail station and halt snapshot",
+  "acquired_at": "2026-08-26T10:55:00+08:00",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query_file": "Codes/download/overpass_gba_rail_stations.query",
+  "raw_file": "Data/raw/transport/osm/gba_rail_stations_overpass_20260826.json",
+  "sha256": "38edefc164e9ebb423232a92bc4dcda9df4db14a56e28ff7e067fb45b8d2a287",
+  "bbox_wgs84": [111.35, 21.45, 115.60, 24.55],
+  "element_count": 1594,
+  "elements_with_start_date": 714,
+  "license": "ODbL 1.0; OpenStreetMap contributors",
+  "analytical_role": "candidate geometry and secondary opening-date source only",
+  "prohibition": "OSM start_date is not official ground truth and cannot be the sole source for key opening dates"
+}

@@ -1,0 +1,81 @@
+{
+  "analysis": "transport_D_nested_1km_aggregation_sensitivity",
+  "interpretation_boundary": "nested aggregation and support sensitivity, not an independent network rerun or independent replication",
+  "config": "Codes/config/transport_d_1km_aggregation_sensitivity.json",
+  "config_sha256": "24a957028b4d3afde6ee5117c627d32c159ac28ddb08c91ca51d4ebed0d61b61",
+  "source_hashes": {
+    "Data/processed/transport/transport_grid_500m.parquet": "6100c85e26241922547c01c0cdb55c56279dbda2454c4b889fe800d0476daf89",
+    "Data/processed/transport/transport_grid_1000m.parquet": "37f40b2d006c7788a5fd234b1e2d250e28f5eddc5116fcc7ccb9774a99ae4fd3",
+    "Data/processed/transport/d_annual_accessibility_cell.parquet": "df0da3738567879256b6314089c6131dc39b2531e484542d20babff7c5c0dc3e",
+    "Data/processed/transport/d_project_attribution_cell.parquet": "01dbc2b57087bcd9079ed5952a4a7e2446eab7404b59e67313f65c4665c669c3"
+  },
+  "support": {
+    "complete_1km_parents": 11834,
+    "analyzed_1km_parents_after_missing_snap_filter": 11830,
+    "retained_500m_children": 47336,
+    "full_500m_cells": 50872,
+    "cell_fraction_retained": 0.9304922157571945,
+    "population_fraction_retained": 0.9348556713051611,
+    "valid_population_fraction_retained": 0.9351640087312296
+  },
+  "maximum_internal_aggregation_error": 3.637978807091713e-12,
+  "maximum_annual_project_closure_error": 5.129550117999315e-10,
+  "stability": {
+    "total_opportunity_contribution": {
+      "spearman": 0.999014778325123,
+      "top_quartile_n": 8,
+      "top_quartile_overlap": 1.0,
+      "sign_agreement": 1.0,
+      "sum_1km_to_500m_ratio": 1.0002238719522132
+    },
+    "cross_city_opportunity_contribution": {
+      "spearman": 0.9965346534653463,
+      "top_quartile_n": 8,
+      "top_quartile_overlap": 1.0,
+      "sign_agreement": 1.0,
+      "sum_1km_to_500m_ratio": 1.0099729504616977
+    },
+    "coverage_contribution": {
+      "spearman": 0.9957980413475882,
+      "top_quartile_n": 8,
+      "top_quartile_overlap": 1.0,
+      "sign_agreement": 0.9655172413793104,
+      "sum_1km_to_500m_ratio": 1.034879886891327
+    }
+  },
+  "checks": {
+    "all_retained_parents_have_four_children": true,
+    "all_parent_children_stay_in_one_city": true,
+    "expected_event_count": true,
+    "internal_aggregation_closure": true,
+    "annual_project_closure": true,
+    "total_rank_threshold": true,
+    "cross_rank_threshold": true,
+    "total_top_quartile_threshold": true,
+    "cross_top_quartile_threshold": true,
+    "total_sign_gate": true,
+    "cross_sign_gate": true,
+    "coverage_sign_gate": false
+  },
+  "rank_gates_passed": true,
+  "all_sign_gates_passed": false,
+  "passed": false,
+  "outputs": {
+    "Data/processed/transport/d_annual_accessibility_1km_aggregation.parquet": {
+      "rows": 94640,
+      "sha256": "e2815f83a35a9e0ed32c14b6bd7d413aa7e8798429c50be6c53aff1538dbd6a4"
+    },
+    "Data/processed/transport/d_project_attribution_1km_aggregation.parquet": {
+      "rows": 343070,
+      "sha256": "4439025a40ed900c9a78b924e5c389e23c91f6860d163f0cfd4a98d85b4d2fae"
+    },
+    "Results/tables/transport_d_project_summary_1km.csv": {
+      "rows": 29,
+      "sha256": "1093b849e026836d196325ca0f6acf0e674e66a14bd0dbbdd80d0a70e3cd03ab"
+    },
+    "Results/tables/transport_d_500m_1km_comparison.csv": {
+      "rows": 87,
+      "sha256": "e3f1de38f3a238738b2ff8a91c8cd999ad07978aad2ecd8f0b313e9badfa2ed3"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+scipy>=1.14,<2
+scikit-learn>=1.6,<2
+statsmodels>=0.14,<1
+tabulate>=0.10,<1
+matplotlib>=3.9,<4
+seaborn>=0.13,<1
+joblib>=1.4,<2
+libpysal>=4.12,<5
+esda>=2.7,<3

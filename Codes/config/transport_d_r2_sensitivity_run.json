@@ -1,0 +1,22 @@
+{
+  "version": "2026-08-26-transport-d-r2-sensitivity-r1",
+  "status": "frozen R2 sensitivity declared in project-attribution contract r4",
+  "base_run": "Codes/config/transport_d_accessibility_run_20260826_r1.json",
+  "preopen_manifest": "Results/pilots/transport_d_accessibility_preopen_manifest.json",
+  "impedance_variant": "r2",
+  "origin_cities": ["Guangzhou", "Foshan", "Dongguan"],
+  "maximum_time_min": 120,
+  "half_life_min": 30,
+  "closure_absolute_tolerance": 1e-8,
+  "closure_relative_tolerance": 1e-8,
+  "comparison": {
+    "sign_agreement_required": true,
+    "minimum_spearman_for_strong_ranking_claim": 0.8,
+    "minimum_top_quartile_overlap_for_strong_ranking_claim": 0.75
+  },
+  "output": {
+    "raw_immutable": true,
+    "machine_readable": true,
+    "claims_associational": true
+  }
+}

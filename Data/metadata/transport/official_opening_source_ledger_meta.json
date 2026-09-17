@@ -1,0 +1,9 @@
+{
+  "ledger": "Data/metadata/transport/official_opening_source_ledger.csv",
+  "created_at": "2026-08-26T11:16:00+08:00",
+  "events": 3,
+  "city_pairs": ["Guangzhou-Foshan", "Guangzhou-Dongguan"],
+  "status": "candidate data gate passed for event dates; geometry and station sequence still pending",
+  "rule": "A primary official source and an agreeing second source are required before an event can enter the pilot."
+}
+

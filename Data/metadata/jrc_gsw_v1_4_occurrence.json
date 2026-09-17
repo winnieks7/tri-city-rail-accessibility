@@ -1,0 +1,29 @@
+{
+  "dataset": "JRC Global Surface Water occurrence",
+  "version": "v1.4",
+  "observation_period": "1984-2021",
+  "native_resolution_m": 30,
+  "download_page": "https://global-surface-water.appspot.com/download",
+  "license": "Copernicus Programme, free of charge without restriction of use",
+  "required_map_attribution": "Source: EC JRC/Google",
+  "study_role": "permanent-water exclusion only",
+  "frozen_threshold": "occurrence >= 90%",
+  "outcome_data_read": false,
+  "downloaded_at_utc": "2026-08-26T04:08:37.633789+00:00",
+  "tiles": [
+    {
+      "file": "Data/raw/controls/jrc_gsw_v1_4_occurrence/occurrence_100E_30Nv1_4_2021.tif",
+      "url": "https://storage.googleapis.com/global-surface-water/downloads2021/occurrence/occurrence_100E_30Nv1_4_2021.tif",
+      "bytes": 47460260,
+      "md5": "cffcd616364b43a86165cee1f33a135b",
+      "sha256": "f16d11c1a916566b15177dd26e49af23933340cdb708abef27db688023628a90"
+    },
+    {
+      "file": "Data/raw/controls/jrc_gsw_v1_4_occurrence/occurrence_110E_30Nv1_4_2021.tif",
+      "url": "https://storage.googleapis.com/global-surface-water/downloads2021/occurrence/occurrence_110E_30Nv1_4_2021.tif",
+      "bytes": 74075982,
+      "md5": "8d2c6507e1212adaa822441c68e30668",
+      "sha256": "d25d445bfddc679aace1e8fe149f57e5de37969f61a614451824034656c8ff57"
+    }
+  ]
+}

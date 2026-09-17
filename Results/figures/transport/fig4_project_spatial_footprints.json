@@ -1,0 +1,84 @@
+{
+  "valid_origin_count": 50607,
+  "missing_walk_snap_count": 265,
+  "missing_origin_display": "grey x; excluded from summaries",
+  "zero_contribution_display": "valid zero retained near the neutral colour",
+  "opportunity_unit": "effective population",
+  "coverage_unit": "fraction",
+  "selection_rule": "largest and smallest equal-city population-weighted contribution separately for each metric",
+  "normalization": "column-specific symmetric logarithmic, 99.5th percentile absolute nonzero cell value",
+  "panels": [
+    {
+      "panel": "a",
+      "selection": "largest_positive",
+      "metric": "total_opportunity_contribution",
+      "event_id": "D2024_E06_GZ_M11_SHAHE",
+      "event_code": "P29",
+      "year": 2024,
+      "event_label": "Guangzhou Line 11 loop, Shahe activation and Line 21 topology reassignment",
+      "equal_city_population_weighted_contribution": 16642.008580109432,
+      "absolute_colour_limit": 1723603.2737704082,
+      "linear_threshold": 145.85427310113133
+    },
+    {
+      "panel": "d",
+      "selection": "most_negative",
+      "metric": "total_opportunity_contribution",
+      "event_id": "D2024_E05_HZ1_TOWER_CLOSURE",
+      "event_code": "P28",
+      "year": 2024,
+      "event_label": "Haizhu Tram Tower station section closure",
+      "equal_city_population_weighted_contribution": -126.9992057017694,
+      "absolute_colour_limit": 1723603.2737704082,
+      "linear_threshold": 145.85427310113133
+    },
+    {
+      "panel": "b",
+      "selection": "largest_positive",
+      "metric": "cross_city_opportunity_contribution",
+      "event_id": "D2021_E03_FS_M2_PHASE1",
+      "event_code": "P15",
+      "year": 2021,
+      "event_label": "Foshan Metro Line 2 phase 1",
+      "equal_city_population_weighted_contribution": 4396.463676205692,
+      "absolute_colour_limit": 736544.0127515281,
+      "linear_threshold": 159.17073573282684
+    },
+    {
+      "panel": "e",
+      "selection": "most_negative",
+      "metric": "cross_city_opportunity_contribution",
+      "event_id": "D2024_E05_HZ1_TOWER_CLOSURE",
+      "event_code": "P28",
+      "year": 2024,
+      "event_label": "Haizhu Tram Tower station section closure",
+      "equal_city_population_weighted_contribution": -12.272591628395023,
+      "absolute_colour_limit": 736544.0127515281,
+      "linear_threshold": 159.17073573282684
+    },
+    {
+      "panel": "c",
+      "selection": "largest_positive",
+      "metric": "coverage_contribution",
+      "event_id": "D2022_E05_FS_M3_FIRST",
+      "event_code": "P20",
+      "year": 2022,
+      "event_label": "Foshan Metro Line 3 first section",
+      "equal_city_population_weighted_contribution": 0.0088607284172804,
+      "absolute_colour_limit": 1.0000000000000004,
+      "linear_threshold": 0.5000000000000002
+    },
+    {
+      "panel": "f",
+      "selection": "most_negative",
+      "metric": "coverage_contribution",
+      "event_id": "D2024_E02_GAOMING_SUSPENSION",
+      "event_code": "P25",
+      "year": 2024,
+      "event_label": "Gaoming Tram suspension",
+      "equal_city_population_weighted_contribution": -0.001969000467161,
+      "absolute_colour_limit": 1.0000000000000004,
+      "linear_threshold": 0.5000000000000002
+    }
+  ]
+}

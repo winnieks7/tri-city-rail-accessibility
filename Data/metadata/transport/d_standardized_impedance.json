@@ -1,0 +1,24 @@
+{
+  "version": "2026-08-26-standardized-impedance-r1",
+  "outcome_data_read": false,
+  "historical_timetable_values_used": false,
+  "input_sha256": {
+    "Codes/config/transport_standardized_impedance.json": "a2eefda15eaa03a078b524d818f80ddc68454ece1ec57cecb744a261ea119b61",
+    "Data/interim/transport/d_annual_active_track_edges.parquet": "b787da5630db7274fcaa024fac77f391c87a727f8299c470e319b608ccb7829d",
+    "Data/interim/transport/d_annual_station_connection_pairs.parquet": "48d0655cb48f7484fe507a15418a0441251e6b0dc406eeb77629f2ee32582e08"
+  },
+  "outputs": {
+    "Data/interim/transport/d_standardized_track_edge_impedance.parquet": {
+      "rows": 2875,
+      "sha256": "65f4c346660de848bba9a9a95e756b4c57f92b1278bcbdd23c5360651d60b400"
+    },
+    "Data/interim/transport/d_standardized_route_year_boarding.parquet": {
+      "rows": 170,
+      "sha256": "5959d08da94d084bef6ecf6a4126f3f66904ea9c85cf0f9e6fb767ef8bc9f5a0"
+    },
+    "Data/interim/transport/d_standardized_directional_connections.parquet": {
+      "rows": 1236,
+      "sha256": "cd8b956988814ee158de95bc40f3ba788f56c56ca82f26a3102a7369efc161e0"
+    }
+  }
+}

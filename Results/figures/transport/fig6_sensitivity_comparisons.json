@@ -1,0 +1,172 @@
+{
+  "panels": [
+    {
+      "panel": "a",
+      "variant": "Conservative impedance",
+      "metric": "total_opportunity",
+      "spearman": 0.9822660098522165,
+      "sign_agreement_n": 29,
+      "event_count": 29,
+      "sign_disagreement_event_ids": [],
+      "symlog_linear_threshold": 53.53355411333462,
+      "shared_axis_limits_for_metric": [
+        -1334.9563607093362,
+        21068.798556229736
+      ],
+      "display_unit": "effective population",
+      "source_to_display_multiplier": 1.0,
+      "cumulative_variant_to_reference_ratio": 0.6661516365175475
+    },
+    {
+      "panel": "b",
+      "variant": "Conservative impedance",
+      "metric": "cross_city_opportunity",
+      "spearman": 0.971168353398739,
+      "sign_agreement_n": 27,
+      "event_count": 29,
+      "sign_disagreement_event_ids": [
+        "D2018_E02_GZ_M9_QINGTANG",
+        "D2020_E01_GZ_TRAM_HP1_FIRST"
+      ],
+      "symlog_linear_threshold": 6.147911332254984,
+      "shared_axis_limits_for_metric": [
+        -283.19165781554767,
+        4771.073270961441
+      ],
+      "display_unit": "effective population",
+      "source_to_display_multiplier": 1.0,
+      "cumulative_variant_to_reference_ratio": 0.4517523859375748
+    },
+    {
+      "panel": "c",
+      "variant": "Conservative impedance",
+      "metric": "coverage",
+      "spearman": 1.0,
+      "sign_agreement_n": 29,
+      "event_count": 29,
+      "sign_disagreement_event_ids": [],
+      "symlog_linear_threshold": 0.018615830886297,
+      "shared_axis_limits_for_metric": [
+        -0.27731365114999,
+        1.0012557835094498
+      ],
+      "display_unit": "percentage points",
+      "source_to_display_multiplier": 100.0,
+      "cumulative_variant_to_reference_ratio": 1.0
+    },
+    {
+      "panel": "d",
+      "variant": "Alternative connector",
+      "metric": "total_opportunity",
+      "spearman": 0.9926108374384234,
+      "sign_agreement_n": 29,
+      "event_count": 29,
+      "sign_disagreement_event_ids": [],
+      "symlog_linear_threshold": 53.53355411333462,
+      "shared_axis_limits_for_metric": [
+        -1334.9563607093362,
+        21068.798556229736
+      ],
+      "display_unit": "effective population",
+      "source_to_display_multiplier": 1.0,
+      "cumulative_variant_to_reference_ratio": 1.0386493836780772
+    },
+    {
+      "panel": "e",
+      "variant": "Alternative connector",
+      "metric": "cross_city_opportunity",
+      "spearman": 0.9900990099009901,
+      "sign_agreement_n": 29,
+      "event_count": 29,
+      "sign_disagreement_event_ids": [],
+      "symlog_linear_threshold": 6.147911332254984,
+      "shared_axis_limits_for_metric": [
+        -283.19165781554767,
+        4771.073270961441
+      ],
+      "display_unit": "effective population",
+      "source_to_display_multiplier": 1.0,
+      "cumulative_variant_to_reference_ratio": 1.0425328948421
+    },
+    {
+      "panel": "f",
+      "variant": "Alternative connector",
+      "metric": "coverage",
+      "spearman": 0.9927160493827158,
+      "sign_agreement_n": 27,
+      "event_count": 29,
+      "sign_disagreement_event_ids": [
+        "D2019_E02_GZ_M8_CULTURAL_PARK",
+        "D2022_E06_GZ_M8_XICUN"
+      ],
+      "symlog_linear_threshold": 0.018615830886297,
+      "shared_axis_limits_for_metric": [
+        -0.27731365114999,
+        1.0012557835094498
+      ],
+      "display_unit": "percentage points",
+      "source_to_display_multiplier": 100.0,
+      "cumulative_variant_to_reference_ratio": 1.0171844085488742
+    },
+    {
+      "panel": "g",
+      "variant": "Complete-parent support restriction",
+      "metric": "total_opportunity",
+      "spearman": 0.999014778325123,
+      "sign_agreement_n": 29,
+      "event_count": 29,
+      "sign_disagreement_event_ids": [],
+      "symlog_linear_threshold": 53.53355411333462,
+      "shared_axis_limits_for_metric": [
+        -1334.9563607093362,
+        21068.798556229736
+      ],
+      "display_unit": "effective population",
+      "source_to_display_multiplier": 1.0,
+      "cumulative_variant_to_reference_ratio": 1.0002238719522132
+    },
+    {
+      "panel": "h",
+      "variant": "Complete-parent support restriction",
+      "metric": "cross_city_opportunity",
+      "spearman": 0.9965346534653463,
+      "sign_agreement_n": 29,
+      "event_count": 29,
+      "sign_disagreement_event_ids": [],
+      "symlog_linear_threshold": 6.147911332254984,
+      "shared_axis_limits_for_metric": [
+        -283.19165781554767,
+        4771.073270961441
+      ],
+      "display_unit": "effective population",
+      "source_to_display_multiplier": 1.0,
+      "cumulative_variant_to_reference_ratio": 1.0099729504616977
+    },
+    {
+      "panel": "i",
+      "variant": "Complete-parent support restriction",
+      "metric": "coverage",
+      "spearman": 0.9957980413475882,
+      "sign_agreement_n": 28,
+      "event_count": 29,
+      "sign_disagreement_event_ids": [
+        "D2019_E02_GZ_M8_CULTURAL_PARK"
+      ],
+      "symlog_linear_threshold": 0.018615830886297,
+      "shared_axis_limits_for_metric": [
+        -0.27731365114999,
+        1.0012557835094498
+      ],
+      "display_unit": "percentage points",
+      "source_to_display_multiplier": 100.0,
+      "cumulative_variant_to_reference_ratio": 1.0348798868913083
+    }
+  ],
+  "identity_line": true,
+  "red_open_markers": "events whose sign differs from R0/500m",
+  "replication_unit": "29 frozen event packages; sensitivity variants are deterministic diagnostics, not independent replications",
+  "complete_parent_support_restriction": {
+    "valid_population_fraction_retained": 0.9351640087312296,
+    "interpretation": "difference from full-support R0 is driven by support restriction; within the retained support, 500 m to 1 km aggregation closes to numerical precision"
+  }
+}

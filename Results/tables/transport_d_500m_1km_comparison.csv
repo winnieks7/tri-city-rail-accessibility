@@ -1,0 +1,88 @@
+event_id,year,event_label,metric,value_500m_full_support,value_1km_complete_parent_support,difference,sign_500m,sign_1km
+D2018_E01_GZ_M3_AIRPORT_NORTH,2018,Guangzhou Line 3 Airport North extension,total_opportunity_contribution,0.0,0.0,0.0,0,0
+D2018_E02_GZ_M9_QINGTANG,2018,Qingtang infill station passenger activation,total_opportunity_contribution,144.38089772270308,149.45978964480472,5.078891922101633,1,1
+D2018_E03_GF_LIJIAO,2018,Guangfo Metro Yangang-Lijiao extension,total_opportunity_contribution,3522.2986828348658,3215.811557387748,-306.4871254471177,1,1
+D2018_E04_GZ_M14_MAIN,2018,Guangzhou Line 14 main line,total_opportunity_contribution,1499.5031110419122,1529.2999909105765,29.79687986866429,1,1
+D2018_E05_GZ_M21_EAST,2018,Guangzhou Line 21 eastern section,total_opportunity_contribution,16.94356984373663,18.039387349063635,1.0958175053270054,1,1
+D2019_E01_GZ_M21_WEST,2019,Guangzhou Line 21 western section,total_opportunity_contribution,4340.052231412116,4489.59640873216,149.54417732004367,1,1
+D2019_E02_GZ_M8_CULTURAL_PARK,2019,Guangzhou Line 8 Cultural Park extension,total_opportunity_contribution,1472.6605655318197,1007.1134309028057,-465.54713462901395,1,1
+D2019_E03_FS_TRAM_GM1,2019,Foshan Gaoming Tram demonstration line,total_opportunity_contribution,54.06562635992301,57.3493705974438,3.283744237520793,1,1
+D2020_E01_GZ_TRAM_HP1_FIRST,2020,Huangpu Tram 1 first section,total_opportunity_contribution,272.4594138663504,280.9162371823248,8.456823315974361,1,1
+D2020_E02_GZ_M8_NORTH,2020,Guangzhou Line 8 northern extension,total_opportunity_contribution,9727.818445167291,9832.559707801505,104.74126263421385,1,1
+D2020_E03_LOCAL_INTERCITY,2020,Guangqing-Guangzhou East Ring through-running local intercity,total_opportunity_contribution,107.06710822666923,113.05671928437424,5.989611057705005,1,1
+D2020_E04_GZ_TRAM_HP1_FULL,2020,Huangpu Tram 1 completion to Xiangxue,total_opportunity_contribution,303.3585633269533,308.4602185314486,5.10165520449533,1,1
+D2021_E01_FS_TRAM_NH1_FIRST,2021,Nanhai Tram 1 first section,total_opportunity_contribution,3669.468062516069,3771.27771093422,101.80964841815103,1,1
+D2021_E02_GZ_M18_FIRST,2021,Guangzhou Line 18 first section,total_opportunity_contribution,2656.866562569395,2668.0597932387504,11.193230669355671,1,1
+D2021_E03_FS_M2_PHASE1,2021,Foshan Metro Line 2 phase 1,total_opportunity_contribution,6583.151501196109,6763.7206677329295,180.56916653682038,1,1
+D2022_E01_GZ_M22_FIRST,2022,Guangzhou Line 22 first section,total_opportunity_contribution,790.430269574661,817.1909474582108,26.76067788354976,1,1
+D2022_E02_GZ_M7_WEST,2022,Guangzhou Line 7 western extension,total_opportunity_contribution,3954.9260519156887,4091.0371163712593,136.1110644555706,1,1
+D2022_E03_GZ_M8_RAINBOW,2022,Rainbow Bridge infill station activation,total_opportunity_contribution,741.1668575691145,728.6141990175366,-12.552658551577906,1,1
+D2022_E04_FS_TRAM_NH1_FULL,2022,Nanhai Tram 1 completion,total_opportunity_contribution,638.8733477088315,656.3405975380824,17.46724982925093,1,1
+D2022_E05_FS_M3_FIRST,2022,Foshan Metro Line 3 first section,total_opportunity_contribution,5363.172865178466,5546.193958107074,183.0210929286077,1,1
+D2022_E06_GZ_M8_XICUN,2022,Xicun station and Line 5 transfer activation,total_opportunity_contribution,1270.6121729954264,1283.4846717004916,12.872498705065254,1,1
+D2023_E01_GZ_M5_EAST,2023,Guangzhou Line 5 eastern extension,total_opportunity_contribution,2262.8358918560275,2085.724908712482,-177.11098314354558,1,1
+D2023_E02_GZ_M7_PHASE2,2023,Guangzhou Line 7 phase 2,total_opportunity_contribution,2554.856544940516,2422.808460566111,-132.04808437440488,1,1
+D2024_E01_FOUR_LINE_INTERCITY,2024,Four-line Greater Bay Area local intercity integration,total_opportunity_contribution,1489.9171732766008,1536.4417357746963,46.52456249809552,1,1
+D2024_E02_GAOMING_SUSPENSION,2024,Gaoming Tram suspension,total_opportunity_contribution,-54.065626359923016,-57.3493705974438,-3.2837442375207857,-1,-1
+D2024_E03_FS_M3_TWO_SECTIONS,2024,Foshan Metro Line 3 central and northern sections,total_opportunity_contribution,4135.4541806393145,4336.070132342046,200.61595170273176,1,1
+D2024_E04_GZ_M3_EAST,2024,Guangzhou Line 3 eastern extension,total_opportunity_contribution,848.4210487509772,821.3838418806995,-27.037206870277714,1,1
+D2024_E05_HZ1_TOWER_CLOSURE,2024,Haizhu Tram Tower station section closure,total_opportunity_contribution,-126.9992057017694,-89.63867867746507,37.36052702430433,-1,-1
+D2024_E06_GZ_M11_SHAHE,2024,"Guangzhou Line 11 loop, Shahe activation and Line 21 topology reassignment",total_opportunity_contribution,16642.008580109432,16515.44489701548,-126.56368309395111,1,1
+D2018_E01_GZ_M3_AIRPORT_NORTH,2018,Guangzhou Line 3 Airport North extension,cross_city_opportunity_contribution,0.0,0.0,0.0,0,0
+D2018_E02_GZ_M9_QINGTANG,2018,Qingtang infill station passenger activation,cross_city_opportunity_contribution,1.040408425121016,0.6237891649849509,-0.4166192601360651,1,1
+D2018_E03_GF_LIJIAO,2018,Guangfo Metro Yangang-Lijiao extension,cross_city_opportunity_contribution,522.3845734419848,502.3465598522669,-20.038013589717877,1,1
+D2018_E04_GZ_M14_MAIN,2018,Guangzhou Line 14 main line,cross_city_opportunity_contribution,40.9301446776213,32.488394655972364,-8.441750021648936,1,1
+D2018_E05_GZ_M21_EAST,2018,Guangzhou Line 21 eastern section,cross_city_opportunity_contribution,0.0,0.0,0.0,0,0
+D2019_E01_GZ_M21_WEST,2019,Guangzhou Line 21 western section,cross_city_opportunity_contribution,116.63214806019704,107.4534964723083,-9.178651587888737,1,1
+D2019_E02_GZ_M8_CULTURAL_PARK,2019,Guangzhou Line 8 Cultural Park extension,cross_city_opportunity_contribution,143.2354264215662,73.1285455600447,-70.10688086152149,1,1
+D2019_E03_FS_TRAM_GM1,2019,Foshan Gaoming Tram demonstration line,cross_city_opportunity_contribution,0.0,0.0,0.0,0,0
+D2020_E01_GZ_TRAM_HP1_FIRST,2020,Huangpu Tram 1 first section,cross_city_opportunity_contribution,0.513523676784184,0.17387821372161508,-0.33964546306256893,1,1
+D2020_E02_GZ_M8_NORTH,2020,Guangzhou Line 8 northern extension,cross_city_opportunity_contribution,648.8613777282908,608.3694558358135,-40.49192189247731,1,1
+D2020_E03_LOCAL_INTERCITY,2020,Guangqing-Guangzhou East Ring through-running local intercity,cross_city_opportunity_contribution,0.0,0.0,0.0,0,0
+D2020_E04_GZ_TRAM_HP1_FULL,2020,Huangpu Tram 1 completion to Xiangxue,cross_city_opportunity_contribution,3.769618912978428,1.834532790606005,-1.935086122372423,1,1
+D2021_E01_FS_TRAM_NH1_FIRST,2021,Nanhai Tram 1 first section,cross_city_opportunity_contribution,2641.0118367765945,2703.209532884624,62.197696108029504,1,1
+D2021_E02_GZ_M18_FIRST,2021,Guangzhou Line 18 first section,cross_city_opportunity_contribution,213.98778014879204,205.94905310736274,-8.038727041429297,1,1
+D2021_E03_FS_M2_PHASE1,2021,Foshan Metro Line 2 phase 1,cross_city_opportunity_contribution,4396.463676205692,4500.3090783483885,103.84540214269691,1,1
+D2022_E01_GZ_M22_FIRST,2022,Guangzhou Line 22 first section,cross_city_opportunity_contribution,175.54348029996876,182.60018721542872,7.056706915459955,1,1
+D2022_E02_GZ_M7_WEST,2022,Guangzhou Line 7 western extension,cross_city_opportunity_contribution,3375.0689779757213,3490.5358152547087,115.46683727898744,1,1
+D2022_E03_GZ_M8_RAINBOW,2022,Rainbow Bridge infill station activation,cross_city_opportunity_contribution,105.7532247052809,102.8894803135746,-2.8637443917063052,1,1
+D2022_E04_FS_TRAM_NH1_FULL,2022,Nanhai Tram 1 completion,cross_city_opportunity_contribution,455.6616029719076,464.7832654852882,9.121662513380613,1,1
+D2022_E05_FS_M3_FIRST,2022,Foshan Metro Line 3 first section,cross_city_opportunity_contribution,2427.6741222326327,2466.4752211335735,38.801098900940815,1,1
+D2022_E06_GZ_M8_XICUN,2022,Xicun station and Line 5 transfer activation,cross_city_opportunity_contribution,163.29727693937517,152.58187452643003,-10.715402412945139,1,1
+D2023_E01_GZ_M5_EAST,2023,Guangzhou Line 5 eastern extension,cross_city_opportunity_contribution,61.18676643741315,49.39575747462481,-11.79100896278834,1,1
+D2023_E02_GZ_M7_PHASE2,2023,Guangzhou Line 7 phase 2,cross_city_opportunity_contribution,331.47853659531876,321.2840619294262,-10.194474665892585,1,1
+D2024_E01_FOUR_LINE_INTERCITY,2024,Four-line Greater Bay Area local intercity integration,cross_city_opportunity_contribution,370.485996772338,374.42993555342963,3.9439387810916173,1,1
+D2024_E02_GAOMING_SUSPENSION,2024,Gaoming Tram suspension,cross_city_opportunity_contribution,0.0,0.0,0.0,0,0
+D2024_E03_FS_M3_TWO_SECTIONS,2024,Foshan Metro Line 3 central and northern sections,cross_city_opportunity_contribution,2495.2680402318397,2599.23347831134,103.96543807950047,1,1
+D2024_E04_GZ_M3_EAST,2024,Guangzhou Line 3 eastern extension,cross_city_opportunity_contribution,110.94278460516551,109.69946144821553,-1.2433231569499839,1,1
+D2024_E05_HZ1_TOWER_CLOSURE,2024,Haizhu Tram Tower station section closure,cross_city_opportunity_contribution,-12.272591628395023,-8.935389836074929,3.3372017923200943,-1,-1
+D2024_E06_GZ_M11_SHAHE,2024,"Guangzhou Line 11 loop, Shahe activation and Line 21 topology reassignment",cross_city_opportunity_contribution,1786.306850300011,1739.5618226947952,-46.74502760521591,1,1
+D2018_E01_GZ_M3_AIRPORT_NORTH,2018,Guangzhou Line 3 Airport North extension,coverage_contribution,0.0,0.0,0.0,0,0
+D2018_E02_GZ_M9_QINGTANG,2018,Qingtang infill station passenger activation,coverage_contribution,0.0001571577849852,0.0001673218916920445,1.0164106706844512e-05,1,1
+D2018_E03_GF_LIJIAO,2018,Guangfo Metro Yangang-Lijiao extension,coverage_contribution,0.0009482894456291,0.0007741593866226106,-0.00017413005900648935,1,1
+D2018_E04_GZ_M14_MAIN,2018,Guangzhou Line 14 main line,coverage_contribution,0.0014561095048491,0.0015502827103661598,9.417320551705988e-05,1,1
+D2018_E05_GZ_M21_EAST,2018,Guangzhou Line 21 eastern section,coverage_contribution,0.0005865183199729,0.0006244511197399605,3.793279976706048e-05,1,1
+D2019_E01_GZ_M21_WEST,2019,Guangzhou Line 21 western section,coverage_contribution,0.0027420594495518,0.002919400870113082,0.00017734142056128168,1,1
+D2019_E02_GZ_M8_CULTURAL_PARK,2019,Guangzhou Line 8 Cultural Park extension,coverage_contribution,0.0001743949395894,0.0,-0.0001743949395894,1,0
+D2019_E03_FS_TRAM_GM1,2019,Foshan Gaoming Tram demonstration line,coverage_contribution,0.001969000467161,0.0020881886000752585,0.0001191881329142587,1,1
+D2020_E01_GZ_TRAM_HP1_FIRST,2020,Huangpu Tram 1 first section,coverage_contribution,0.0004701497734965,0.0005005564916011365,3.040671810463654e-05,1,1
+D2020_E02_GZ_M8_NORTH,2020,Guangzhou Line 8 northern extension,coverage_contribution,0.0039538362552744,0.0041856340001108355,0.00023179774483643532,1,1
+D2020_E03_LOCAL_INTERCITY,2020,Guangqing-Guangzhou East Ring through-running local intercity,coverage_contribution,0.0004870813295152,0.0005185830881365572,3.150175862135716e-05,1,1
+D2020_E04_GZ_TRAM_HP1_FULL,2020,Huangpu Tram 1 completion to Xiangxue,coverage_contribution,0.0002312859097595,0.0002462442184859105,1.4958308726410513e-05,1,1
+D2021_E01_FS_TRAM_NH1_FIRST,2021,Nanhai Tram 1 first section,coverage_contribution,0.0034304573782756,0.0035933907273351215,0.0001629333490595214,1,1
+D2021_E02_GZ_M18_FIRST,2021,Guangzhou Line 18 first section,coverage_contribution,0.0007652720367205,0.0008093657549164715,4.4093718195971484e-05,1,1
+D2021_E03_FS_M2_PHASE1,2021,Foshan Metro Line 2 phase 1,coverage_contribution,0.0063685285564813,0.006730442984791515,0.00036191442831021506,1,1
+D2022_E01_GZ_M22_FIRST,2022,Guangzhou Line 22 first section,coverage_contribution,0.0005819937977106,0.0006196339761031351,3.7640178392535145e-05,1,1
+D2022_E02_GZ_M7_WEST,2022,Guangzhou Line 7 western extension,coverage_contribution,0.0020322726504542,0.002179117995812107,0.00014684534535790725,1,1
+D2022_E03_GZ_M8_RAINBOW,2022,Rainbow Bridge infill station activation,coverage_contribution,0.0,0.0,0.0,0,0
+D2022_E04_FS_TRAM_NH1_FULL,2022,Nanhai Tram 1 completion,coverage_contribution,0.0003385058198608,0.00036530878309294716,2.680296323214718e-05,1,1
+D2022_E05_FS_M3_FIRST,2022,Foshan Metro Line 3 first section,coverage_contribution,0.0088607284172804,0.00932760992366985,0.00046688150638945006,1,1
+D2022_E06_GZ_M8_XICUN,2022,Xicun station and Line 5 transfer activation,coverage_contribution,0.0,0.0,0.0,0,0
+D2023_E01_GZ_M5_EAST,2023,Guangzhou Line 5 eastern extension,coverage_contribution,0.00126770749411,0.0010542921039237035,-0.00021341539018629647,1,1
+D2023_E02_GZ_M7_PHASE2,2023,Guangzhou Line 7 phase 2,coverage_contribution,0.0009309202449175,0.0008255661095827996,-0.00010535413533470047,1,1
+D2024_E01_FOUR_LINE_INTERCITY,2024,Four-line Greater Bay Area local intercity integration,coverage_contribution,0.0037503405861292,0.0038822910079268046,0.0001319504217976047,1,1
+D2024_E02_GAOMING_SUSPENSION,2024,Gaoming Tram suspension,coverage_contribution,-0.001969000467161,-0.0020881886000752594,-0.00011918813291425957,-1,-1
+D2024_E03_FS_M3_TWO_SECTIONS,2024,Foshan Metro Line 3 central and northern sections,coverage_contribution,0.0041790422285368,0.004509939686201881,0.0003308974576650813,1,1
+D2024_E04_GZ_M3_EAST,2024,Guangzhou Line 3 eastern extension,coverage_contribution,0.0004293362221203,0.0004003479562581062,-2.8988265862193833e-05,1,1
+D2024_E05_HZ1_TOWER_CLOSURE,2024,Haizhu Tram Tower station section closure,coverage_contribution,0.0,0.0,0.0,0,0
+D2024_E06_GZ_M11_SHAHE,2024,"Guangzhou Line 11 loop, Shahe activation and Line 21 topology reassignment",coverage_contribution,0.0046773272392809,0.0047381867967418835,6.085955746098354e-05,1,1

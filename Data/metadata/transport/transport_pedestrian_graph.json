@@ -1,0 +1,50 @@
+{
+  "version": "2026-08-26-transport-pedestrian-r2",
+  "accessibility_outcome_read": false,
+  "config_sha256": "6be2609a1fac954ae6a85852c016f49a08c9277a3dcdcadb01aa1099202761cc",
+  "source": {
+    "path": "Data/raw/transport/osm/guangdong_geofabrik_20260826.osm.pbf",
+    "bytes": 171246363,
+    "sha256": "920bfa39d119d958953a232b25901c9df9761be0b051ffe1304bb77fe0497f65",
+    "md5": "4561bd7aa6f5d5c208f47133d5002e4c",
+    "osm_replication_timestamp": "2026-08-24T20:20:50Z"
+  },
+  "interim": {
+    "Data/interim/transport/gba_nine_city_pedestrian_aoi.geojson": {
+      "sha256": "500bca8e9a644595b706ac8056bdbd56f9445b6b0dcd079f223c7f48fa4cadac"
+    },
+    "Data/interim/transport/gba_nine_city_pedestrian_complete_ways.osm.pbf": {
+      "bytes": 87646861,
+      "sha256": "1007f3efcd00aa81a2a548fe5e0d4bd2a32fba14166ee1a1decac418c60153a4"
+    }
+  },
+  "filter_counts": {
+    "access_restriction_without_foot_override": 5496,
+    "explicit_foot_restriction": 4732,
+    "highway_not_in_frozen_inclusion_list": 66379,
+    "included": 479090,
+    "included_raw_segments": 3941313,
+    "included_ways": 479090,
+    "no_highway": 578503,
+    "ways_seen": 1134200
+  },
+  "graph": {
+    "nodes": 3683025,
+    "undirected_segments": 3940488,
+    "explicitly_direction_restricted_segments": 59,
+    "components": 7393,
+    "largest_component_nodes": 3246339,
+    "largest_component_node_fraction": 0.8814327896226607,
+    "total_segment_length_km": 150035.4102011965
+  },
+  "outputs": {
+    "Data/interim/transport/pedestrian_nodes.parquet": {
+      "rows": 3683025,
+      "sha256": "7fde6fb3a10de24c59f372cad42a82548e0761a97f6f066ddc6b037258cf1cd4"
+    },
+    "Data/interim/transport/pedestrian_edges.parquet": {
+      "rows": 3940488,
+      "sha256": "1cb78a4d593247c4d37167c0ba0dbe139607f537c9e4ef2baba19f74a913cab6"
+    }
+  }
+}

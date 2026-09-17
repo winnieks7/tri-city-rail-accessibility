@@ -1,0 +1,27 @@
+{
+  "dataset": "OpenStreetMap Gaoming tram named stops and track geometry",
+  "acquired_at_utc": "2026-08-26T08:45:35.573613+00:00",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query_file": "Codes/download/overpass_gaoming_tram_geometry.query",
+  "query_sha256": "b30d76a12f6256fa2bc74a45b965b4485f22bb414dc5294553cdf33241277f43",
+  "raw_file": "Data/raw/transport/osm/gaoming_tram_geometry_overpass_20260826.json",
+  "raw_sha256": "c7c4ba4b2fb485a7e6ac5481be1bd7e8e1a3cfd1bbd7993cd3d8a0f97a1427a4",
+  "element_count": 75,
+  "named_stop_count": 10,
+  "named_stops": [
+    "体育中心",
+    "怡乐路",
+    "文化中心",
+    "新江路",
+    "明湖公园",
+    "智湖",
+    "沧江路",
+    "荷城",
+    "跃华路",
+    "阮埇"
+  ],
+  "non_yard_track_way_count": 10,
+  "license": "ODbL 1.0; OpenStreetMap contributors",
+  "analytical_role": "candidate coordinates and alignment; official station order and service dates override",
+  "outcome_data_read": false
+}

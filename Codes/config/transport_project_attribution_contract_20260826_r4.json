@@ -1,0 +1,171 @@
+{
+  "contract_version": "2026-08-26-project-attribution-r4",
+  "title": "Which rail expansions integrated the megaregion? Coverage, connectivity and cross-city opportunity contributions in the Greater Bay Area, 2017-2024",
+  "target_venue": "ISPRS International Journal of Geo-Information",
+  "status": "outcome-blind frozen design; D accessibility outcomes sealed",
+  "replaces": {
+    "contract": "Codes/config/transport_study_contract_20260826_r6.json",
+    "reason": "the land-cohort design failed its frozen independent GAIA year-agreement gate (0.08455 observed versus 0.70 required) before any accessibility outcome was read",
+    "salvage_prohibited": "do not lower the land-validation threshold or reinterpret IO annual class transitions as verified urban expansion"
+  },
+  "claim_type": "associational_network_counterfactual_measurement",
+  "interpretation_boundary": [
+    "estimates describe potential accessibility under a common fixed service standard",
+    "project contributions are model-based marginal topology contributions, not causal effects on travel, development, welfare or equity",
+    "cross-city opportunity is a spatial integration proxy, not observed cross-city travel"
+  ],
+  "scope": {
+    "inferential_cities": [
+      "Guangzhou", "Foshan", "Dongguan", "Shenzhen", "Huizhou",
+      "Zhuhai", "Zhongshan", "Jiangmen", "Zhaoqing"
+    ],
+    "development": ["Guangzhou", "Foshan", "Dongguan"],
+    "holdout_east": ["Shenzhen", "Huizhou"],
+    "holdout_west": ["Zhuhai", "Zhongshan", "Jiangmen", "Zhaoqing"],
+    "contextual_only": ["Hong Kong", "Macao"],
+    "group_weighting": "compute city summaries first, then use equal city weights for multi-city summaries"
+  },
+  "time": {
+    "baseline_snapshot": "2017-12-31T23:59:59+08:00",
+    "final_snapshot": "2024-12-31T23:59:59+08:00",
+    "annual_years": [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+    "event_years": [2018, 2019, 2020, 2021, 2022, 2023, 2024]
+  },
+  "spatial_support": {
+    "crs": "+proj=laea +lat_0=22.8 +lon_0=113.5 +datum=WGS84 +units=m +no_defs",
+    "primary_grid_m": 500,
+    "sensitivity_grid_m": 1000,
+    "minimum_aoi_overlap": 0.80,
+    "water_gate": "JRC GSW v1.4 occurrence>=90%; valid fraction>=0.99; permanent-water fraction<=0.20",
+    "one_cell_one_split": true,
+    "spatial_blocks_m": 10000
+  },
+  "opportunities": {
+    "confirmatory": "fixed WorldPop Global2 R2025A 2023 constrained UN-adjusted approximately 1 km population mass",
+    "confirmatory_config": "Codes/config/transport_worldpop_2023_20260826_r1.json",
+    "destination_unit": "native WorldPop pixel assigned to one frozen city; population mass is not split",
+    "assignment": [
+      "centroid-containing city",
+      "largest pixel-area intersection",
+      "ascending frozen city code"
+    ],
+    "destination_pedestrian_snap_m": 500,
+    "maximum_unsnapped_city_population_fraction": 0.05,
+    "supporting_only": "supporting only: GHSL R2023A built volume, epoch 2020"
+  },
+  "network": {
+    "denominator": "exhaustive official city mother tables independent of OSM availability",
+    "development_denominator": "Codes/config/transport_d_network_denominator_candidates_20260826_r5.json",
+    "development_topology": "Codes/config/transport_d_annual_topology_20260826_r1.json",
+    "standardized_impedance": "Codes/config/transport_standardized_impedance_20260826_r1.json",
+    "historical_timetable_values_used": false,
+    "historical_timetable_imputation": false,
+    "pedestrian": {
+      "source": "fixed Geofabrik guangdong-260824 OSM PBF downloaded on 2026-08-26 with embedded replication timestamp 2026-08-24T20:20:50Z",
+      "config": "Codes/config/transport_pedestrian_graph_20260826_r2.json",
+      "snap_gate_config": "Codes/config/transport_pedestrian_snap_gate_20260826_r1.json",
+      "snapshot_role": "fixed contemporary pedestrian topology for every rail year",
+      "walk_speed_kmh": 4.8,
+      "maximum_origin_access_min": 15,
+      "maximum_destination_egress_min": 15,
+      "origin_snap_m": 250,
+      "station_snap_m": 500,
+      "maximum_unsnapped_origin_population_fraction_per_city": 0.05,
+      "maximum_unsnapped_active_station_occurrence_fraction_per_year": 0.05,
+      "routing_component_policy": "largest undirected pedestrian component only",
+      "routing_relevance": "an origin or destination farther than 1200 m Euclidean from every station in the current geography's frozen union network is structural zero access rather than graph missingness; the 5% snap gates apply to routing-relevant population",
+      "second_nearest_variant_max_extra_network_m": 50
+    },
+    "eligible_rail_rule": "same frozen urban metro, light rail, monorail and locally operated non-reserved-AFC intercity rule as r6",
+    "missing_component_rule": "a missing official date, locatable geometry or connected passenger topology fails the affected geography; component deletion and absence imputation are prohibited"
+  },
+  "accessibility": {
+    "route_requirement": "a valid origin-destination path must traverse at least one passenger rail edge",
+    "generalized_time": "origin walk + first-board expected wait + in-vehicle time + transfer walk and receiving-mode wait + destination walk",
+    "decay": "exp(-ln(2)*time_min/30)",
+    "half_life_min": 30,
+    "maximum_time_min": 120,
+    "total": "A_i(N)=sum_j population_j * exp(-ln(2)*t_ij(N)/30) over valid rail-mediated paths within 120 minutes",
+    "cross_city": "A_i_out(N) uses only destination pixels assigned to a different inferential city from origin i",
+    "coverage": "origin cell centroid can reach at least one passenger-active station through the frozen pedestrian graph within 15 minutes",
+    "origin_population_weight": "WorldPop 2023 mass assigned to the 500 m cell; report area-weighted results separately"
+  },
+  "events": {
+    "development_packages": "Codes/config/transport_d_event_packages.json",
+    "package_rule": "one official activation or suspension component is one package except components jointly activated as one operationally inseparable through-running service, or same-time pieces of one line whose separate operation was unavailable",
+    "coincidental_same_date": "different routes that merely share an opening date remain separate packages",
+    "negative_events": "temporary or indefinite service suspensions active at year-end are retained as removal packages and may have negative contributions",
+    "event_lists_frozen_before_geography_outcomes": true
+  },
+  "attribution": {
+    "annual_value_function": "start from the preceding year-end topology and apply any coalition of that year's frozen event packages",
+    "method": "Shapley marginal contribution across event packages within each year",
+    "exact_if_packages_at_most": 10,
+    "approximation_if_more_than_10": {
+      "permutations": 4096,
+      "antithetic_pairs": true,
+      "seed": 20260826,
+      "same_permutations_for_every_cell_and_metric": true
+    },
+    "closure": "for every cell, year and metric, package contributions must sum to the full-network annual change",
+    "absolute_tolerance": 1e-8,
+    "relative_tolerance": 1e-8,
+    "metrics": {
+      "total_opportunity": "Shapley contribution to A_i",
+      "cross_city_opportunity": "Shapley contribution to A_i_out",
+      "coverage": "Shapley contribution to the binary 15-minute rail-coverage indicator"
+    }
+  },
+  "primary_outputs": {
+    "project_table": [
+      "population-weighted mean total-opportunity contribution",
+      "area-weighted mean total-opportunity contribution",
+      "population-weighted mean cross-city-opportunity contribution",
+      "population-weighted rail-coverage contribution",
+      "contribution shares from origins uncovered versus covered at the start of the event year"
+    ],
+    "project_maps": "500 m cell-level total and cross-city Shapley contribution maps for every event package",
+    "annual_maps": "2017-2024 total opportunity, cross-city opportunity and coverage surfaces",
+    "distribution_supporting": [
+      "population- and area-weighted Lorenz/Gini summaries",
+      "local Moran clusters with false-discovery-rate correction",
+      "baseline-accessibility versus contribution profiles"
+    ],
+    "normalization": "raw effective population is primary; percent and per-track-km values are supporting and must not be used for zero-length station-only events"
+  },
+  "sensitivity": {
+    "R0": "official reference geometry, reference standardized impedance and nearest pedestrian node",
+    "R1": "OSM rail geometry with identical dates, station sequence and reference standardized impedance",
+    "R2": "official reference geometry and the frozen conservative standardized impedance",
+    "R3": "reference model with qualifying second-nearest pedestrian node",
+    "required": [
+      "project-contribution sign agreement",
+      "Spearman project-rank correlation",
+      "top-quartile project overlap",
+      "500 m versus nested 1 km aggregation agreement"
+    ],
+    "minimum_rank_correlation_for_strong_ranking_claim": 0.80,
+    "minimum_top_quartile_overlap_for_strong_ranking_claim": 0.75
+  },
+  "opening_order": [
+    "synthetic graph and Shapley closure fixtures",
+    "freeze all nine-city mother tables, event packages, pedestrian graph, WorldPop assignments, code, configuration and hashes",
+    "pass D data and numerical gates",
+    "open and archive D once",
+    "pass and open H1 once",
+    "pass and open H2 once",
+    "compute multi-city summaries mechanically"
+  ],
+  "stop_rules": [
+    "stop the affected geography if any eligible rail component or event action cannot be reconstructed",
+    "do not make strong project-ranking claims if sensitivity rank or top-quartile thresholds fail",
+    "do not interpret fixed-service topology attribution as observed travel behavior",
+    "any rule mutation after D opens demotes D and combined results to exploratory"
+  ],
+  "output": {
+    "raw_immutable": true,
+    "machine_readable": true,
+    "accessibility_outcome": "sealed",
+    "claims_associational": true
+  }
+}

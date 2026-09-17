@@ -1,0 +1,32 @@
+{
+  "version": "2026-08-26-transport-pedestrian-r2",
+  "accessibility_outcome_read": false,
+  "config_sha256": "6be2609a1fac954ae6a85852c016f49a08c9277a3dcdcadb01aa1099202761cc",
+  "snap_gate_config_sha256": "3277fc3d81387d2018162dc85dbea9f96d547a5523551f70ff2bfbfa9144e5b3",
+  "pedestrian_nodes_sha256": "7fde6fb3a10de24c59f372cad42a82548e0761a97f6f066ddc6b037258cf1cd4",
+  "routing_nodes": 3246339,
+  "counts": {
+    "origins": 209050,
+    "origins_snapped": 89695,
+    "origins_routing_relevant": 4923,
+    "destinations": 50752,
+    "destinations_snapped": 36229,
+    "destinations_routing_relevant": 1667,
+    "stations": 546,
+    "stations_snapped": 540
+  },
+  "outputs": {
+    "Data/interim/transport/pedestrian_origin_snaps_500m.parquet": {
+      "rows": 209050,
+      "sha256": "4afdd1988a39b24a3a550801a2af9f23c5c63329ef8bdafbb61c9552637794dd"
+    },
+    "Data/interim/transport/pedestrian_destination_snaps_worldpop2023.parquet": {
+      "rows": 50752,
+      "sha256": "4c1ba6782c6c6dd11246f8889a81a0a4fb8c2606ffb4c77f213746ec9486c140"
+    },
+    "Data/interim/transport/pedestrian_station_snaps.parquet": {
+      "rows": 546,
+      "sha256": "d325ff5d843dc2833371d669ab2ab96d35e1c8befab3c0c81406fc2cdbc0a99b"
+    }
+  }
+}

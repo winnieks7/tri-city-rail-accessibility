@@ -1,0 +1,16 @@
+{
+  "version": "2026-08-26-r1",
+  "status": "post-outcome deterministic nested-scale sensitivity",
+  "source_grid_m": 500,
+  "target_grid_m": 1000,
+  "parent_rule": "retain only frozen analysis-eligible 1 km parents containing all four aligned analysis-eligible 500 m children from the same city",
+  "aggregation": "population- and area-weighted means of immutable 500 m annual and Shapley cell outputs",
+  "comparison": [
+    "internal equality between 1 km summaries and 500 m summaries on the identical retained-child support",
+    "support sensitivity between full primary 500 m summaries and complete-parent 1 km summaries"
+  ],
+  "rank_threshold": 0.80,
+  "top_quartile_overlap_threshold": 0.75,
+  "closure_tolerance": 1e-8,
+  "interpretation": "nested aggregation and support sensitivity, not an independent network rerun or independent replication"
+}

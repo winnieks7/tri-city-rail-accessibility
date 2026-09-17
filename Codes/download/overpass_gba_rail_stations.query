@@ -1,0 +1,6 @@
+[out:json][timeout:180];
+(
+  nwr["railway"~"^(station|halt)$"](21.45,111.35,24.55,115.60);
+  nwr["station"~"^(subway|light_rail|train)$"](21.45,111.35,24.55,115.60);
+);
+out center tags;

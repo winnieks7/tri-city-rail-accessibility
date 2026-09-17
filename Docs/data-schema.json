@@ -1,0 +1,1686 @@
+[
+  {
+    "path": "Results/tables/transport_d_project_city_summary_r2.parquet",
+    "rows": 87,
+    "columns": [
+      {
+        "name": "event_id",
+        "type": "string"
+      },
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "event_label",
+        "type": "string"
+      },
+      {
+        "name": "geography",
+        "type": "string"
+      },
+      {
+        "name": "population_denominator",
+        "type": "double"
+      },
+      {
+        "name": "area_denominator_m2",
+        "type": "double"
+      },
+      {
+        "name": "missing_relevant_population",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_total_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_total_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_cross_city_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_cross_city_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_coverage_contribution",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_coverage_contribution",
+        "type": "double"
+      },
+      {
+        "name": "uncovered_population_denominator",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_total_contribution_uncovered",
+        "type": "double"
+      },
+      {
+        "name": "covered_population_denominator",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_total_contribution_covered",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Results/tables/transport_d_project_city_summary_r3.parquet",
+    "rows": 87,
+    "columns": [
+      {
+        "name": "event_id",
+        "type": "string"
+      },
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "event_label",
+        "type": "string"
+      },
+      {
+        "name": "geography",
+        "type": "string"
+      },
+      {
+        "name": "population_denominator",
+        "type": "double"
+      },
+      {
+        "name": "area_denominator_m2",
+        "type": "double"
+      },
+      {
+        "name": "missing_relevant_population",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_total_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_total_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_cross_city_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_cross_city_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_coverage_contribution",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_coverage_contribution",
+        "type": "double"
+      },
+      {
+        "name": "uncovered_population_denominator",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_total_contribution_uncovered",
+        "type": "double"
+      },
+      {
+        "name": "covered_population_denominator",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_total_contribution_covered",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Results/tables/transport_d_project_city_summary.parquet",
+    "rows": 87,
+    "columns": [
+      {
+        "name": "event_id",
+        "type": "string"
+      },
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "event_label",
+        "type": "string"
+      },
+      {
+        "name": "geography",
+        "type": "string"
+      },
+      {
+        "name": "population_denominator",
+        "type": "double"
+      },
+      {
+        "name": "area_denominator_m2",
+        "type": "double"
+      },
+      {
+        "name": "missing_relevant_population",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_total_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_total_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_cross_city_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_cross_city_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_coverage_contribution",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_coverage_contribution",
+        "type": "double"
+      },
+      {
+        "name": "uncovered_population_denominator",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_total_contribution_uncovered",
+        "type": "double"
+      },
+      {
+        "name": "covered_population_denominator",
+        "type": "double"
+      },
+      {
+        "name": "population_weighted_total_contribution_covered",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Data/processed/transport/d_annual_accessibility_1km_aggregation.parquet",
+    "rows": 94640,
+    "columns": [
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "city",
+        "type": "string"
+      },
+      {
+        "name": "parent_1km_id",
+        "type": "string"
+      },
+      {
+        "name": "population_weight",
+        "type": "double"
+      },
+      {
+        "name": "area_weight_m2",
+        "type": "double"
+      },
+      {
+        "name": "source_500m_cells",
+        "type": "int64"
+      },
+      {
+        "name": "total_opportunity",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_total_opportunity",
+        "type": "double"
+      },
+      {
+        "name": "cross_city_opportunity",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_cross_city_opportunity",
+        "type": "double"
+      },
+      {
+        "name": "coverage",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_coverage",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Data/processed/transport/d_annual_accessibility_cell.parquet",
+    "rows": 406976,
+    "columns": [
+      {
+        "name": "grid_id",
+        "type": "string"
+      },
+      {
+        "name": "city",
+        "type": "string"
+      },
+      {
+        "name": "split_group",
+        "type": "string"
+      },
+      {
+        "name": "population_weight",
+        "type": "double"
+      },
+      {
+        "name": "area_weight_m2",
+        "type": "double"
+      },
+      {
+        "name": "analysis_status",
+        "type": "string"
+      },
+      {
+        "name": "block_10km",
+        "type": "string"
+      },
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "total_opportunity",
+        "type": "double"
+      },
+      {
+        "name": "cross_city_opportunity",
+        "type": "double"
+      },
+      {
+        "name": "coverage",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Data/processed/transport/d_project_attribution_cell_r3.parquet",
+    "rows": 1475288,
+    "columns": [
+      {
+        "name": "grid_id",
+        "type": "string"
+      },
+      {
+        "name": "city",
+        "type": "string"
+      },
+      {
+        "name": "split_group",
+        "type": "string"
+      },
+      {
+        "name": "population_weight",
+        "type": "double"
+      },
+      {
+        "name": "area_weight_m2",
+        "type": "double"
+      },
+      {
+        "name": "analysis_status",
+        "type": "string"
+      },
+      {
+        "name": "block_10km",
+        "type": "string"
+      },
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "event_id",
+        "type": "string"
+      },
+      {
+        "name": "event_label",
+        "type": "string"
+      },
+      {
+        "name": "baseline_coverage",
+        "type": "double"
+      },
+      {
+        "name": "total_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "cross_city_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "coverage_contribution",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Data/processed/transport/d_project_attribution_cell_r2.parquet",
+    "rows": 1475288,
+    "columns": [
+      {
+        "name": "grid_id",
+        "type": "string"
+      },
+      {
+        "name": "city",
+        "type": "string"
+      },
+      {
+        "name": "split_group",
+        "type": "string"
+      },
+      {
+        "name": "population_weight",
+        "type": "double"
+      },
+      {
+        "name": "area_weight_m2",
+        "type": "double"
+      },
+      {
+        "name": "analysis_status",
+        "type": "string"
+      },
+      {
+        "name": "block_10km",
+        "type": "string"
+      },
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "event_id",
+        "type": "string"
+      },
+      {
+        "name": "event_label",
+        "type": "string"
+      },
+      {
+        "name": "baseline_coverage",
+        "type": "double"
+      },
+      {
+        "name": "total_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "cross_city_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "coverage_contribution",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Data/processed/transport/d_project_attribution_1km_aggregation.parquet",
+    "rows": 343070,
+    "columns": [
+      {
+        "name": "event_id",
+        "type": "string"
+      },
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "event_label",
+        "type": "string"
+      },
+      {
+        "name": "city",
+        "type": "string"
+      },
+      {
+        "name": "parent_1km_id",
+        "type": "string"
+      },
+      {
+        "name": "population_weight",
+        "type": "double"
+      },
+      {
+        "name": "area_weight_m2",
+        "type": "double"
+      },
+      {
+        "name": "source_500m_cells",
+        "type": "int64"
+      },
+      {
+        "name": "total_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_total_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "cross_city_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_cross_city_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "coverage_contribution",
+        "type": "double"
+      },
+      {
+        "name": "area_weighted_coverage_contribution",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Data/processed/transport/d_project_attribution_cell.parquet",
+    "rows": 1475288,
+    "columns": [
+      {
+        "name": "grid_id",
+        "type": "string"
+      },
+      {
+        "name": "city",
+        "type": "string"
+      },
+      {
+        "name": "split_group",
+        "type": "string"
+      },
+      {
+        "name": "population_weight",
+        "type": "double"
+      },
+      {
+        "name": "area_weight_m2",
+        "type": "double"
+      },
+      {
+        "name": "analysis_status",
+        "type": "string"
+      },
+      {
+        "name": "block_10km",
+        "type": "string"
+      },
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "event_id",
+        "type": "string"
+      },
+      {
+        "name": "event_label",
+        "type": "string"
+      },
+      {
+        "name": "baseline_coverage",
+        "type": "double"
+      },
+      {
+        "name": "total_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "cross_city_opportunity_contribution",
+        "type": "double"
+      },
+      {
+        "name": "coverage_contribution",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Data/processed/transport/transport_grid_500m.parquet",
+    "rows": 226868,
+    "columns": [
+      {
+        "name": "grid_id",
+        "type": "string"
+      },
+      {
+        "name": "grid_x_index",
+        "type": "int32"
+      },
+      {
+        "name": "grid_y_index",
+        "type": "int32"
+      },
+      {
+        "name": "raster_row",
+        "type": "int32"
+      },
+      {
+        "name": "raster_col",
+        "type": "int32"
+      },
+      {
+        "name": "aoi_overlap_fraction",
+        "type": "double"
+      },
+      {
+        "name": "city_overlap_fraction",
+        "type": "double"
+      },
+      {
+        "name": "gba_city",
+        "type": "string"
+      },
+      {
+        "name": "split_group",
+        "type": "string"
+      },
+      {
+        "name": "gsw_valid_fraction_within_aoi",
+        "type": "double"
+      },
+      {
+        "name": "permanent_water_fraction_within_aoi",
+        "type": "double"
+      },
+      {
+        "name": "water_eligible",
+        "type": "bool"
+      },
+      {
+        "name": "analysis_eligible",
+        "type": "bool"
+      },
+      {
+        "name": "block_10km",
+        "type": "string"
+      },
+      {
+        "name": "parent_1km_id",
+        "type": "string"
+      },
+      {
+        "name": "geometry",
+        "type": "binary"
+      }
+    ]
+  },
+  {
+    "path": "Data/processed/transport/transport_grid_1000m.parquet",
+    "rows": 57877,
+    "columns": [
+      {
+        "name": "grid_id",
+        "type": "string"
+      },
+      {
+        "name": "grid_x_index",
+        "type": "int64"
+      },
+      {
+        "name": "grid_y_index",
+        "type": "int64"
+      },
+      {
+        "name": "aoi_overlap_fraction",
+        "type": "double"
+      },
+      {
+        "name": "gba_city",
+        "type": "string"
+      },
+      {
+        "name": "split_group",
+        "type": "string"
+      },
+      {
+        "name": "gsw_valid_fraction_within_aoi",
+        "type": "double"
+      },
+      {
+        "name": "permanent_water_fraction_within_aoi",
+        "type": "double"
+      },
+      {
+        "name": "water_eligible",
+        "type": "bool"
+      },
+      {
+        "name": "analysis_eligible",
+        "type": "bool"
+      },
+      {
+        "name": "block_10km",
+        "type": "string"
+      },
+      {
+        "name": "geometry",
+        "type": "binary"
+      }
+    ]
+  },
+  {
+    "path": "Data/processed/transport/worldpop_2023_origin_weights_500m.parquet",
+    "rows": 209050,
+    "columns": [
+      {
+        "name": "grid_id",
+        "type": "string"
+      },
+      {
+        "name": "city",
+        "type": "string"
+      },
+      {
+        "name": "split_group",
+        "type": "string"
+      },
+      {
+        "name": "population_weight",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Data/processed/transport/worldpop_2023_destination_pixels.parquet",
+    "rows": 50752,
+    "columns": [
+      {
+        "name": "pixel_id",
+        "type": "string"
+      },
+      {
+        "name": "raster_row",
+        "type": "int64"
+      },
+      {
+        "name": "raster_col",
+        "type": "int64"
+      },
+      {
+        "name": "population",
+        "type": "double"
+      },
+      {
+        "name": "centroid_lon",
+        "type": "double"
+      },
+      {
+        "name": "centroid_lat",
+        "type": "double"
+      },
+      {
+        "name": "assigned_city",
+        "type": "string"
+      },
+      {
+        "name": "native_pixel_area_m2",
+        "type": "double"
+      },
+      {
+        "name": "geometry",
+        "type": "binary"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/d_annual_active_track_edges.parquet",
+    "rows": 2875,
+    "columns": [
+      {
+        "name": "sequence_id",
+        "type": "string"
+      },
+      {
+        "name": "route_identity",
+        "type": "string"
+      },
+      {
+        "name": "from_order",
+        "type": "int64"
+      },
+      {
+        "name": "to_order",
+        "type": "int64"
+      },
+      {
+        "name": "from_station",
+        "type": "string"
+      },
+      {
+        "name": "to_station",
+        "type": "string"
+      },
+      {
+        "name": "from_snap_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "to_snap_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "track_length_m",
+        "type": "double"
+      },
+      {
+        "name": "osm_way_ids",
+        "type": "string"
+      },
+      {
+        "name": "geometry_role",
+        "type": "string"
+      },
+      {
+        "name": "geometry",
+        "type": "binary"
+      },
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "component_id",
+        "type": "string"
+      },
+      {
+        "name": "activation_source",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/d_annual_active_passenger_stops.parquet",
+    "rows": 3066,
+    "columns": [
+      {
+        "name": "sequence_id",
+        "type": "string"
+      },
+      {
+        "name": "route_identity",
+        "type": "string"
+      },
+      {
+        "name": "stop_order",
+        "type": "int64"
+      },
+      {
+        "name": "station_name",
+        "type": "string"
+      },
+      {
+        "name": "normalized_name",
+        "type": "string"
+      },
+      {
+        "name": "passenger_stop_at_2024_year_end",
+        "type": "bool"
+      },
+      {
+        "name": "coordinate_source",
+        "type": "string"
+      },
+      {
+        "name": "osm_type",
+        "type": "string"
+      },
+      {
+        "name": "osm_id",
+        "type": "int64"
+      },
+      {
+        "name": "lon",
+        "type": "double"
+      },
+      {
+        "name": "lat",
+        "type": "double"
+      },
+      {
+        "name": "geometry",
+        "type": "binary"
+      },
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "passenger_service_active",
+        "type": "bool"
+      },
+      {
+        "name": "station_status_rule",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/d_annual_station_connection_pairs.parquet",
+    "rows": 618,
+    "columns": [
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "from_sequence_id",
+        "type": "string"
+      },
+      {
+        "name": "from_stop_order",
+        "type": "int64"
+      },
+      {
+        "name": "from_route_identity",
+        "type": "string"
+      },
+      {
+        "name": "from_station",
+        "type": "string"
+      },
+      {
+        "name": "to_sequence_id",
+        "type": "string"
+      },
+      {
+        "name": "to_stop_order",
+        "type": "int64"
+      },
+      {
+        "name": "to_route_identity",
+        "type": "string"
+      },
+      {
+        "name": "to_station",
+        "type": "string"
+      },
+      {
+        "name": "distance_m",
+        "type": "double"
+      },
+      {
+        "name": "name_match",
+        "type": "string"
+      },
+      {
+        "name": "alias_ids",
+        "type": "string"
+      },
+      {
+        "name": "station_complex_id",
+        "type": "string"
+      },
+      {
+        "name": "route_pair_id",
+        "type": "string"
+      },
+      {
+        "name": "connection_pair_id",
+        "type": "string"
+      },
+      {
+        "name": "connection_class",
+        "type": "string"
+      },
+      {
+        "name": "transfer_stratum",
+        "type": "string"
+      },
+      {
+        "name": "direct_walk_time_status",
+        "type": "string"
+      },
+      {
+        "name": "geometry",
+        "type": "binary"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/d_route_stop_sequence_candidates.parquet",
+    "rows": 546,
+    "columns": [
+      {
+        "name": "sequence_id",
+        "type": "string"
+      },
+      {
+        "name": "route_identity",
+        "type": "string"
+      },
+      {
+        "name": "stop_order",
+        "type": "int64"
+      },
+      {
+        "name": "station_name",
+        "type": "string"
+      },
+      {
+        "name": "normalized_name",
+        "type": "string"
+      },
+      {
+        "name": "passenger_stop_at_2024_year_end",
+        "type": "bool"
+      },
+      {
+        "name": "coordinate_source",
+        "type": "string"
+      },
+      {
+        "name": "osm_type",
+        "type": "string"
+      },
+      {
+        "name": "osm_id",
+        "type": "int64"
+      },
+      {
+        "name": "lon",
+        "type": "double"
+      },
+      {
+        "name": "lat",
+        "type": "double"
+      },
+      {
+        "name": "geometry",
+        "type": "binary"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/d_route_track_edge_candidates.parquet",
+    "rows": 512,
+    "columns": [
+      {
+        "name": "sequence_id",
+        "type": "string"
+      },
+      {
+        "name": "route_identity",
+        "type": "string"
+      },
+      {
+        "name": "from_order",
+        "type": "int64"
+      },
+      {
+        "name": "to_order",
+        "type": "int64"
+      },
+      {
+        "name": "from_station",
+        "type": "string"
+      },
+      {
+        "name": "to_station",
+        "type": "string"
+      },
+      {
+        "name": "from_snap_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "to_snap_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "track_length_m",
+        "type": "double"
+      },
+      {
+        "name": "osm_way_ids",
+        "type": "string"
+      },
+      {
+        "name": "geometry_role",
+        "type": "string"
+      },
+      {
+        "name": "geometry",
+        "type": "binary"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/d_standardized_track_edge_impedance.parquet",
+    "rows": 2875,
+    "columns": [
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "sequence_id",
+        "type": "string"
+      },
+      {
+        "name": "route_identity",
+        "type": "string"
+      },
+      {
+        "name": "component_id",
+        "type": "string"
+      },
+      {
+        "name": "from_order",
+        "type": "int64"
+      },
+      {
+        "name": "to_order",
+        "type": "int64"
+      },
+      {
+        "name": "from_station",
+        "type": "string"
+      },
+      {
+        "name": "to_station",
+        "type": "string"
+      },
+      {
+        "name": "track_length_m",
+        "type": "double"
+      },
+      {
+        "name": "mode",
+        "type": "string"
+      },
+      {
+        "name": "r0_speed_kmh",
+        "type": "double"
+      },
+      {
+        "name": "r0_in_vehicle_min",
+        "type": "double"
+      },
+      {
+        "name": "r2_speed_kmh",
+        "type": "double"
+      },
+      {
+        "name": "r2_in_vehicle_min",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/d_standardized_directional_connections.parquet",
+    "rows": 1236,
+    "columns": [
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "connection_pair_id",
+        "type": "string"
+      },
+      {
+        "name": "direction",
+        "type": "string"
+      },
+      {
+        "name": "from_sequence_id",
+        "type": "string"
+      },
+      {
+        "name": "from_stop_order",
+        "type": "int64"
+      },
+      {
+        "name": "from_route_identity",
+        "type": "string"
+      },
+      {
+        "name": "from_station",
+        "type": "string"
+      },
+      {
+        "name": "to_sequence_id",
+        "type": "string"
+      },
+      {
+        "name": "to_stop_order",
+        "type": "int64"
+      },
+      {
+        "name": "to_route_identity",
+        "type": "string"
+      },
+      {
+        "name": "to_station",
+        "type": "string"
+      },
+      {
+        "name": "from_mode",
+        "type": "string"
+      },
+      {
+        "name": "to_mode",
+        "type": "string"
+      },
+      {
+        "name": "connection_class",
+        "type": "string"
+      },
+      {
+        "name": "standardized_policy",
+        "type": "string"
+      },
+      {
+        "name": "transfer_stratum",
+        "type": "string"
+      },
+      {
+        "name": "r0_walk_min",
+        "type": "double"
+      },
+      {
+        "name": "r0_receiving_wait_min",
+        "type": "double"
+      },
+      {
+        "name": "r0_connection_min",
+        "type": "double"
+      },
+      {
+        "name": "r2_walk_min",
+        "type": "double"
+      },
+      {
+        "name": "r2_receiving_wait_min",
+        "type": "double"
+      },
+      {
+        "name": "r2_connection_min",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/d_standardized_route_year_boarding.parquet",
+    "rows": 170,
+    "columns": [
+      {
+        "name": "year",
+        "type": "int64"
+      },
+      {
+        "name": "route_identity",
+        "type": "string"
+      },
+      {
+        "name": "mode",
+        "type": "string"
+      },
+      {
+        "name": "r0_standard_headway_min",
+        "type": "double"
+      },
+      {
+        "name": "r0_expected_initial_wait_min",
+        "type": "double"
+      },
+      {
+        "name": "r2_standard_headway_min",
+        "type": "double"
+      },
+      {
+        "name": "r2_expected_initial_wait_min",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/pedestrian_origin_snaps_500m.parquet",
+    "rows": 209050,
+    "columns": [
+      {
+        "name": "grid_id",
+        "type": "string"
+      },
+      {
+        "name": "city",
+        "type": "string"
+      },
+      {
+        "name": "split_group",
+        "type": "string"
+      },
+      {
+        "name": "population_weight",
+        "type": "double"
+      },
+      {
+        "name": "nearest_node_index",
+        "type": "int64"
+      },
+      {
+        "name": "nearest_node_id",
+        "type": "int64"
+      },
+      {
+        "name": "nearest_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "is_snapped",
+        "type": "bool"
+      },
+      {
+        "name": "second_node_index",
+        "type": "int64"
+      },
+      {
+        "name": "second_node_id",
+        "type": "int64"
+      },
+      {
+        "name": "second_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "second_node_qualified",
+        "type": "bool"
+      },
+      {
+        "name": "routing_component_id",
+        "type": "int32"
+      },
+      {
+        "name": "nearest_union_station_euclidean_m",
+        "type": "double"
+      },
+      {
+        "name": "routing_relevant",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/pedestrian_destination_snaps_worldpop2023.parquet",
+    "rows": 50752,
+    "columns": [
+      {
+        "name": "pixel_id",
+        "type": "string"
+      },
+      {
+        "name": "city",
+        "type": "string"
+      },
+      {
+        "name": "population",
+        "type": "double"
+      },
+      {
+        "name": "nearest_node_index",
+        "type": "int64"
+      },
+      {
+        "name": "nearest_node_id",
+        "type": "int64"
+      },
+      {
+        "name": "nearest_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "is_snapped",
+        "type": "bool"
+      },
+      {
+        "name": "second_node_index",
+        "type": "int64"
+      },
+      {
+        "name": "second_node_id",
+        "type": "int64"
+      },
+      {
+        "name": "second_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "second_node_qualified",
+        "type": "bool"
+      },
+      {
+        "name": "routing_component_id",
+        "type": "int32"
+      },
+      {
+        "name": "nearest_union_station_euclidean_m",
+        "type": "double"
+      },
+      {
+        "name": "routing_relevant",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/pedestrian_station_snaps.parquet",
+    "rows": 546,
+    "columns": [
+      {
+        "name": "sequence_id",
+        "type": "string"
+      },
+      {
+        "name": "route_identity",
+        "type": "string"
+      },
+      {
+        "name": "stop_order",
+        "type": "int64"
+      },
+      {
+        "name": "station_name",
+        "type": "string"
+      },
+      {
+        "name": "nearest_node_index",
+        "type": "int64"
+      },
+      {
+        "name": "nearest_node_id",
+        "type": "int64"
+      },
+      {
+        "name": "nearest_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "is_snapped",
+        "type": "bool"
+      },
+      {
+        "name": "second_node_index",
+        "type": "int64"
+      },
+      {
+        "name": "second_node_id",
+        "type": "int64"
+      },
+      {
+        "name": "second_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "second_node_qualified",
+        "type": "bool"
+      },
+      {
+        "name": "routing_component_id",
+        "type": "int32"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/d_pedestrian_origin_station_walk.parquet",
+    "rows": 3140,
+    "columns": [
+      {
+        "name": "grid_id",
+        "type": "string"
+      },
+      {
+        "name": "origin_city",
+        "type": "string"
+      },
+      {
+        "name": "sequence_id",
+        "type": "string"
+      },
+      {
+        "name": "route_identity",
+        "type": "string"
+      },
+      {
+        "name": "stop_order",
+        "type": "int64"
+      },
+      {
+        "name": "station_name",
+        "type": "string"
+      },
+      {
+        "name": "origin_connector_m",
+        "type": "double"
+      },
+      {
+        "name": "graph_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "station_connector_m",
+        "type": "double"
+      },
+      {
+        "name": "walk_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "walk_min",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/d_pedestrian_station_destination_walk.parquet",
+    "rows": 1051,
+    "columns": [
+      {
+        "name": "sequence_id",
+        "type": "string"
+      },
+      {
+        "name": "route_identity",
+        "type": "string"
+      },
+      {
+        "name": "stop_order",
+        "type": "int64"
+      },
+      {
+        "name": "station_name",
+        "type": "string"
+      },
+      {
+        "name": "pixel_id",
+        "type": "string"
+      },
+      {
+        "name": "destination_city",
+        "type": "string"
+      },
+      {
+        "name": "population",
+        "type": "double"
+      },
+      {
+        "name": "station_connector_m",
+        "type": "double"
+      },
+      {
+        "name": "graph_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "destination_connector_m",
+        "type": "double"
+      },
+      {
+        "name": "walk_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "walk_min",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/d_pedestrian_origin_station_walk_r3.parquet",
+    "rows": 3094,
+    "columns": [
+      {
+        "name": "grid_id",
+        "type": "string"
+      },
+      {
+        "name": "origin_city",
+        "type": "string"
+      },
+      {
+        "name": "sequence_id",
+        "type": "string"
+      },
+      {
+        "name": "route_identity",
+        "type": "string"
+      },
+      {
+        "name": "stop_order",
+        "type": "int64"
+      },
+      {
+        "name": "station_name",
+        "type": "string"
+      },
+      {
+        "name": "origin_connector_m",
+        "type": "double"
+      },
+      {
+        "name": "graph_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "station_connector_m",
+        "type": "double"
+      },
+      {
+        "name": "walk_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "walk_min",
+        "type": "double"
+      },
+      {
+        "name": "origin_snap_replaced",
+        "type": "bool"
+      },
+      {
+        "name": "station_snap_replaced",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "path": "Data/interim/transport/d_pedestrian_station_destination_walk_r3.parquet",
+    "rows": 1053,
+    "columns": [
+      {
+        "name": "sequence_id",
+        "type": "string"
+      },
+      {
+        "name": "route_identity",
+        "type": "string"
+      },
+      {
+        "name": "stop_order",
+        "type": "int64"
+      },
+      {
+        "name": "station_name",
+        "type": "string"
+      },
+      {
+        "name": "pixel_id",
+        "type": "string"
+      },
+      {
+        "name": "destination_city",
+        "type": "string"
+      },
+      {
+        "name": "population",
+        "type": "double"
+      },
+      {
+        "name": "station_connector_m",
+        "type": "double"
+      },
+      {
+        "name": "graph_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "destination_connector_m",
+        "type": "double"
+      },
+      {
+        "name": "walk_distance_m",
+        "type": "double"
+      },
+      {
+        "name": "walk_min",
+        "type": "double"
+      },
+      {
+        "name": "station_snap_replaced",
+        "type": "bool"
+      },
+      {
+        "name": "destination_snap_replaced",
+        "type": "bool"
+      }
+    ]
+  }
+]

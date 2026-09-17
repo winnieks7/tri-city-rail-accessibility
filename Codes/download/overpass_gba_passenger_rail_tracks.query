@@ -1,0 +1,5 @@
+[out:json][timeout:300];
+(
+  way["railway"~"^(rail|subway|light_rail|monorail)$"]["service"!~"^(yard|siding|spur)$"](21.45,111.35,24.55,115.60);
+);
+out geom tags;

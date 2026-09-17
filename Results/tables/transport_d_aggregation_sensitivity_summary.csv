@@ -1,0 +1,4 @@
+metric,metric_label,spearman,top_eight_overlap,pooled_to_equal_cumulative_ratio,equal_city_leader_event_id,pooled_population_leader_event_id,leader_unchanged
+total_opportunity,Total opportunity,0.9886699507389161,0.875,1.2172562163044343,D2024_E06_GZ_M11_SHAHE,D2024_E06_GZ_M11_SHAHE,True
+cross_city_opportunity,Outside-origin-city opportunity,0.9999999999999998,1.0,0.9841285089936521,D2021_E03_FS_M2_PHASE1,D2021_E03_FS_M2_PHASE1,True
+coverage,Coverage,0.988641975308642,1.0,1.0365188218609827,D2022_E05_FS_M3_FIRST,D2022_E05_FS_M3_FIRST,True

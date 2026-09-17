@@ -1,0 +1,36 @@
+{
+  "version": "2026-08-26-transport-pedestrian-snap-gate-r1",
+  "status": "outcome-blind correction separating graph missingness from structural non-access",
+  "graph_config": "Codes/config/transport_pedestrian_graph_20260826_r2.json",
+  "development_stage": {
+    "label": "D",
+    "origin_cities": ["Guangzhou", "Foshan", "Dongguan"],
+    "union_station_source": "Data/interim/transport/d_annual_active_passenger_stops.parquet",
+    "union_rule": "passenger_service_active in at least one 2017-2024 year"
+  },
+  "routing_relevance": {
+    "maximum_station_walk_min": 15,
+    "walk_speed_kmh": 4.8,
+    "necessary_euclidean_distance_m": 1200,
+    "rule": "an origin or destination farther than 1200 m Euclidean from every station that can be active in the geography's frozen union network cannot satisfy the 15-minute pedestrian limit in any coalition and is structural non-access, not graph missingness"
+  },
+  "missingness_gates": {
+    "origin": "within-union-station-range population mass that cannot snap within 250 m to the frozen pedestrian graph",
+    "destination": "within-union-station-range population mass that cannot snap within 500 m to the frozen pedestrian graph",
+    "station": "active station occurrences that cannot snap within 500 m to the frozen pedestrian graph",
+    "maximum_fraction": 0.05,
+    "destination_city_scope": "all cities with positive routing-relevant destination mass for the current geography's union network"
+  },
+  "aggregation": {
+    "structural_origin_non_access": "retain with zero accessibility and zero project contribution in the full city population denominator",
+    "unsnapped_relevant_origin": "exclude its mass from the city denominator and report the excluded fraction",
+    "structural_destination_non_access": "exclude from the opportunity sum because no valid 15-minute station egress is possible in any coalition",
+    "unsnapped_relevant_destination": "exclude from the opportunity sum and report the excluded fraction"
+  },
+  "holdout_rule": "before H1 or H2 is opened, regenerate routing relevance and rerun the identical 5% gates using that geography's independently complete union station table",
+  "output": {
+    "raw_immutable": true,
+    "machine_readable": true,
+    "accessibility_outcome_read": false
+  }
+}

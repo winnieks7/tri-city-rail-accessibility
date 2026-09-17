@@ -1,0 +1,26 @@
+{
+  "version": "2026-08-26-transport-d-accessibility-run-r1",
+  "status": "outcome-blind frozen before one-time D opening",
+  "contract": "Codes/config/transport_project_attribution_contract_20260826_r4.json",
+  "events": "Codes/config/transport_d_event_packages_20260826_r2.json",
+  "impedance_variant": "r0",
+  "origin_cities": ["Guangzhou", "Foshan", "Dongguan"],
+  "origin_scope": "all frozen eligible 500 m cells in D cities",
+  "destination_scope": "routing-relevant, successfully snapped fixed WorldPop 2023 pixels for the D union network",
+  "structural_zero_rule": "origins beyond 1200 m Euclidean of the D union station set remain zero in the full city denominator",
+  "missing_origin_rule": "routing-relevant origins that fail the 250 m pedestrian snap are excluded from numerator and denominator",
+  "area_weight_m2": "250000 * aoi_overlap_fraction * (1 - permanent_water_fraction_within_aoi)",
+  "rail_path_rule": "at least one directed passenger track arc and alighting occurrence different from initial boarding occurrence",
+  "annual_output": "full year-end coalition for 2017-2024",
+  "project_output": "exact within-year Shapley contribution for all 29 frozen event packages",
+  "closure_absolute_tolerance": 1e-8,
+  "closure_relative_tolerance": 1e-8,
+  "maximum_time_min": 120,
+  "half_life_min": 30,
+  "output": {
+    "raw_immutable": true,
+    "machine_readable": true,
+    "accessibility_outcome": "sealed_until_this_run_opens_D_once",
+    "claims_associational": true
+  }
+}

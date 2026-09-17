@@ -1,0 +1,21 @@
+{
+  "version": "2026-08-26-r1",
+  "status": "post-outcome diagnostic frozen before independent path validation",
+  "purpose": "compare the primary SciPy two-layer rail-required shortest-path implementation against an independent NetworkX implementation",
+  "variant": "r0",
+  "states": "2017 baseline plus each 2018-2024 full year-end event coalition",
+  "station_pairs_per_state": 128,
+  "origin_destination_pairs_per_state": 64,
+  "sampling": {
+    "seed": 20260826,
+    "station_pairs": "uniform pseudorandom distinct active station-occurrence pairs without replacement, independent of computed distances",
+    "origins": "active origin IDs sorted by SHA-256 of seed, year and grid ID; first 64",
+    "destinations": "one active destination per selected origin by SHA-256 modulus over sorted active destination IDs"
+  },
+  "comparison": {
+    "absolute_tolerance_min": 1e-8,
+    "require_finite_status_agreement": true,
+    "same_station_ride_away_return_prohibited": true
+  },
+  "interpretation": "numerical implementation validation only; does not validate historical service assumptions or observed travel times"
+}

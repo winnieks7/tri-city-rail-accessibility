@@ -1,0 +1,22 @@
+{
+  "name": "Guangdong-Hong Kong-Macao Greater Bay Area",
+  "short_name": "GBA",
+  "crs_geographic": "EPSG:4326",
+  "crs_analysis": "EPSG:32649",
+  "bbox_wgs84": [111.1, 21.4, 115.5, 24.6],
+  "mainland_prefectures": [
+    "Guangzhou",
+    "Shenzhen",
+    "Zhuhai",
+    "Foshan",
+    "Huizhou",
+    "Dongguan",
+    "Zhongshan",
+    "Jiangmen",
+    "Zhaoqing"
+  ],
+  "special_administrative_regions": ["Hong Kong", "Macao"],
+  "candidate_grid_m": [1000, 2000, 5000],
+  "note": "The bbox is an acquisition envelope only. Analysis must use the dissolved official/curated GBA boundary."
+}
+

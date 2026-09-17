@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite this versioned repository when using the code, data or figures."
+type: software
+title: "Tri-city rail accessibility: spatial Shapley attribution of rail-event accessibility change"
+version: 1.0.0
+date-released: 2026-09-17
+authors:
+  - family-names: JIN
+    given-names: Shuxin
+    orcid: "https://orcid.org/0000-0002-0425-4863"
+    affiliation: "School of Future Transportation, Guangzhou Maritime University"
+  - family-names: WANG
+    given-names: Di
+    orcid: "https://orcid.org/0000-0002-3120-5653"
+    affiliation: "School of Civil Engineering and Architecture, University of Jinan; Department of Civil and Environmental Engineering, University of Auckland"
+repository-code: "https://github.com/winnieks7/tri-city-rail-accessibility"
+url: "https://github.com/winnieks7/tri-city-rail-accessibility"
+keywords:
+  - accessibility
+  - urban rail
+  - Shapley value
+  - spatial attribution
+  - Guangzhou
+  - Foshan
+  - Dongguan
+license: MIT

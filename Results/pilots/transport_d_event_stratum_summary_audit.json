@@ -1,0 +1,48 @@
+{
+  "audit": "transport_D_authoritative_event_stratum_result_chain",
+  "generated_at_utc": "2026-08-27T07:04:33.312611+00:00",
+  "estimand": "within-city stratum numerators divided by the same full valid city population denominator, followed by an equal mean across the three cities",
+  "source": "Results/tables/transport_d_baseline_coverage_decomposition.csv",
+  "source_sha256": "2a8a97f7d662e9cc53c3e46a426789b2206881f26e70021444059f4d4957cb36",
+  "legacy_summary": "Results/tables/transport_d_project_summary.csv",
+  "legacy_summary_sha256": "7d7faacecef63f6619715e0ed6685819233a53d9ebd57e8b8a68e5472899ef8a",
+  "legacy_field_boundary": "legacy uncovered/covered fields use stratum-specific denominators and are not additive; they are deprecated for Equation 10, Figure 5, and RQ3",
+  "authoritative_output": "Results/tables/transport_d_event_stratum_summary.csv",
+  "authoritative_output_sha256": "81c36a5998b0bd8d51d0518bb017fb5d25aefcc08c3dc260292b78d48de4beb3",
+  "counts": {
+    "events": 29,
+    "event_metric_closures": 87
+  },
+  "tolerance": 1e-09,
+  "maximum_absolute_event_metric_closure_error": 3.637978807091713e-12,
+  "maximum_absolute_legacy_total_match_error": 0.0,
+  "cumulative_equal_city": {
+    "total_opportunity": {
+      "baseline_uncovered": 37245.3037053605,
+      "baseline_covered": 37636.40078870878,
+      "total": 74881.70449406927,
+      "closure_error": 0.0
+    },
+    "cross_city_opportunity": {
+      "baseline_uncovered": 10985.606790741469,
+      "baseline_covered": 9589.618792172734,
+      "total": 20575.225582914198,
+      "closure_error": 3.637978807091713e-12
+    },
+    "coverage": {
+      "baseline_uncovered": 0.0507883158516622,
+      "baseline_covered": -0.001969000467161,
+      "total": 0.0488193153845012,
+      "closure_error": 0.0
+    }
+  },
+  "checks": {
+    "exactly_29_events": true,
+    "three_metrics_present": true,
+    "all_87_event_metric_rows_close": true,
+    "all_authoritative_totals_match_frozen_event_totals": true,
+    "no_missing_numeric_values": true,
+    "cumulative_add_back_closes": true
+  },
+  "passed": true
+}

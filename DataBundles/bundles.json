@@ -1,0 +1,26 @@
+[
+  {
+    "path": "DataBundles/reference-results.zip",
+    "bytes": 11380947,
+    "sha256": "66538acb63c5fa8afc7d6628388386360d512b0d3aacddb88ae64e32f0bf03bd",
+    "members": 6
+  },
+  {
+    "path": "DataBundles/sensitivity-results.zip",
+    "bytes": 11150502,
+    "sha256": "9d8259f687a4a657c9c55780709cbb4072668192768dc175b2e245a0a2fdc9dd",
+    "members": 2
+  },
+  {
+    "path": "DataBundles/frozen-inputs.zip",
+    "bytes": 20045101,
+    "sha256": "4b411c017048b49094d73cccb915b947d255415b8bdd4902d9924a740ffebee9",
+    "members": 19
+  },
+  {
+    "path": "DataBundles/figures-and-table-binaries.zip",
+    "bytes": 14399542,
+    "sha256": "e24d5f97d945f5f2837689daaf80de47ee09ecf08cdd01ff0b9ceb947babac90",
+    "members": 59
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "dataset": "OpenStreetMap GBA-area passenger rail route-relation index",
+  "acquired_at": "2026-08-26T11:19:00+08:00",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query_file": "Codes/download/overpass_gba_rail_route_relations.query",
+  "raw_file": "Data/raw/transport/osm/gba_rail_route_relations_overpass_20260826.json",
+  "sha256": "d86c77202cc3d37d4e11a2b3f35b521ef04e425d5b9ce3358122e5bbcb7b6fda",
+  "relation_count": 237,
+  "license": "ODbL 1.0; OpenStreetMap contributors",
+  "analytical_role": "candidate current route identity index used to locate pilot relation IDs",
+  "prohibition": "current relations can reflect later service patterns and cannot be back-projected without dated component verification"
+}

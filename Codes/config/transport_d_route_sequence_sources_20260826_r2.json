@@ -1,0 +1,53 @@
+{
+  "version": "2026-08-26-d-route-sequence-r2",
+  "status": "outcome-blind audited 2017-2024 passenger-stop sequences including historical successor geometry; annual activation is frozen separately",
+  "relation_snapshot": "Data/raw/transport/osm/d_route_members_overpass_20260826.json",
+  "station_snapshot": "Data/interim/transport/osm_station_candidates.parquet",
+  "supplemental_geometry_snapshots": [
+    {"route_identity":"GZ_TRAM_HZ1","path":"Data/raw/transport/osm/hz1_route_members_20241101_overpass_20260826.json","snapshot_role":"pre-closure 2024 relation"},
+    {"route_identity":"FS_TRAM_GM1","path":"Data/raw/transport/osm/gaoming_tram_geometry_overpass_20260826.json","snapshot_role":"named stops and non-yard track geometry"}
+  ],
+  "rules": {
+    "current_relation_role": "candidate station coordinates and present-day order only",
+    "official_override": "manual official sequence overrides later through-running, extensions and current OSM relation order",
+    "future_back_projection": false,
+    "annual_activation_source": "Codes/config/transport_d_network_denominator_candidates_20260826_r4.json",
+    "outcome_data_read": false
+  },
+  "sequences": [
+    {"sequence_id":"GZ_M1_MAIN","route_identity":"GZ_M1","source":"current_relation_trimmed","relation_id":7480669,"keep_between":["西塱","广州东站"]},
+    {"sequence_id":"GZ_M2_MAIN","route_identity":"GZ_M2","source":"current_relation_trimmed","relation_id":7390450,"keep_between":["广州南站","嘉禾望岗"]},
+    {"sequence_id":"GZ_M3_TIANHE_BRANCH","route_identity":"GZ_M3","source":"current_relation_trimmed","relation_id":444000,"keep_between":["天河客运站","海傍"]},
+    {"sequence_id":"GZ_M3_AIRPORT_BRANCH","route_identity":"GZ_M3","source":"current_relation_trimmed_with_historical_stop","relation_id":9841061,"keep_between":["机场北","海傍"],"insert_stops":[{"name":"机场南","after":"机场北","coordinate_bbox":[113.28,23.37,113.31,23.40],"reason":"open throughout 2018-2024 but omitted from the 2026 relation during later temporary closure"}],"expected_unique_stop_count":29},
+    {"sequence_id":"GZ_M4_MAIN","route_identity":"GZ_M4","source":"current_relation_trimmed","relation_id":5454434,"keep_between":["南沙客运港","黄村"]},
+    {"sequence_id":"GZ_M5_MAIN","route_identity":"GZ_M5","source":"current_relation_trimmed","relation_id":7483883,"keep_between":["滘口","黄埔新港"]},
+    {"sequence_id":"GZ_M6_MAIN","route_identity":"GZ_M6","source":"current_relation_trimmed","relation_id":7285816,"keep_between":["浔峰岗","香雪"]},
+    {"sequence_id":"GZ_M7_MAIN","route_identity":"GZ_M7","source":"current_relation_trimmed","relation_id":7520751,"keep_between":["美的大道","燕山"]},
+    {"sequence_id":"GZ_M8_MAIN","route_identity":"GZ_M8","source":"current_relation_trimmed","relation_id":7422204,"keep_between":["滘心","万胜围"]},
+    {"sequence_id":"GZ_M9_MAIN","route_identity":"GZ_M9","source":"current_relation_trimmed","relation_id":7935591,"keep_between":["飞鹅岭","高增"]},
+    {"sequence_id":"GZ_M11_LOOP","route_identity":"GZ_M11","source":"current_relation_loop_with_2024_stop_exclusions","relation_id":18132492,"exclude_passenger_stops":["广州东站","广州火车站"],"expected_unique_stop_count":29},
+    {"sequence_id":"GZ_M13_PHASE1","route_identity":"GZ_M13","source":"current_relation_trimmed","relation_id":6728313,"keep_between":["鱼珠","新沙"]},
+    {"sequence_id":"GZ_M14_MAIN","route_identity":"GZ_M14","source":"current_relation_trimmed","relation_id":8338724,"keep_between":["东风","嘉禾望岗"]},
+    {"sequence_id":"GZ_M14_KNOWLEDGE","route_identity":"GZ_M14","source":"current_relation_trimmed","relation_id":6728311,"keep_between":["镇龙","新和"]},
+    {"sequence_id":"GZ_M18_MAIN","route_identity":"GZ_M18","source":"current_relation_trimmed","relation_id":13239401,"keep_between":["冼村","万顷沙"]},
+    {"sequence_id":"GZ_M21_HISTORICAL_YUANCUN","route_identity":"GZ_M21","source":"current_relation_trimmed_for_historical_role","relation_id":18132492,"keep_between":["员村","天河公园"],"expected_unique_stop_count":2,"note":"Line 21 passenger section in 2019-2023; transferred to Line 11 in 2024"},
+    {"sequence_id":"GZ_M21_MAIN","route_identity":"GZ_M21","source":"current_relation_trimmed","relation_id":9171918,"keep_between":["天河公园","增城广场"],"expected_unique_stop_count":20},
+    {"sequence_id":"GZ_M22_2024","route_identity":"GZ_M22","source":"current_relation_trimmed","relation_id":13987999,"keep_between":["陈头岗","番禺广场"]},
+    {"sequence_id":"GZ_APM_MAIN","route_identity":"GZ_APM","source":"current_relation_trimmed","relation_id":1526269,"keep_between":["林和西","广州塔"]},
+    {"sequence_id":"GUANGFO_METRO_MAIN","route_identity":"GUANGFO_METRO","source":"current_relation_trimmed","relation_id":2646091,"keep_between":["沥滘","新城东"]},
+    {"sequence_id":"GZ_TRAM_HZ1_MAIN","route_identity":"GZ_TRAM_HZ1","source":"official_manual_coordinate_match","official_sequence":["广州塔","广州塔东","猎德大桥南","琶醍","南风","会展西","会展中","会展东","琶洲大桥南","琶洲塔","万胜围"],"coordinate_relation_ids":[7420348],"coordinate_bbox":[113.31,23.09,113.40,23.13],"2024_year_end_excluded_passenger_stops":["广州塔","广州塔东"]},
+    {"sequence_id":"GZ_TRAM_HP1_MAIN","route_identity":"GZ_TRAM_HP1","source":"current_relation_trimmed","relation_id":11291841,"keep_between":["地铁香雪","新丰路"]},
+    {"sequence_id":"FS_M2_MAIN","route_identity":"FS_M2","source":"current_relation_trimmed","relation_id":13604443,"keep_between":["广州南站","南庄"]},
+    {"sequence_id":"FS_M3_SOUTH_CENTRAL_2024","route_identity":"FS_M3","source":"current_relation_trimmed","relation_id":15054264,"keep_between":["顺德学院站","中山公园"]},
+    {"sequence_id":"FS_M3_NORTH_2024","route_identity":"FS_M3","source":"current_relation_trimmed","relation_id":15054264,"keep_between":["联和","佛山大学"]},
+    {"sequence_id":"FS_TRAM_NH1_MAIN","route_identity":"FS_TRAM_NH1","source":"current_relation_trimmed","relation_id":13103097,"keep_between":["𧒽岗","林岳东"]},
+    {"sequence_id":"FS_TRAM_GM1_MAIN","route_identity":"FS_TRAM_GM1","source":"official_manual_coordinate_match","official_sequence":["沧江路","跃华路","怡乐路","荷城","文化中心","明湖公园","新江路","体育中心","阮埇","智湖"],"coordinate_relation_ids":[],"coordinate_bbox":[112.82,22.87,112.94,22.96]},
+    {"sequence_id":"DG_M2_MAIN","route_identity":"DG_M2","source":"current_relation_trimmed","relation_id":6502861,"keep_between":["东莞火车站","虎门火车站"]},
+    {"sequence_id":"GUANGQING_IC_2024_GBA_RELEVANT","route_identity":"GUANGQING_IC","source":"official_manual_coordinate_match","official_sequence":["花都","乐同","狮岭","银盏","龙塘镇","清城"],"coordinate_relation_ids":[7348708],"note":"2024 north extension beyond Qingcheng lies wholly outside the nine-city study geography"},
+    {"sequence_id":"GZ_EAST_RING_IC_2024","route_identity":"GZ_EAST_RING_IC","source":"official_manual_coordinate_match","official_sequence":["花都","花城街","花山镇","白云机场北"],"coordinate_relation_ids":[18529443]},
+    {"sequence_id":"GUANGFO_SOUTH_RING_IC_2024","route_identity":"GUANGFO_SOUTH_RING_IC","source":"official_manual_coordinate_match","official_sequence":["佛山西","张槎","顺德北","北滘西","陈村","番禺"],"coordinate_relation_ids":[20107347,20107348]},
+    {"sequence_id":"FOGUAN_IC_2024","route_identity":"FOGUAN_IC","source":"official_manual_coordinate_match","official_sequence":["番禺","广州长隆","东环","官桥北","广州莲花山","麻涌","东莞西"],"coordinate_relation_ids":[17638483,18529443]},
+    {"sequence_id":"GUANHUI_IC_2024","route_identity":"GUANHUI_IC","source":"official_manual_coordinate_match","official_sequence":["东莞西","道滘","西平西","东城南","寮步","松山湖北","大朗镇","常平南","常平东","樟木头东","银瓶","沥林北","陈江南","惠环","龙丰","西湖东","云山","小金口"],"coordinate_relation_ids":[17638483]},
+    {"sequence_id":"GUANGFOZHAO_IC_2024","route_identity":"GUANGFOZHAO_IC","source":"official_manual_coordinate_match","official_sequence":["佛山西","狮山","狮山北","三水北","云东海","大旺","四会","鼎湖东","鼎湖山","端州","肇庆"],"coordinate_relation_ids":[17641022,17641023,20107347,20107348]}
+  ]
+}

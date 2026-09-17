@@ -1,0 +1,288 @@
+{
+  "archive": "development-city official rail date and scope sources",
+  "outcome_data_read": false,
+  "downloaded_at_utc": "2026-08-26T09:06:56.697627+00:00",
+  "sources": [
+    {
+      "id": "GZ_M1_OFFICIAL_HISTORY",
+      "authority": "Guangzhou municipal education authority",
+      "url": "https://jyj.gz.gov.cn/attachment/6/6824/6824303/7360517.pdf",
+      "file": "gz_m1_official_history.pdf",
+      "role": "Line 1 first and full-route opening dates",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m1_official_history.pdf",
+      "bytes": 295099,
+      "sha256": "317e8db629d9ffe7a3640637ade2761a153cee383eb9b35cc385d2233979e38a"
+    },
+    {
+      "id": "GZ_2009_LINE5_CONTEMPORANEOUS",
+      "authority": "China Daily state media carrying the contemporaneous opening report",
+      "url": "https://www.chinadaily.com.cn/dfpd/2009-12/29/content_9240420_2.htm",
+      "file": "gz_m5_opening_20091228_chinadaily.html",
+      "role": "Contemporaneous exact Line 5 opening date",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m5_opening_20091228_chinadaily.html",
+      "bytes": 19465,
+      "sha256": "43eafd92fcf0c5a32a307a2800d4949a3cff3bcac742eb1e558d22842d3b4e4a"
+    },
+    {
+      "id": "GZ_2010_METRO_OPENINGS_CONTEMPORANEOUS",
+      "authority": "China News Service state media carrying the contemporaneous opening report",
+      "url": "https://www.chinanews.com.cn/gn/2010/10-30/2623405.shtml",
+      "file": "gz_2010_m2_m3_apm_openings_chinanews.html",
+      "role": "Contemporaneous Line 2, Line 3 north, Line 8, Guangfo and APM opening sequence",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_2010_m2_m3_apm_openings_chinanews.html",
+      "bytes": 59541,
+      "sha256": "4df8604cdc6595fc0837d4f56c2552a3b65ed03584e98a02f6f80aed104d1374"
+    },
+    {
+      "id": "GZ_2016_THREE_LINES_CONTEMPORANEOUS",
+      "authority": "People's Daily state media carrying the contemporaneous opening report",
+      "url": "http://ccnews.people.com.cn/n1/2016/1229/c141677-28985187.html",
+      "file": "gz_m6_m7_guangfo_opening_20161228_peopledaily.html",
+      "role": "Contemporaneous Line 6 phase 2, Line 7 phase 1 and Guangfo phase 2 opening date",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m6_m7_guangfo_opening_20161228_peopledaily.html",
+      "bytes": 28664,
+      "sha256": "199c787ddf725e25bf3fc7ee40f0476b9b220e859db3680d38dc317cae2d7d99"
+    },
+    {
+      "id": "GZ_TRAM_HZ1_HAIZHU_GOVERNMENT_REPORT",
+      "authority": "Guangzhou Haizhu District Government",
+      "url": "https://www.gz.gov.cn/zwgk/zjgb/gqgzbg/hzq/content/post_3089576.html",
+      "file": "gz_tram_hz1_opening_20141231_haizhu_gov.html",
+      "role": "Haizhu Tram trial-operation date and time",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_tram_hz1_opening_20141231_haizhu_gov.html",
+      "bytes": 437720,
+      "sha256": "61d7803190d012ab8e7f932b244b09a3ea546a461fc87925bdee810a62cdaf5a"
+    },
+    {
+      "id": "GZ_APM_TIANHE_OFFICIAL_YEARBOOK",
+      "authority": "Guangzhou Tianhe District Government",
+      "url": "https://www.thnet.gov.cn/thxxw/thnjj/201706/505b28b43ddc4cc696e16f6c1efda92d/files/b3cb678a2a604b438677b6b0f3000e6f.pdf",
+      "file": "gz_apm_opening_tianhe_official_yearbook.pdf",
+      "role": "Official district yearbook confirmation of the 2010-11-08 APM opening",
+      "prefer_curl": true,
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_apm_opening_tianhe_official_yearbook.pdf",
+      "bytes": 9795248,
+      "sha256": "649bfc11ba9bf877ce7287a1bbbde7c1b53df5e8348a5e4be1ffffaab0b5a368"
+    },
+    {
+      "id": "GZ_BASELINE_STATION_LICENSE_2017",
+      "authority": "Guangzhou Municipal Government health authority",
+      "url": "https://www.gz.gov.cn/gzmedjg/wszfjd/201712/3c082e75952c4e8a80ca51fb89b46042/files/bd3ee20f6a3c47e7b34884be33c2ba4e.pdf",
+      "file": "gz_baseline_operating_station_license_2017.pdf",
+      "role": "Official pre-baseline operating-station roster for metro and APM components",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_baseline_operating_station_license_2017.pdf",
+      "bytes": 156992,
+      "sha256": "b1f0c400932388e3ff8b654ed442f69c891cceb9224d4a6f777412005cb92ab2"
+    },
+    {
+      "id": "GZ_2017_FOUR_OPENINGS",
+      "authority": "Guangzhou Municipal Government",
+      "url": "https://www.gz.gov.cn/zwgk/zjgb/zfgzbg/content/post_2840353.html",
+      "file": "gz_2017_four_openings.html",
+      "role": "2017-12-28 baseline activation of Line 4 south, Line 9, Line 13 phase 1 and Knowledge City line",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_2017_four_openings.html",
+      "bytes": 212681,
+      "sha256": "1db5793b410b507ceaa5e8b176808da9fa79eb08eacb2707dcce2f20a5e784c4"
+    },
+    {
+      "id": "GZ_2018_COMPLETION_REPORT",
+      "authority": "Guangzhou Municipal Government",
+      "url": "https://www.gz.gov.cn/zfjgzy/gzsrmzfyjs/sfyjs/zfxxgkml/bmwj/qtwj/content/post_5510657.html",
+      "file": "gz_2018_completion_report.html",
+      "role": "2018 Line 3 airport, Line 14, Line 21 east and Guangfo Lijiao activations",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_2018_completion_report.html",
+      "bytes": 328826,
+      "sha256": "8d83a70960b361b27b6a603d1a0c3160673764f98595c4bb884ee890ed9add6d"
+    },
+    {
+      "id": "GZ_M3_AIRPORT_NORTH_CONTEMPORANEOUS",
+      "authority": "Guangzhou SASAC",
+      "url": "https://gzw.gz.gov.cn/zt/gzgz/content/post_2781834.html",
+      "file": "gz_m3_airport_north_20180426.html",
+      "role": "Contemporaneous exact 2018-04-26 Airport North opening evidence",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m3_airport_north_20180426.html",
+      "bytes": 49109,
+      "sha256": "4a35dc31122f36fa106d6b4d9ff5d41a7deac236652cf9cc36d69254db918847"
+    },
+    {
+      "id": "GZ_M9_QINGTANG_OPENING",
+      "authority": "Yangcheng Evening News carrying the operator timetable and opening notice",
+      "url": "https://news.ycwb.com/2018-06/29/content_30037804.htm",
+      "file": "gz_m9_qingtang_opening_20180630_ycwb.html",
+      "role": "Exact first-train passenger opening of the Line 9 Qingtang infill station",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m9_qingtang_opening_20180630_ycwb.html",
+      "bytes": 41272,
+      "sha256": "2b4a4034af525959a225b21821a4510073aa35753fcbbabfcb03a77195b03c02"
+    },
+    {
+      "id": "GZ_M21_WEST_OPERATOR",
+      "authority": "Guangzhou SASAC / Guangzhou Metro",
+      "url": "https://gzw.gz.gov.cn/qy/qydt/content/post_5464442.html",
+      "file": "gz_m21_west_20191220.html",
+      "role": "Line 21 west section operation start",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m21_west_20191220.html",
+      "bytes": 21594,
+      "sha256": "bb390a00f1796ab45711ed371b01ff97f3b621dbd60f51ad8fc4862ed59abe0f"
+    },
+    {
+      "id": "GZ_M8_NORTH_OPERATOR",
+      "authority": "Guangzhou SASAC / Guangzhou Metro",
+      "url": "https://gzw.gz.gov.cn/qy/qydt/content/post_6936246.html",
+      "file": "gz_m8_north_20201126.html",
+      "role": "Line 8 north section opening and two initially closed stations",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m8_north_20201126.html",
+      "bytes": 1095939,
+      "sha256": "18f32ca3c280aafbf6dfc24747a810a50fe630cefc286a734e3b83b116737ac9"
+    },
+    {
+      "id": "GZ_M8_RAINBOW_BRIDGE_OPENING",
+      "authority": "Guangzhou Municipal Government",
+      "url": "https://www.gz.gov.cn/zt/jrshts/2022n/gqj/tpxw/content/post_8587040.html",
+      "file": "gz_m8_rainbow_bridge_20220928.html",
+      "role": "Line 8 Rainbow Bridge station opening from first train",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m8_rainbow_bridge_20220928.html",
+      "bytes": 64177,
+      "sha256": "15faa3d4ac8c01bde300346f6c9c4ae1f6a6620cbf6aa0b37efd426714aa4030"
+    },
+    {
+      "id": "GZ_M8_XICUN_OPENING",
+      "authority": "Guangzhou Municipal Government",
+      "url": "https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_8729201.html",
+      "file": "gz_m8_xicun_20221228.html",
+      "role": "Line 8 Xicun station and Line 5 transfer activation",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m8_xicun_20221228.html",
+      "bytes": 72158,
+      "sha256": "d773970cf00e3e2ca9042cff7f97195320117d3db35dae6fdcb1f98d3c458163"
+    },
+    {
+      "id": "GZ_M8_OFFICIAL_EIA_HISTORY",
+      "authority": "Guangzhou Municipal Ecology and Environment Bureau",
+      "url": "https://sthjj.gz.gov.cn/attachment/7/7510/7510809/9335300.pdf",
+      "file": "gz_m8_official_eia_history.pdf",
+      "role": "Official retrospective Line 8 section-date history",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m8_official_eia_history.pdf",
+      "bytes": 1572231,
+      "sha256": "0d82386d6a6b477e4caacbf01c5f3123240d32dcda8f0700ddf5c111293894a4"
+    },
+    {
+      "id": "GZ_M18_OPENING",
+      "authority": "Guangzhou Municipal Government",
+      "url": "https://www.gz.gov.cn/zt/jrshts/2021n/gqj/zxxx/jt/content/post_7811714.html",
+      "file": "gz_m18_opening_20210928.html",
+      "role": "Line 18 first section opening at 14:00",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m18_opening_20210928.html",
+      "bytes": 104506,
+      "sha256": "320971033a8206425d427fb64064199ed4d32a61d5533525e60d5b0e8edfea8a"
+    },
+    {
+      "id": "GZ_M22_OPENING",
+      "authority": "Guangzhou Municipal Government",
+      "url": "https://www.gz.gov.cn/zwfw/zxfw/content/post_8163126.html",
+      "file": "gz_m22_opening_20220331.html",
+      "role": "Line 22 first section opening",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m22_opening_20220331.html",
+      "bytes": 77812,
+      "sha256": "28560febf9256b457f32bf90430abe4582f1204e33bfcd34a9138e191b42a207"
+    },
+    {
+      "id": "GZ_M13_2020_SUSPENSION",
+      "authority": "Guangzhou Municipal Government",
+      "url": "https://www.gz.gov.cn/zwfw/zxfw/content/post_5848617.html",
+      "file": "gz_m13_suspension_20200522.html",
+      "role": "Line 13 full suspension start after the 2020-05-22 rainstorm",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m13_suspension_20200522.html",
+      "bytes": 71590,
+      "sha256": "bf220acdd6db65ac98e69bcb0597e87f47413177fc0520869fc3edcf96186315"
+    },
+    {
+      "id": "GZ_M13_2020_FULL_RESTORATION",
+      "authority": "Guangzhou Zengcheng District Government",
+      "url": "https://www.zc.gov.cn/zfxxgkml/gzszcqjtysj/qt/content/post_5926945.html",
+      "file": "gz_m13_full_restoration_20200613.html",
+      "role": "Official confirmation that the final Line 13 section resumed on 2020-06-13",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m13_full_restoration_20200613.html",
+      "bytes": 46276,
+      "sha256": "173a77adc1617a8bdd3e9e4a8e1c9fe257adda6066a9f48cc500ef50da34e2c4"
+    },
+    {
+      "id": "GZ_M6_SHAHE_OPENING",
+      "authority": "Guangzhou Municipal Government",
+      "url": "https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_10050312.html",
+      "file": "gz_m6_shahe_opening_20241228.html",
+      "role": "Passenger opening of the Line 6 Shahe infill station with Line 11",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_m6_shahe_opening_20241228.html",
+      "bytes": 98463,
+      "sha256": "5488b65fb0678c39f273ba7f71c226dbea5c5c5f48ea4eae92e6b3a561cf70e5"
+    },
+    {
+      "id": "FS_M3_2024_CONTEMPORANEOUS",
+      "authority": "China News Service state media carrying the contemporaneous opening report",
+      "url": "https://www.chinanews.com.cn/cj/2024/08-23/10273369.shtml",
+      "file": "fs_m3_two_sections_opening_20240823_chinanews.html",
+      "role": "Contemporaneous 06:30 opening and disconnected-section evidence for Foshan Line 3",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/fs_m3_two_sections_opening_20240823_chinanews.html",
+      "bytes": 80719,
+      "sha256": "a06e2f1890678d1a9bc1a33aa455324a7f52584b785aee24255804211988effb"
+    },
+    {
+      "id": "FS_TRAM_GM1_OPERATOR_NOTICE_REPRINT",
+      "authority": "Southern Metropolis Daily verbatim republication of the operator notice",
+      "url": "https://m.mp.oeeee.com/a/BAAFRD000020240805983136.html",
+      "file": "fs_tram_gm1_suspension_20240806_operator_notice_reprint.html",
+      "role": "Verbatim operator notice for the Gaoming tram suspension from 2024-08-06",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/fs_tram_gm1_suspension_20240806_operator_notice_reprint.html",
+      "bytes": 17591,
+      "sha256": "258cbb79ab8111d8f83db56916336e14bedc12252b920339a4c0a85b02c42771"
+    },
+    {
+      "id": "GZ_LOCAL_INTERCITY_2020",
+      "authority": "Guangzhou Municipal Government",
+      "url": "https://www.gz.gov.cn/zwfw/zxfw/content/post_6938832.html",
+      "file": "gz_local_intercity_20201130.html",
+      "role": "Guangqing and Guangzhou East Ring local operation and multi-payment start",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_local_intercity_20201130.html",
+      "bytes": 74889,
+      "sha256": "ca36fc973249f7a846fe030d7226076a37660be3412a5b92855cc758097965ee"
+    },
+    {
+      "id": "GZ_LOCAL_INTERCITY_2024",
+      "authority": "Guangzhou Municipal Government",
+      "url": "https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_9669108.html",
+      "file": "gz_local_intercity_four_line_20240526.html",
+      "role": "Four-line local operation, through-running and multi-payment start",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_local_intercity_four_line_20240526.html",
+      "bytes": 81422,
+      "sha256": "4491ab4657b3b3140069e945a9c794ffcee3c3eaf9347d438357ec5beaeb4345"
+    },
+    {
+      "id": "SZ_SUISHEN_2019_SERVICE_MODEL",
+      "authority": "Shenzhen Municipal Government Port Office",
+      "url": "https://ka.sz.gov.cn/ztzl/kntgcx/tszs/content/post_6757275.html",
+      "file": "sz_suishen_20191215_service_model.html",
+      "role": "Suishen opening, railway electronic-ticket and 12306 evidence",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/sz_suishen_20191215_service_model.html",
+      "bytes": 19957,
+      "sha256": "3960ef0109687ab414ef911f53e3609f887e4d854487f86934b94e7fda577dae"
+    },
+    {
+      "id": "NRA_SUISHEN_LOCAL_OPERATOR_TRANSFER_2025",
+      "authority": "National Railway Administration Guangzhou Regional Administration",
+      "url": "https://www.nra.gov.cn/zzjg/jgj/gzgl/zwgz/202504/t20250401_348368.shtml",
+      "file": "nra_suishen_local_operator_transfer_20250311.html",
+      "role": "Post-window official evidence that transfer to Shenzhen Metro was still being prepared in 2025",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/nra_suishen_local_operator_transfer_20250311.html",
+      "bytes": 46542,
+      "sha256": "d4022426997719800abcbe7c22b6a9f52eed6b7203d7aa4834f1013d64ac5548"
+    },
+    {
+      "id": "GZ_GUANGSHEN_GUANGZHU_NATIONAL_TICKETING",
+      "authority": "Guangzhou Municipal Transportation Bureau",
+      "url": "https://jtj.gz.gov.cn/xwdt/gzdt/content/post_7729568.html",
+      "file": "gz_guangshen_guangzhu_national_ticketing.html",
+      "role": "Train-specific 12306 products for Guangshen and Guangzhu intercity",
+      "local_file": "Data/raw/transport/official_sources/d_date_scope/gz_guangshen_guangzhu_national_ticketing.html",
+      "bytes": 17167,
+      "sha256": "a5d16f45b18aeef0d4d0c598f68cd8210d382e00f6d390ca3c965df110b74754"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "dataset": "OpenStreetMap historical Haizhu Tram HZ1 route relation",
+  "historical_timestamp_utc": "2024-11-01T00:00:00Z",
+  "acquired_at_utc": "2026-08-26T08:47:42.537017+00:00",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query_file": "Codes/download/overpass_hz1_20241101_route_members.query",
+  "query_sha256": "dae45b7e9c5a2878eb8b2beee748a5fb27941dcca2d77890bd46db208e233e36",
+  "raw_file": "Data/raw/transport/osm/hz1_route_members_20241101_overpass_20260826.json",
+  "raw_sha256": "c359d9bae99403de9e9e796c40e4d8a763486c529c50e0452a8829cebede1f6e",
+  "element_count": 259,
+  "historical_stop_sequence": [
+    "广州塔",
+    "广州塔东",
+    "猎德大桥南",
+    "琶醍",
+    "南风",
+    "会展西",
+    "会展中",
+    "会展东",
+    "琶洲大桥南",
+    "琶洲塔",
+    "万胜围"
+  ],
+  "license": "ODbL 1.0; OpenStreetMap contributors",
+  "analytical_role": "pre-closure station coordinates and route order candidate",
+  "official_override": "municipal closure record controls 2024-11-13 passenger-stop removal",
+  "outcome_data_read": false
+}

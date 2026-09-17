@@ -1,0 +1,54 @@
+{
+  "version": "2026-08-26-transport-pedestrian-r2",
+  "status": "outcome-blind frozen contemporary pedestrian denominator",
+  "source": {
+    "provider": "Geofabrik Guangdong with Hong Kong and Macao OpenStreetMap extract",
+    "archive_url": "https://download.geofabrik.de/asia/china/guangdong-260824.osm.pbf",
+    "path": "Data/raw/transport/osm/guangdong_geofabrik_20260826.osm.pbf",
+    "expected_bytes": 171246363,
+    "expected_osm_replication_timestamp_utc": "2026-08-24T20:20:50Z",
+    "license": "ODbL 1.0"
+  },
+  "aoi": {
+    "boundary": "Data/interim/aoi/gba_city_boundaries.geojson",
+    "cities": [
+      "Guangzhou", "Foshan", "Dongguan", "Shenzhen", "Huizhou",
+      "Zhuhai", "Zhongshan", "Jiangmen", "Zhaoqing"
+    ],
+    "buffer_m": 2000,
+    "extract_strategy": "complete_ways"
+  },
+  "network": {
+    "crs": "+proj=laea +lat_0=22.8 +lon_0=113.5 +datum=WGS84 +units=m +no_defs",
+    "included_highway_values": [
+      "footway", "path", "pedestrian", "steps", "corridor", "platform",
+      "living_street", "residential", "service", "unclassified", "road",
+      "track", "tertiary", "tertiary_link", "secondary", "secondary_link",
+      "primary", "primary_link"
+    ],
+    "excluded_access_values": ["no", "private"],
+    "excluded_foot_values": ["no", "private", "use_sidepath"],
+    "explicit_foot_override_values": ["yes", "designated", "permissive", "destination"],
+    "pedestrian_direction_rule": "undirected except explicit oneway:foot, foot:forward or foot:backward restriction",
+    "ferry_routes_included": false,
+    "walk_speed_kmh": 4.8,
+    "step_penalty": "none; common fixed walking speed is used for reproducibility",
+    "grade_separation": "OSM node topology preserves bridges and tunnels; geometric crossings without shared nodes are not connected",
+    "routing_component_policy": "use only the largest undirected connected component for routing; retain smaller-component nodes as diagnostics"
+  },
+  "snapping": {
+    "method": "nearest node in the largest undirected pedestrian component in the fixed LAEA CRS",
+    "origin_max_m": 250,
+    "station_max_m": 500,
+    "destination_max_m": 500,
+    "maximum_unsnapped_origin_population_fraction_per_city": 0.05,
+    "maximum_unsnapped_active_station_occurrence_fraction_per_year": 0.05,
+    "maximum_unsnapped_destination_population_fraction_per_city": 0.05,
+    "second_nearest_variant_max_extra_network_m": 50
+  },
+  "output": {
+    "raw_immutable": true,
+    "machine_readable": true,
+    "accessibility_outcome_read": false
+  }
+}

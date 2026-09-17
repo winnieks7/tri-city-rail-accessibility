@@ -1,0 +1,20 @@
+{
+  "version": "2026-08-26-transport-d-r3-sensitivity-r1",
+  "status": "predeclared R3 rule, deterministically constructed after D opening from pre-open frozen first/second snap columns",
+  "base_run": "Codes/config/transport_d_accessibility_run_20260826_r1.json",
+  "variant": "r3_second_nearest_pedestrian_node",
+  "impedance_variant": "r0",
+  "snap_rule": "replace nearest pedestrian node with the second-nearest node only when second_node_qualified is true; otherwise retain nearest",
+  "qualification": "second node is within the entity snap maximum and its connector distance exceeds the nearest connector distance by no more than 50 m",
+  "origin_walk_pairs": "Data/interim/transport/d_pedestrian_origin_station_walk_r3.parquet",
+  "destination_walk_pairs": "Data/interim/transport/d_pedestrian_station_destination_walk_r3.parquet",
+  "maximum_time_min": 120,
+  "half_life_min": 30,
+  "closure_absolute_tolerance": 1e-8,
+  "closure_relative_tolerance": 1e-8,
+  "comparison": {
+    "minimum_spearman_for_strong_ranking_claim": 0.8,
+    "minimum_top_quartile_overlap_for_strong_ranking_claim": 0.75
+  },
+  "interpretation": "pedestrian snap sensitivity only; rail topology, events, opportunities and standardized service parameters remain fixed"
+}
