@@ -1,0 +1,217 @@
+{
+  "metric": "coverage_contribution",
+  "event_count": 29,
+  "valid_origin_count": 50607,
+  "missing_walk_snap_count": 265,
+  "missing_origin_display": "grey x; excluded from summaries",
+  "zero_contribution_display": "valid zero retained near the neutral colour",
+  "normalization": "symmetric logarithmic",
+  "absolute_colour_limit": 1.0000000000000004,
+  "linear_threshold": 0.5,
+  "colour_limit_percentile_of_nonzero_absolute_values": 99.5,
+  "panels": [
+    {
+      "panel": "a",
+      "event_id": "D2018_E01_GZ_M3_AIRPORT_NORTH",
+      "event_code": "P01",
+      "year": 2018,
+      "event_label": "Guangzhou Line 3 Airport North extension"
+    },
+    {
+      "panel": "b",
+      "event_id": "D2018_E02_GZ_M9_QINGTANG",
+      "event_code": "P02",
+      "year": 2018,
+      "event_label": "Qingtang infill station passenger activation"
+    },
+    {
+      "panel": "c",
+      "event_id": "D2018_E03_GF_LIJIAO",
+      "event_code": "P03",
+      "year": 2018,
+      "event_label": "Guangfo Metro Yangang-Lijiao extension"
+    },
+    {
+      "panel": "d",
+      "event_id": "D2018_E04_GZ_M14_MAIN",
+      "event_code": "P04",
+      "year": 2018,
+      "event_label": "Guangzhou Line 14 main line"
+    },
+    {
+      "panel": "e",
+      "event_id": "D2018_E05_GZ_M21_EAST",
+      "event_code": "P05",
+      "year": 2018,
+      "event_label": "Guangzhou Line 21 eastern section"
+    },
+    {
+      "panel": "f",
+      "event_id": "D2019_E01_GZ_M21_WEST",
+      "event_code": "P06",
+      "year": 2019,
+      "event_label": "Guangzhou Line 21 western section"
+    },
+    {
+      "panel": "g",
+      "event_id": "D2019_E02_GZ_M8_CULTURAL_PARK",
+      "event_code": "P07",
+      "year": 2019,
+      "event_label": "Guangzhou Line 8 Cultural Park extension"
+    },
+    {
+      "panel": "h",
+      "event_id": "D2019_E03_FS_TRAM_GM1",
+      "event_code": "P08",
+      "year": 2019,
+      "event_label": "Foshan Gaoming Tram demonstration line"
+    },
+    {
+      "panel": "i",
+      "event_id": "D2020_E01_GZ_TRAM_HP1_FIRST",
+      "event_code": "P09",
+      "year": 2020,
+      "event_label": "Huangpu Tram 1 first section"
+    },
+    {
+      "panel": "j",
+      "event_id": "D2020_E02_GZ_M8_NORTH",
+      "event_code": "P10",
+      "year": 2020,
+      "event_label": "Guangzhou Line 8 northern extension"
+    },
+    {
+      "panel": "k",
+      "event_id": "D2020_E03_LOCAL_INTERCITY",
+      "event_code": "P11",
+      "year": 2020,
+      "event_label": "Guangqing-Guangzhou East Ring through-running local intercity"
+    },
+    {
+      "panel": "l",
+      "event_id": "D2020_E04_GZ_TRAM_HP1_FULL",
+      "event_code": "P12",
+      "year": 2020,
+      "event_label": "Huangpu Tram 1 completion to Xiangxue"
+    },
+    {
+      "panel": "m",
+      "event_id": "D2021_E01_FS_TRAM_NH1_FIRST",
+      "event_code": "P13",
+      "year": 2021,
+      "event_label": "Nanhai Tram 1 first section"
+    },
+    {
+      "panel": "n",
+      "event_id": "D2021_E02_GZ_M18_FIRST",
+      "event_code": "P14",
+      "year": 2021,
+      "event_label": "Guangzhou Line 18 first section"
+    },
+    {
+      "panel": "o",
+      "event_id": "D2021_E03_FS_M2_PHASE1",
+      "event_code": "P15",
+      "year": 2021,
+      "event_label": "Foshan Metro Line 2 phase 1"
+    },
+    {
+      "panel": "p",
+      "event_id": "D2022_E01_GZ_M22_FIRST",
+      "event_code": "P16",
+      "year": 2022,
+      "event_label": "Guangzhou Line 22 first section"
+    },
+    {
+      "panel": "q",
+      "event_id": "D2022_E02_GZ_M7_WEST",
+      "event_code": "P17",
+      "year": 2022,
+      "event_label": "Guangzhou Line 7 western extension"
+    },
+    {
+      "panel": "r",
+      "event_id": "D2022_E03_GZ_M8_RAINBOW",
+      "event_code": "P18",
+      "year": 2022,
+      "event_label": "Rainbow Bridge infill station activation"
+    },
+    {
+      "panel": "s",
+      "event_id": "D2022_E04_FS_TRAM_NH1_FULL",
+      "event_code": "P19",
+      "year": 2022,
+      "event_label": "Nanhai Tram 1 completion"
+    },
+    {
+      "panel": "t",
+      "event_id": "D2022_E05_FS_M3_FIRST",
+      "event_code": "P20",
+      "year": 2022,
+      "event_label": "Foshan Metro Line 3 first section"
+    },
+    {
+      "panel": "u",
+      "event_id": "D2022_E06_GZ_M8_XICUN",
+      "event_code": "P21",
+      "year": 2022,
+      "event_label": "Xicun station and Line 5 transfer activation"
+    },
+    {
+      "panel": "v",
+      "event_id": "D2023_E01_GZ_M5_EAST",
+      "event_code": "P22",
+      "year": 2023,
+      "event_label": "Guangzhou Line 5 eastern extension"
+    },
+    {
+      "panel": "w",
+      "event_id": "D2023_E02_GZ_M7_PHASE2",
+      "event_code": "P23",
+      "year": 2023,
+      "event_label": "Guangzhou Line 7 phase 2"
+    },
+    {
+      "panel": "x",
+      "event_id": "D2024_E01_FOUR_LINE_INTERCITY",
+      "event_code": "P24",
+      "year": 2024,
+      "event_label": "Four-line Greater Bay Area local intercity integration"
+    },
+    {
+      "panel": "y",
+      "event_id": "D2024_E02_GAOMING_SUSPENSION",
+      "event_code": "P25",
+      "year": 2024,
+      "event_label": "Gaoming Tram suspension"
+    },
+    {
+      "panel": "z",
+      "event_id": "D2024_E03_FS_M3_TWO_SECTIONS",
+      "event_code": "P26",
+      "year": 2024,
+      "event_label": "Foshan Metro Line 3 central and northern sections"
+    },
+    {
+      "panel": "aa",
+      "event_id": "D2024_E04_GZ_M3_EAST",
+      "event_code": "P27",
+      "year": 2024,
+      "event_label": "Guangzhou Line 3 eastern extension"
+    },
+    {
+      "panel": "ab",
+      "event_id": "D2024_E05_HZ1_TOWER_CLOSURE",
+      "event_code": "P28",
+      "year": 2024,
+      "event_label": "Haizhu Tram Tower station section closure"
+    },
+    {
+      "panel": "ac",
+      "event_id": "D2024_E06_GZ_M11_SHAHE",
+      "event_code": "P29",
+      "year": 2024,
+      "event_label": "Guangzhou Line 11 loop, Shahe activation and Line 21 topology reassignment"
+    }
+  ]
+}

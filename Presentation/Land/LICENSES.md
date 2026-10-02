@@ -1,6 +1,6 @@
 # Licensing scope and attribution
 
-The root `LICENSE` applies to original software in `Codes/`, `Figures/transport/source/` and `Presentation/Land/Source/`. It does not relicense research data or third-party material.
+The repository root `LICENSE` and the local `LICENSE-code-MIT` apply to original software, including `Presentation/Land/Source/`. They do not relicense research data or third-party material.
 
 Original repository documentation and independently licensable numerical summaries and figures are made available under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). Attribution: Shuxin JIN and Di WANG, this repository, version and URL. These grants cover only rights held by the authors.
 

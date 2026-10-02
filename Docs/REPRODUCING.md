@@ -1,5 +1,14 @@
 # Reproduction guide
 
+## Current Land figures
+
+Use [the Land presentation guide](../Presentation/Land/README.md) and the
+`Land_Presentation_v1.1.0.zip` release attachment for the current six main figures
+and supplementary atlases. Its renderers use retained outcomes and write only
+to `Presentation/Land/Generated/`. The steps below describe the unchanged
+scientific archive and its original September figure presentation. Graphviz is
+required only for the legacy Figure 1, not the current conceptual figure.
+
 ## Levels of reproduction
 
 1. **Inspect tables and figures**. CSV/JSON results are browsable directly. Extract `DataBundles/figures-and-table-binaries.zip` for the current SVG/PDF figures and Parquet summary tables.

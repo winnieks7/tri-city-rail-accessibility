@@ -1,0 +1,20 @@
+{
+  "metric": "coverage",
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "valid_origin_count": 50607,
+  "missing_walk_snap_count": 265,
+  "missing_origin_display": "grey x; excluded from summaries",
+  "structural_zero_display": "valid zero retained in the colour scale",
+  "display_transform": "none",
+  "colour_upper_limit": 1.0,
+  "colour_limit_percentile": null
+}

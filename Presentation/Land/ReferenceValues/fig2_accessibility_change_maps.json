@@ -1,0 +1,74 @@
+{
+  "valid_origin_count": 50607,
+  "missing_walk_snap_count": 265,
+  "missing_origin_display": "grey x; excluded from summaries",
+  "structural_zero_display": "valid zero retained in the colour scale",
+  "panels": {
+    "a": {
+      "metric": "total_opportunity",
+      "display": "2017"
+    },
+    "b": {
+      "metric": "total_opportunity",
+      "display": "2024"
+    },
+    "c": {
+      "metric": "total_opportunity",
+      "display": "2024_minus_2017"
+    },
+    "d": {
+      "metric": "cross_city_opportunity",
+      "display": "2017"
+    },
+    "e": {
+      "metric": "cross_city_opportunity",
+      "display": "2024"
+    },
+    "f": {
+      "metric": "cross_city_opportunity",
+      "display": "2024_minus_2017"
+    },
+    "g": {
+      "metric": "coverage",
+      "display": "2017"
+    },
+    "h": {
+      "metric": "coverage",
+      "display": "2024"
+    },
+    "i": {
+      "metric": "coverage",
+      "display": "2024_minus_2017"
+    }
+  },
+  "colour_limits": {
+    "total_opportunity": {
+      "level_log1p_upper": 14.267979827575001,
+      "change_absolute_limit": 1827924.6154429347,
+      "change_linear_threshold": 43136.312649471314
+    },
+    "cross_city_opportunity": {
+      "level_log1p_upper": 12.076474098628434,
+      "change_absolute_limit": 964302.6352793898,
+      "change_linear_threshold": 3936.600312937636
+    },
+    "coverage": {
+      "level": [
+        0,
+        1
+      ],
+      "change": [
+        -1,
+        1
+      ]
+    }
+  },
+  "level_display_transform": {
+    "total_opportunity": "log1p",
+    "cross_city_opportunity": "log1p",
+    "coverage": "none"
+  },
+  "opportunity_level_colour_limit_percentile": 99.5,
+  "opportunity_change_colour_limit_percentile": 99.5,
+  "coverage_colour_limit_percentile": null
+}

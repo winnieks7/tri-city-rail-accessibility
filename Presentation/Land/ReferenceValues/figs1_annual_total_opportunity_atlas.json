@@ -1,0 +1,20 @@
+{
+  "metric": "total_opportunity",
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "valid_origin_count": 50607,
+  "missing_walk_snap_count": 265,
+  "missing_origin_display": "grey x; excluded from summaries",
+  "structural_zero_display": "valid zero retained in the colour scale",
+  "display_transform": "log1p",
+  "colour_upper_limit": 14.267979827575001,
+  "colour_limit_percentile": 99.5
+}

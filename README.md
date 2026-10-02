@@ -1,9 +1,20 @@
 # Tri-city rail accessibility
 
-Code, data and geographic figures for **Attributing Metropolitan Accessibility Change to Rail Events: A Spatial Shapley Analysis of Guangzhou–Foshan–Dongguan, 2018–2024**.
+Code, data and geographic figures for **Rail Network Change and the Geography of Metropolitan Accessibility Gains**.
 
 Shuxin JIN and Di WANG. Corresponding author: Di WANG, cea_wangd@ujn.edu.cn.
-Prepared for submission to *ISPRS International Journal of Geo-Information*. This repository does not imply publication or acceptance. The unpublished manuscript and internal manuscript-review reports are not included.
+Prepared for submission to *Land*. This repository does not imply publication or acceptance. The unpublished manuscript and internal manuscript-review reports are not included.
+
+## Current Land presentation
+
+The `v1.1.0` update supplies the current six main figures, supplementary atlases,
+editable SVG files and portable Python plotting sources in
+[`Presentation/Land`](Presentation/Land/README.md). Download the matching
+`Land_Presentation_v1.1.0.zip` attachment from the
+[versioned release](https://github.com/winnieks7/tri-city-rail-accessibility/releases/tag/v1.1.0)
+and extract it into the repository root. The analysis outputs and original
+`v1.0.0` materials are unchanged. The legacy mapping below applies only to the
+17 September presentation; use the Land README for current numbering.
 
 ## What the study measures
 
@@ -17,7 +28,7 @@ The reference analysis uses a fixed 2023 WorldPop opportunity surface, fixed geo
 - `DataBundles/`: four ZIP files containing numerical outputs, frozen routing inputs and rendered figures. Extract them **into the repository root** before running the scripts.
 - `Data/metadata/`: source URLs, versions and processing provenance. Raw third-party products and archived source webpages are not uploaded.
 - `Results/`: machine-readable tables, figure source values and selected numerical records.
-- `Figures/transport/source/`: current figure generators and editable Graphviz source. SVG/PDF figures are in `DataBundles/figures-and-table-binaries.zip`, preserving their `Figures/transport/` paths. Internal figure filenames start at `fig0`; see the mapping below.
+- `Figures/transport/source/`: legacy figure generators and editable Graphviz source. Legacy SVG/PDF figures are in `DataBundles/figures-and-table-binaries.zip`, preserving their `Figures/transport/` paths. Current Land materials are under `Presentation/Land/`.
 - `Environment/`: recorded dependency versions and system tools.
 - `Docs/`: reproduction instructions, variables, provenance and licensing boundaries.
 - `FILE_MANIFEST.csv`: original and public-copy hashes for the curated source files. Data-file entries refer to files inside the bundles.
@@ -40,7 +51,7 @@ The public-copy derived-summary replay passed on 17 September 2026. The maximum 
 
 The repository includes frozen inputs for a separate reference replay. No new routing or Shapley run was performed to prepare this release. Historical accessibility values for each individual coalition were not retained; the retained outputs are annual endpoint surfaces, event allocations, summaries and consistency diagnostics. Internal consistency is not external validation.
 
-## Paper-to-file mapping
+## Legacy paper-to-file mapping (17 September 2026)
 
 | Manuscript element | Source file or generator |
 | --- | --- |
@@ -67,7 +78,7 @@ GADM boundary datasets are **not redistributed**. The supplied grid consists of 
 
 ## Citation and version
 
-Please cite the repository authors, title, release version and URL; see `CITATION.cff`. Version `v1.0.0` is the initial public research-materials release. No article DOI or repository DOI has been assigned in this deposit. GitHub provides the access route; a separately archived DOI can be added later without changing the frozen scientific results.
+Please cite the repository authors, title, release version and URL; see `CITATION.cff`. Version `v1.0.0` is the initial public research-materials release; `v1.1.0` adds the Land presentation without changing the scientific results. No article DOI or repository DOI has been assigned in this deposit. GitHub provides the access route; a separately archived DOI can be added later without changing the frozen scientific results.
 
 ## License
 

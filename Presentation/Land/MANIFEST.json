@@ -1,0 +1,494 @@
+{
+  "Presentation/Land/Figures/fig0_workflow_schematic.pdf": {
+    "bytes": 164382,
+    "sha256": "d878e07d738ceaf757487df4b1b45a42143e628c5426bcfcdf61ad1371d4a54f"
+  },
+  "Presentation/Land/Figures/fig0_workflow_schematic.svg": {
+    "bytes": 52447,
+    "sha256": "2f5990b40616effe4948d06d2a423fec20f6f018081e2b7ba6706e9e7842d2a6"
+  },
+  "Presentation/Land/Figures/fig1_tri_city_network_evolution.pdf": {
+    "bytes": 871634,
+    "sha256": "dbe7e9cfa3d365bd89b2ee2daf65d85536c1d28f829495bc85a6b013db64a531"
+  },
+  "Presentation/Land/Figures/fig1_tri_city_network_evolution.svg": {
+    "bytes": 2463255,
+    "sha256": "466a6723459c0565d5def0a9826556b91d0ab1e23b8b4e7be75ce68256a46b9e"
+  },
+  "Presentation/Land/Figures/fig2_accessibility_change_maps.pdf": {
+    "bytes": 365640,
+    "sha256": "c0192d3754869463b7732e4067eb21e16acdc95fa1709fc7f1f9becc10e020fb"
+  },
+  "Presentation/Land/Figures/fig2_accessibility_change_maps.svg": {
+    "bytes": 595026,
+    "sha256": "1ac6237c0d1dffbfb7a049d24ea2a5b53473a8d1deae7bad3de6212c483a2e0a"
+  },
+  "Presentation/Land/Figures/fig3_project_rank_matrix.pdf": {
+    "bytes": 57853,
+    "sha256": "b37af088b6a903938bab522814b0d0cf2ccdc3e81f171416d09dee826e6446d0"
+  },
+  "Presentation/Land/Figures/fig3_project_rank_matrix.svg": {
+    "bytes": 95232,
+    "sha256": "4a645589b3b6be12981d386651ca352ca13d789a6119382322642448e3b884e8"
+  },
+  "Presentation/Land/Figures/fig4_project_spatial_footprints.pdf": {
+    "bytes": 434739,
+    "sha256": "b1dda30e77b3789050bb25bd77abf0fe8f367d7c91e2783a7adaceaf29ff02b6"
+  },
+  "Presentation/Land/Figures/fig4_project_spatial_footprints.svg": {
+    "bytes": 514235,
+    "sha256": "a2ff9b5436d0e6dc57633a65533e85bd80d8cf529dd0e8a062b45a8e78e50218"
+  },
+  "Presentation/Land/Figures/fig5_coverage_margin_decomposition.pdf": {
+    "bytes": 31952,
+    "sha256": "ffa983ee01fbe75f5c1fa4388f82fe6d86862d0ea187a69c98a945a809abb147"
+  },
+  "Presentation/Land/Figures/fig5_coverage_margin_decomposition.svg": {
+    "bytes": 19115,
+    "sha256": "21af24d35cddb1bb0900bb7d5c3f1b432a8a3f6d96855af522324d37f907106f"
+  },
+  "Presentation/Land/LICENSE-code-MIT": {
+    "bytes": 1079,
+    "sha256": "f427883dbd3d3874aecb7c7ac86cc7e8425576276b719601d9c9e62cfdf55d7c"
+  },
+  "Presentation/Land/LICENSES.md": {
+    "bytes": 2657,
+    "sha256": "053e97aaf36578ab9bcd17b4be7713a9e6b9e35375868f154497d89b9d80434f"
+  },
+  "Presentation/Land/README.md": {
+    "bytes": 4604,
+    "sha256": "0d79892ce478bf58172d48b5abfc53f5d54060d85e5ffe2d18c6067d344c3711"
+  },
+  "Presentation/Land/ReferenceValues/fig0_workflow_schematic.json": {
+    "bytes": 501,
+    "sha256": "3847c77cbe71d9720f914e0a87b36ba54e7b3d957736fc46ef024888aeeea23c"
+  },
+  "Presentation/Land/ReferenceValues/fig1_tri_city_network_evolution.json": {
+    "bytes": 729,
+    "sha256": "3fcf60b879d55d39519435b85a4de3c01f65b5ad1304a83ee1a85010e1bcdb11"
+  },
+  "Presentation/Land/ReferenceValues/fig2_accessibility_change_maps.json": {
+    "bytes": 1752,
+    "sha256": "9c4ab5121c738510c39a144beacc0694d9046d848737dd42962c55c34c9f196a"
+  },
+  "Presentation/Land/ReferenceValues/fig3_project_rank_matrix.json": {
+    "bytes": 13018,
+    "sha256": "f8514a5196af9911052e1b7d8b076c95057e37eb30c4fb69b3e14938ac6d8a22"
+  },
+  "Presentation/Land/ReferenceValues/fig4_project_spatial_footprints.json": {
+    "bytes": 4034,
+    "sha256": "f9ef9b03a43b1ed554dfbd11db325e0cfccf1bbcbba4bd1be14b6de96b65d884"
+  },
+  "Presentation/Land/ReferenceValues/fig5_coverage_margin_decomposition.json": {
+    "bytes": 1221,
+    "sha256": "3b919988551b62f60ff0b579a037ce5980a9786a0768897646b4c4013a780c19"
+  },
+  "Presentation/Land/ReferenceValues/fig6_sensitivity_comparisons.json": {
+    "bytes": 5752,
+    "sha256": "a354b4bfb683319a1403a1db3064e3a65e40101d1ef004647c22cbe1e2bbbb10"
+  },
+  "Presentation/Land/ReferenceValues/figs1_annual_total_opportunity_atlas.json": {
+    "bytes": 444,
+    "sha256": "c8be803e69ed411eeb3e6ee021de6569daa34e4c5ca0b0818a4deefa76c3c9fb"
+  },
+  "Presentation/Land/ReferenceValues/figs2_annual_cross_city_atlas.json": {
+    "bytes": 449,
+    "sha256": "f1d7e3df7c16b8b1e334e23df5192f8603cdeda53fb62a8aad30cffbdc1cf3a5"
+  },
+  "Presentation/Land/ReferenceValues/figs3_annual_coverage_atlas.json": {
+    "bytes": 419,
+    "sha256": "067ce76379476627de4ebdb5ab553874509784b9294f1f6d9ced6557a9b28b6c"
+  },
+  "Presentation/Land/ReferenceValues/figs4_all_project_total_atlas.json": {
+    "bytes": 5906,
+    "sha256": "9321432b83af7de682d6b71b7964644ff8f43f3b2f058f51548ef69d8aceef10"
+  },
+  "Presentation/Land/ReferenceValues/figs5_all_project_cross_city_atlas.json": {
+    "bytes": 5912,
+    "sha256": "c5fc0b5dc9b22e3899bb763aa9a54ea653a8e484dc638e4efaaa4655c2a649d0"
+  },
+  "Presentation/Land/ReferenceValues/figs6_all_project_coverage_atlas.json": {
+    "bytes": 5884,
+    "sha256": "cf9e51b636e5c392f71ec9847121b0312f611d7462e9c66049a23d70273d971a"
+  },
+  "Presentation/Land/ReferenceValues/figs7_event_detail_atlas.json": {
+    "bytes": 11051,
+    "sha256": "9a2315923912aba39d22ff18af89c7dab9098dca31122f14abee51055c6a47bf"
+  },
+  "Presentation/Land/Source/nature_figures/context_data/README.md": {
+    "bytes": 695,
+    "sha256": "63c2e4589fcaf0b0435fa20da1e6b2c348f42748048559dea1ead449fa20f081"
+  },
+  "Presentation/Land/Source/nature_figures/context_data/ne_110m_land.zip": {
+    "bytes": 69700,
+    "sha256": "1926c621afd6ac67c3f36639bb1236134a48d82226dc675d3e3df53d02d2a3de"
+  },
+  "Presentation/Land/Source/nature_figures/fig1_assemble.py": {
+    "bytes": 2406,
+    "sha256": "4cf2a5ceef67304d982db9c218a16b6ec16f49c02c423c718f79762a3ee095a8"
+  },
+  "Presentation/Land/Source/nature_figures/fig1_content.py": {
+    "bytes": 4807,
+    "sha256": "bf0b14f49408cb7bec05456f2d75cf53a95469063f9bb03d737664b23a81a4f3"
+  },
+  "Presentation/Land/Source/nature_figures/fig1_furniture.py": {
+    "bytes": 1347,
+    "sha256": "3a0a0a2eecc329d8d629bddaf8b920a39a58a199952ffa7dcb970bcce1835361"
+  },
+  "Presentation/Land/Source/nature_figures/fig1_spatial.py": {
+    "bytes": 2086,
+    "sha256": "0f33ec76cea22bf40ef37c8972f3cb1367ac936eba0543008e6d33c93a50c939"
+  },
+  "Presentation/Land/Source/nature_figures/fig1_style.py": {
+    "bytes": 2277,
+    "sha256": "09760858a6c4296b90813ca05420cfa80751fed9a1341bad9ec43ede87ad495e"
+  },
+  "Presentation/Land/Source/nature_figures/fig1a_coverage.py": {
+    "bytes": 391,
+    "sha256": "5d404e122dcd71530946c0c9167e8dcac894e20b168e0b9f4f4e17153530c5f4"
+  },
+  "Presentation/Land/Source/nature_figures/fig1b_total.py": {
+    "bytes": 376,
+    "sha256": "0a5a9b84fb75b4391debd61104c0df3f8e7e495adf1079ca41cc0fa84c271923"
+  },
+  "Presentation/Land/Source/nature_figures/fig1c_cross.py": {
+    "bytes": 389,
+    "sha256": "ac1bec064cd84504c497b390bb6182f27ee67188ad9f68ac7aff5b5a2d7f3425"
+  },
+  "Presentation/Land/Source/nature_figures/fig1d_allocation.py": {
+    "bytes": 1853,
+    "sha256": "ff8222245089ad20536ada70f330047e50980def071788e5c18d39a480f8d97d"
+  },
+  "Presentation/Land/Source/nature_figures/fig1e_outputs.py": {
+    "bytes": 1046,
+    "sha256": "56ae7836b62e9d6bca3c6898b39837ce979f2d0132afcd779d5b67e97eb03c3a"
+  },
+  "Presentation/Land/Source/nature_figures/fig2_assemble.py": {
+    "bytes": 2895,
+    "sha256": "8bddadc15f29775173d80350e676aa68362e40dc9d43e4037f8795cf1ba6e867"
+  },
+  "Presentation/Land/Source/nature_figures/fig2_data.py": {
+    "bytes": 2950,
+    "sha256": "46a936a0a66ea84fd1b3677662d301ee8e109379d959a0dd628c0f44ee1e1072"
+  },
+  "Presentation/Land/Source/nature_figures/fig2_style.py": {
+    "bytes": 4218,
+    "sha256": "5f71ba8517549f7bbeaa6bb02c568c76c39e6874879cd86312a619022f555bda"
+  },
+  "Presentation/Land/Source/nature_figures/fig2a_geographical_setting.py": {
+    "bytes": 5762,
+    "sha256": "105703761c2f7813e01af489ae69f18d68ddc95165d53c86ba1c635b74d4894a"
+  },
+  "Presentation/Land/Source/nature_figures/fig2b_baseline.py": {
+    "bytes": 655,
+    "sha256": "4b476fc425251f7ed35e3a6bfa4e79ca529825d31bb289c7f3259a4864221e29"
+  },
+  "Presentation/Land/Source/nature_figures/fig2c_activations.py": {
+    "bytes": 783,
+    "sha256": "74c91d3371fc3a24d44409cab8512af605fe1679fa42f043047e7fa1f7c080cd"
+  },
+  "Presentation/Land/Source/nature_figures/fig5_assemble.py": {
+    "bytes": 2915,
+    "sha256": "931ce217fbd7638d30c2c641a92386fe6bef57eed504822e150664a4f0756cf5"
+  },
+  "Presentation/Land/Source/nature_figures/fig5_content.py": {
+    "bytes": 1345,
+    "sha256": "5294bc50df18c4630f88f57fca238af606e5eaff59ce217a1dbeaecc414bef62"
+  },
+  "Presentation/Land/Source/nature_figures/fig5_plotting.py": {
+    "bytes": 11124,
+    "sha256": "15e0a5dd0d354ae3364b8aac0378df32c698b1db58d5b3c499ac805f68f9d8f3"
+  },
+  "Presentation/Land/Source/nature_figures/fig5a.py": {
+    "bytes": 139,
+    "sha256": "4c7e717e0234d25cf9adcf3cad90a41063e0821b0abacab45595efa2d65e8f89"
+  },
+  "Presentation/Land/Source/nature_figures/fig5b.py": {
+    "bytes": 153,
+    "sha256": "fd5559f085da4636a60290d0d088c8b73e09f1117157811dfa06f28a7ca9758a"
+  },
+  "Presentation/Land/Source/nature_figures/fig5c.py": {
+    "bytes": 130,
+    "sha256": "0a5042f5f9d14071a8cebb4beb8e4ac3d2305ca9884127cd5036ca676091fe7e"
+  },
+  "Presentation/Land/Source/nature_figures/fig5d.py": {
+    "bytes": 139,
+    "sha256": "e9911e810467b39ae82ee21d74a518ee681fafa29a5e44af2e1863f768eb2c30"
+  },
+  "Presentation/Land/Source/nature_figures/fig5e.py": {
+    "bytes": 153,
+    "sha256": "f555f9107e9278d671c36aa75af2734df28ecfd70a2f1c14da891874f279c1a1"
+  },
+  "Presentation/Land/Source/nature_figures/fig5f.py": {
+    "bytes": 130,
+    "sha256": "ec1d98e2c0fec602d9e41a3a6a42cbe001a47dad38e82dbfdb7566704c0dae4e"
+  },
+  "Presentation/Land/Source/nature_figures/fig5g.py": {
+    "bytes": 165,
+    "sha256": "9de640557c170f4e7a5603fef6428a87e50b4116ae35bb6857d52c25cdec5e0e"
+  },
+  "Presentation/Land/Source/nature_figures/fig5h.py": {
+    "bytes": 165,
+    "sha256": "afdb2f1ce358d96d907f5bed97150799c64ec1518caa818507c9c387b5e82d51"
+  },
+  "Presentation/Land/Source/nature_figures/fig5i.py": {
+    "bytes": 165,
+    "sha256": "1f7146abcdb1ddb3cf27c84cfd37948762a84cce83d0611c3075e45a9af22703"
+  },
+  "Presentation/Land/Source/nature_figures/figure_style_kernel.py": {
+    "bytes": 17986,
+    "sha256": "d5da072f8783d8538de3e5cbacb44337fc2d42bfebbf3f65d75e2aa7a12fefc5"
+  },
+  "Presentation/Land/Source/nature_figures/gen_fig0_workflow_schematic.py": {
+    "bytes": 384,
+    "sha256": "5951ff736851e1b70b07af5709a68b685529d4350fa119ff3da17baf08c0d82a"
+  },
+  "Presentation/Land/Source/nature_figures/gen_fig1_tri_city_network_evolution.py": {
+    "bytes": 376,
+    "sha256": "d402e64734c6063a5121b344d0baeba08cb10a7ff6d404de48a3b97ecacdee9b"
+  },
+  "Presentation/Land/Source/nature_figures/gen_fig2_accessibility_change_maps.py": {
+    "bytes": 6160,
+    "sha256": "fd0a5fb672a7d866a551d28709862e794cb8deb933561cb3b24ef8693fbc6ef8"
+  },
+  "Presentation/Land/Source/nature_figures/gen_fig3_project_rank_matrix.py": {
+    "bytes": 5753,
+    "sha256": "ab621d8f141c5b56d15ae49f5a2ba75a431535dea5e91ad76ad6076ee3eccce6"
+  },
+  "Presentation/Land/Source/nature_figures/gen_fig4_project_spatial_footprints.py": {
+    "bytes": 398,
+    "sha256": "04cc7d6b41817bedaf2b896307af1e403a697b872f7c7d58dd63d8cc90c6ec41"
+  },
+  "Presentation/Land/Source/nature_figures/gen_fig5_coverage_margin_decomposition.py": {
+    "bytes": 3583,
+    "sha256": "5247222b8f54724ab26da0891b10d16a7fa995b7d5aff67604e5ba4929b98940"
+  },
+  "Presentation/Land/Source/nature_figures/gen_fig6_sensitivity_comparisons.py": {
+    "bytes": 8327,
+    "sha256": "11fe0f513c9c16e7ba0038629d4e7516acca690de591a3ed51c550e7f25d53c7"
+  },
+  "Presentation/Land/Source/nature_figures/gen_figs1_annual_total_opportunity_atlas.py": {
+    "bytes": 319,
+    "sha256": "8627c721c34bfdaa6bae9c24bd0577fec334b69ea949155126d69d43fd60db44"
+  },
+  "Presentation/Land/Source/nature_figures/gen_figs2_annual_cross_city_atlas.py": {
+    "bytes": 345,
+    "sha256": "08395d518a204a449a7e0b58abb00f4baaaec9698c2b34a10255d3ba085616b3"
+  },
+  "Presentation/Land/Source/nature_figures/gen_figs3_annual_coverage_atlas.py": {
+    "bytes": 284,
+    "sha256": "bac36c07acad7e2592fc57430e2529783e96d2db6b55ffd35d1697f658ecfa56"
+  },
+  "Presentation/Land/Source/nature_figures/gen_figs4_all_project_total_atlas.py": {
+    "bytes": 322,
+    "sha256": "9955372b02718e1d061238d0e26ea97421ea603811c01dbb384e33b337e292e9"
+  },
+  "Presentation/Land/Source/nature_figures/gen_figs5_all_project_cross_city_atlas.py": {
+    "bytes": 360,
+    "sha256": "a21240bb57726219203eaa170f50eafc4a17bf4e8326b579006b600272e39ff8"
+  },
+  "Presentation/Land/Source/nature_figures/gen_figs6_all_project_coverage_atlas.py": {
+    "bytes": 298,
+    "sha256": "245cfe86ac59a240576a03fdd460d609c2b9453a0b3a6282f9f43a2ac84c031e"
+  },
+  "Presentation/Land/Source/nature_figures/gen_figs7_event_detail_atlas.py": {
+    "bytes": 8104,
+    "sha256": "887cc207f143bf42d90a37018b79c5ead35e3b15dd7aeacfae2f843b73d453aa"
+  },
+  "Presentation/Land/Source/nature_figures/qa_panel_alignment.py": {
+    "bytes": 39364,
+    "sha256": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76"
+  },
+  "Presentation/Land/Source/nature_figures/transport_figure_common.py": {
+    "bytes": 26789,
+    "sha256": "1b8e28ed4f9227324d482e3dff8316285ffcbb487a60ea9c6100d616f15d79fe"
+  },
+  "Presentation/Land/SupplementaryFigures/fig0_workflow_schematic.pdf": {
+    "bytes": 164382,
+    "sha256": "d878e07d738ceaf757487df4b1b45a42143e628c5426bcfcdf61ad1371d4a54f"
+  },
+  "Presentation/Land/SupplementaryFigures/fig0_workflow_schematic.svg": {
+    "bytes": 52447,
+    "sha256": "2f5990b40616effe4948d06d2a423fec20f6f018081e2b7ba6706e9e7842d2a6"
+  },
+  "Presentation/Land/SupplementaryFigures/fig6_sensitivity_comparisons.pdf": {
+    "bytes": 45647,
+    "sha256": "7739f50dadb991d63798521dd3ab7e42481bfa249a423365ac19dd0479497a3f"
+  },
+  "Presentation/Land/SupplementaryFigures/fig6_sensitivity_comparisons.svg": {
+    "bytes": 104236,
+    "sha256": "7391303beffd5292747efc7d729b40862623189a9b9d529603145a4353745fdb"
+  },
+  "Presentation/Land/SupplementaryFigures/figs1_annual_total_opportunity_atlas.pdf": {
+    "bytes": 298506,
+    "sha256": "4ff1e9c89c45dee8627ac9f384621954eded2f64716081703fc2cba82e97688b"
+  },
+  "Presentation/Land/SupplementaryFigures/figs1_annual_total_opportunity_atlas.svg": {
+    "bytes": 484566,
+    "sha256": "4e2d1428bd4d4b8943ca63800dc7905f90a03822d5a339b60573cecec591938d"
+  },
+  "Presentation/Land/SupplementaryFigures/figs2_annual_cross_city_atlas.pdf": {
+    "bytes": 294924,
+    "sha256": "3184f340f47b8c67ce3b9da7becee70b91556425fb8d20397ee1c4e7a3bc3741"
+  },
+  "Presentation/Land/SupplementaryFigures/figs2_annual_cross_city_atlas.svg": {
+    "bytes": 470263,
+    "sha256": "e84eba7b3ba50958568d61d04985d782e735612a789ea740a453cd3859e22dd4"
+  },
+  "Presentation/Land/SupplementaryFigures/figs3_annual_coverage_atlas.pdf": {
+    "bytes": 262881,
+    "sha256": "81b56a53c399e7e98639855232dd2d71eabb344771aac5b4a3e65adee89d05b1"
+  },
+  "Presentation/Land/SupplementaryFigures/figs3_annual_coverage_atlas.svg": {
+    "bytes": 426544,
+    "sha256": "0010e4aa85430619c916767bd8877ce6a04e70d9c84448894ca45e709d0f6f69"
+  },
+  "Presentation/Land/SupplementaryFigures/figs4_all_project_total_atlas.pdf": {
+    "bytes": 958783,
+    "sha256": "d45a4a5f2ac1ec80c6ca0e0c9591bf4c9ba5961b2279afb5e7fa8f01f0050079"
+  },
+  "Presentation/Land/SupplementaryFigures/figs4_all_project_total_atlas.svg": {
+    "bytes": 1852299,
+    "sha256": "433c867161d8544f10a3dc3316699264e935c83f5897d7a53b34831b9061004c"
+  },
+  "Presentation/Land/SupplementaryFigures/figs5_all_project_cross_city_atlas.pdf": {
+    "bytes": 923887,
+    "sha256": "df41afb21960e0b176c15701f93dcc4b41638fa6a5c107ff4b745e29c42086eb"
+  },
+  "Presentation/Land/SupplementaryFigures/figs5_all_project_cross_city_atlas.svg": {
+    "bytes": 1761713,
+    "sha256": "6e9fd5ad01b32eafbee9dd0c12a22125b9e6b68972aeefb3c050eccad1273d52"
+  },
+  "Presentation/Land/SupplementaryFigures/figs6_all_project_coverage_atlas.pdf": {
+    "bytes": 877704,
+    "sha256": "c512af23c0699f5cbbb1dc2183bcd008ddbb28384503cb4ffc3dcbe76c779519"
+  },
+  "Presentation/Land/SupplementaryFigures/figs6_all_project_coverage_atlas.svg": {
+    "bytes": 1643282,
+    "sha256": "35df6a0ff29cf685fe10a66d8be05b667fa522d3ed708d1ed2dc7f800b3deecb"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas.pdf": {
+    "bytes": 3806084,
+    "sha256": "eea85c8b6ee037604261e9ac01e810fc5f2294ab8a623351b463c903ee2aaec0"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_P29.svg": {
+    "bytes": 303411,
+    "sha256": "1b815188e7fecc98a7271d50def28b33ad7c1ff1417fe2ca5ca759361383568f"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P01.svg": {
+    "bytes": 196965,
+    "sha256": "58b4ac6b4a6a4120e26ef1e2d64ac8d915647739785aaf5f4db6856fd966b27a"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P02.svg": {
+    "bytes": 197453,
+    "sha256": "021de5ae4c78b0fc48b58f3c3f97a4ac6f47ba9b1453e88622ffccfd3823fb0c"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P03.svg": {
+    "bytes": 213188,
+    "sha256": "f436a446459c53959bc38ce7fe2f566c1c041776df927e8c0ecae7dc6f8b6ab4"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P04.svg": {
+    "bytes": 262874,
+    "sha256": "f9a0107c7809dab35c47d7cbce4bca08172db79b4d3e25f5eef40bb877409fea"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P05.svg": {
+    "bytes": 246079,
+    "sha256": "bd94fddb7fe04cc43268b80d21abca1f8cfd6dde7ee7a8d4bbbef745989dfad0"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P06.svg": {
+    "bytes": 289335,
+    "sha256": "435ec237785d89d3b53f87203df86de5ca7ca53c7aab988be7411ee1863018f5"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P07.svg": {
+    "bytes": 208970,
+    "sha256": "8954800b87ff5a1d04a4fa3e2e4976c4abf03d48f8920ccb348963b91f315bd9"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P08.svg": {
+    "bytes": 207208,
+    "sha256": "ae3a2e1a8ae8c6940dd79381869d566af1dcd8772cfee748fd5953557838aa3a"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P09.svg": {
+    "bytes": 227742,
+    "sha256": "ede97e310d244e67796796da30d41495aa34f68f6c01d942c24d097ddb9caeb5"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P10.svg": {
+    "bytes": 243782,
+    "sha256": "462d109940994106caf4cfd7178308f9b0b153a60d384f76f82a3fe122c20201"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P11.svg": {
+    "bytes": 234024,
+    "sha256": "fafbd148fe2bd659e5d23a2809895e54987d343e3d98cff912b1e5ef40fe68a4"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P12.svg": {
+    "bytes": 230541,
+    "sha256": "b81b12f6f334efae89e76f3b95212bf055a6d6466b191907412a4111fe49a3a2"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P13.svg": {
+    "bytes": 224674,
+    "sha256": "709e339adbb5fe68321bf28c6d469479832621a2251fca292d3de148f32863cf"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P14.svg": {
+    "bytes": 235022,
+    "sha256": "8395ea76278c361d4b6be9fa69b0f2d0b2175192ff282531a42d7bcf055a7e49"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P15.svg": {
+    "bytes": 274986,
+    "sha256": "8ed60890740407ce38c147e853509fc6022252b3e8868bffa1100ab9e43739f8"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P16.svg": {
+    "bytes": 217481,
+    "sha256": "8309989e840f61b578e6e755c3ece2de1a93ca354b300c1989e3f400157d7049"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P17.svg": {
+    "bytes": 246155,
+    "sha256": "22be1c0eadbc27542a832415104f0b29d34b2a77db8393d8e9ebb1f337e54a28"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P18.svg": {
+    "bytes": 204313,
+    "sha256": "269cf6e79d673ba06cac1bf3c64450cf661aa6be37ad463f7234e30deea9dde6"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P19.svg": {
+    "bytes": 216998,
+    "sha256": "b556d07d8427bfdb15ea3feb719b9b8483b7b8c05149869bd7459272ef011a2e"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P20.svg": {
+    "bytes": 290811,
+    "sha256": "31663e0f7962266c85ca799765194eefb4c2b823739f5ed504016ebfa845b36b"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P21.svg": {
+    "bytes": 203755,
+    "sha256": "e6988960cb521d6db5d7f823ab081468efd136763e755fb793c9ff41899d0ada"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P22.svg": {
+    "bytes": 215011,
+    "sha256": "f4cf9cd695afb1ab9e541c1ecd195f823d0a32d6426b39a4e87ff532316a53d0"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P23.svg": {
+    "bytes": 233584,
+    "sha256": "529891e605220be65ca1846151ec6bf656b4283957d3cfb1cf8d8fdc1ee4fb9f"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P24.svg": {
+    "bytes": 360562,
+    "sha256": "7c550bb039365f44cab5f168b516185f027ce8e45909bae4adfbdc4471ffec4c"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P25.svg": {
+    "bytes": 207149,
+    "sha256": "c348265be56d9d8bf138979cf88104f62d9ef9144e87405cde24ba9169d96750"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P26.svg": {
+    "bytes": 254211,
+    "sha256": "331c6d8da487edf2172854b384ba305a6d12a32619c04ee6fef19a779c8b8b5e"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P27.svg": {
+    "bytes": 215055,
+    "sha256": "5af9c6669ea6f69f214665829b5084a01099b20cf91234f85a67a53395a522f5"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P28.svg": {
+    "bytes": 209728,
+    "sha256": "6e0e2794f70c94b56c1a1678911c9cc28007bb779c6aed81ddbfae904a39474b"
+  },
+  "Presentation/Land/SupplementaryFigures/figs7_event_detail_atlas_pages/figs7_event_detail_atlas_P29.svg": {
+    "bytes": 303411,
+    "sha256": "1b815188e7fecc98a7271d50def28b33ad7c1ff1417fe2ca5ca759361383568f"
+  }
+}

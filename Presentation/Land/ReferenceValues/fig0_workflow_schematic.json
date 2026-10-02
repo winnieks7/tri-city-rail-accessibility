@@ -1,0 +1,41 @@
+{
+  "events": 29,
+  "annual_games": 7,
+  "coalition_states": 196,
+  "baseline": 2017,
+  "years": [
+    2018,
+    2024
+  ],
+  "directed_edges": [
+    [
+      "events",
+      "networks"
+    ],
+    [
+      "fixed",
+      "values"
+    ],
+    [
+      "networks",
+      "values"
+    ],
+    [
+      "values",
+      "shapley"
+    ],
+    [
+      "shapley",
+      "maps"
+    ],
+    [
+      "shapley",
+      "profiles"
+    ],
+    [
+      "shapley",
+      "strata"
+    ]
+  ],
+  "approved_logic_preserved": true
+}
